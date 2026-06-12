@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-06-12 世界杯情报后台</title>
+  <style>
+    :root {
+      --bg:#07101d; --panel:#101827; --panel2:#162033; --line:rgba(255,255,255,.12);
+      --ink:#f8fafc; --muted:#94a3b8; --accent:#38bdf8; --info:#22c55e;
+      --warn:#f59e0b; --bad:#ef4444; --soft:rgba(255,255,255,.07);
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:"Microsoft YaHei","Segoe UI",sans-serif; color:var(--ink); background:
+      radial-gradient(circle at 8% -8%, rgba(56,189,248,.28), transparent 32%),
+      radial-gradient(circle at 88% 8%, rgba(245,158,11,.18), transparent 28%),
+      linear-gradient(135deg,#020617,var(--bg) 52%,#111827); }
+    a { color:inherit; text-decoration:none; }
+    header { padding:34px 36px 16px; }
+    h1 { margin:0 0 10px; font-size:34px; letter-spacing:.03em; }
+    .sub { color:var(--muted); line-height:1.7; max-width:980px; }
+    .gate { margin:14px 36px 0; padding:16px 18px; border:1px solid rgba(56,189,248,.24); border-radius:20px; background:rgba(56,189,248,.1); }
+    .metrics { display:grid; grid-template-columns:repeat(auto-fit,minmax(138px,1fr)); gap:12px; padding:20px 36px 6px; }
+    .metric { padding:16px; border:1px solid var(--line); border-radius:18px; background:var(--soft); }
+    .metric strong { display:block; font-size:30px; line-height:1; }
+    .metric span { color:var(--muted); font-size:13px; }
+    .bad strong { color:var(--bad); } .warn strong { color:var(--warn); } .accent strong { color:var(--accent); } .info strong { color:var(--info); } .muted strong { color:var(--muted); }
+    main { padding:22px 36px 44px; display:grid; gap:18px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; }
+    .panel { border:1px solid var(--line); border-radius:22px; background:rgba(255,255,255,.065); box-shadow:0 18px 44px rgba(0,0,0,.24); padding:18px; }
+    h2 { margin:0 0 12px; color:#bfdbfe; font-size:19px; }
+    h3 { margin:0 0 7px; font-size:16px; }
+    .entry { padding:14px; border-radius:16px; background:rgba(15,23,42,.72); border:1px solid rgba(255,255,255,.08); margin:10px 0; }
+    .meta { color:var(--muted); font-size:12px; margin-top:4px; }
+    .tag { display:inline-flex; border-radius:999px; padding:4px 9px; font-size:12px; border:1px solid var(--line); color:#dbeafe; margin-left:8px; }
+    ul { margin:8px 0 0; padding-left:18px; color:#dbeafe; }
+    li { margin:4px 0; }
+    table { width:100%; border-collapse:collapse; overflow:hidden; }
+    th, td { padding:10px 9px; border-bottom:1px solid rgba(255,255,255,.08); text-align:left; font-size:13px; }
+    th { color:#bfdbfe; font-weight:600; }
+    td { color:#e2e8f0; }
+    .small { color:var(--muted); font-size:12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>2026-06-12 世界杯情报后台</h1>
+    <div class="sub">
+      状态：需处理；Snapshot 16 / 2026-06-12T12:37:35。
+      热度数据只是辅助信号，不是确定性结论；到达 T-2h/T-1h 必须重新刷新数据并复核首发、伤停和官方信息。
+    </div>
+  </header>
+  <div class="gate">当前没有自动硬买方案；只能等待下一复核窗口。</div>
+  <section class="metrics"><div class="metric muted"><strong>0</strong><span>强信号</span></div><div class="metric accent"><strong>5</strong><span>备选</span></div><div class="metric info"><strong>13</strong><span>观察</span></div><div class="metric warn"><strong>4</strong><span>谨慎</span></div><div class="metric bad"><strong>1</strong><span>热度异动</span></div><div class="metric bad"><strong>1</strong><span>趋势异动</span></div><div class="metric warn"><strong>fresh</strong><span>数据新鲜度</span></div><div class="metric warn"><strong>False</strong><span>临场可参考</span></div><div class="metric ok"><strong>fresh</strong><span>源一致性</span></div><div class="metric ok"><strong>strong</strong><span>官方确认</span></div><div class="metric bad"><strong>blocked</strong><span>一致性状态</span></div><div class="metric bad"><strong>False</strong><span>强结论可用</span></div><div class="metric info"><strong>16</strong><span>实时快照</span></div><div class="metric warn"><strong>10</strong><span>主盘变化</span></div><div class="metric info"><strong>22</strong><span>单场卡片</span></div></section>
+  <main>
+    <section class="panel">
+      <h2>快速入口</h2>
+      <div class="grid"><a class="entry" href="schedule_cards_latest.html"><h3>世界杯对战情报<span class="tag">已生成</span></h3><div class="meta">完整小组赛程；已开放数据的场次会自动升级为可点击分析卡</div></a><a class="entry" href="dashboard.html"><h3>完整数据视图<span class="tag">已生成</span></h3><div class="meta">每场比赛概率、风险、知识库命中和模块分析卡片</div></a><a class="entry" href="live_snapshot_2026-06-12.html"><h3>实时数据快照摘要<span class="tag">已生成</span></h3><div class="meta">证明当前报告基于哪次刷新、主数据/明细/分析页覆盖和相对上一快照变化</div></a><a class="entry" href="match_cards_2026-06-12.html"><h3>单场聚合卡<span class="tag">已生成</span></h3><div class="meta">每场聚合主线预测、热度变化、趋势风险和一致性状态</div></a><a class="entry" href="monitor_2026-06-12.html"><h3>赛前监测短报<span class="tag">已生成</span></h3><div class="meta">强信号、观察池、风险池、复核窗口</div></a><a class="entry" href="execution_gate_2026-06-12.html"><h3>赛前一致性校验<span class="tag">已生成</span></h3><div class="meta">汇总数据新鲜度、二源确认、T-2h/T-1h 和知识库条件，判断是否具备临场参考条件</div></a><a class="entry" href="playbook_2026-06-12.html"><h3>赛前判断清单<span class="tag">已生成</span></h3><div class="meta">临场判断级别的可观察/待复核/风险拆分</div></a><a class="entry" href="movement_radar_2026-06-12.html"><h3>跨快照热度变化<span class="tag">已生成</span></h3><div class="meta">最新快照 vs 上一快照的异常排序</div></a><a class="entry" href="odds_trend_2026-06-12.html"><h3>全历史热度趋势<span class="tag">已生成</span></h3><div class="meta">所有快照的慢速变化、分歧和主线漂移</div></a><a class="entry" href="freshness_2026-06-12.html"><h3>数据新鲜度审计<span class="tag">已生成</span></h3><div class="meta">快照年龄、复核覆盖率、是否必须刷新、是否适合作为临场参考</div></a><a class="entry" href="source_lag_2026-06-12.html"><h3>数据源时间一致性<span class="tag">已生成</span></h3><div class="meta">500/Sporttery/provider 更新时间一致性、二源确认级别和参考条件状态</div></a><a class="entry" href="refresh_plan_2026-06-12.html"><h3>T-2h/T-1h 复核计划<span class="tag">已生成</span></h3><div class="meta">每场比赛的自动刷新窗口</div></a><a class="entry" href="daily_maintenance_2026-06-12.html"><h3>每日复盘与更新<span class="tag">缺失</span></h3><div class="meta">已完赛复盘、未完赛更新队列和写入知识库的模型修正规则</div></a><a class="entry" href="status_2026-06-12.md"><h3>系统状态<span class="tag">已生成</span></h3><div class="meta">输出健康检查和下一步动作</div></a><a class="entry" href="system_verify_2026-06-12.html"><h3>系统闭环验证<span class="tag">已生成</span></h3><div class="meta">验证数据刷新、明细数据、知识库、规则、报告和公开页面</div></a><a class="entry" href="watch_refresh_2026-06-12.md"><h3>自动刷新轮询记录<span class="tag">缺失</span></h3><div class="meta">本地轮询 refresh-if-due 的运行记录；可替代手动执行定时脚本</div></a><a class="entry" href="knowledge_audit_2026-06-12.md"><h3>知识库审计<span class="tag">已生成</span></h3><div class="meta">本次实际加载的知识库、记忆和 skill</div></a></div>
+    </section>
+    <section class="grid">
+      <div class="panel">
+        <h2>知识库与数据源</h2>
+        <ul>
+          <li>知识库：1067 条 / 89 个来源；skill=True；自动化记忆=False</li>
+          <li>Provider：{&#x27;ok&#x27;: 3, &#x27;failed&#x27;: 2, &#x27;candidates&#x27;: 3}</li>
+          <li>Sporttery：{&#x27;match_count&#x27;: 22, &#x27;total_count&#x27;: 22, &#x27;last_update_time&#x27;: &#x27;2026-06-12 12:34:05&#x27;, &#x27;fetched_at&#x27;: &#x27;2026-06-12T12:37:36&#x27;}</li>
+          <li>数据源时间一致性：{&#x27;source_status&#x27;: &#x27;fresh&#x27;, &#x27;match_count_500&#x27;: 22, &#x27;match_count_sporttery&#x27;: 22, &#x27;sporttery_update_lag_minutes&#x27;: 4, &#x27;sporttery_fetch_delta_minutes&#x27;: 0, &#x27;official_confirmation_level&#x27;: &#x27;strong&#x27;, &#x27;usable_as_confirmation&#x27;: True, &#x27;execution_blocked_by_source_lag&#x27;: False, &#x27;provider_ok&#x27;: 3, &#x27;provider_failed&#x27;: 2, &#x27;knowledge_entry_count&#x27;: 1067, &#x27;skill_loaded&#x27;: True}</li>
+          <li>执行总闸门：{&#x27;gate_status&#x27;: &#x27;blocked&#x27;, &#x27;can_screen&#x27;: True, &#x27;can_discuss_plan&#x27;: True, &#x27;can_execute_bet&#x27;: False, &#x27;hard_buy&#x27;: 0, &#x27;candidate&#x27;: 5, &#x27;avoid&#x27;: 4, &#x27;due_now&#x27;: 0, &#x27;stale_due&#x27;: 0, &#x27;expired&#x27;: 0, &#x27;freshness_status&#x27;: &#x27;fresh&#x27;, &#x27;usable_for_execution&#x27;: False, &#x27;source_status&#x27;: &#x27;fresh&#x27;, &#x27;official_confirmation_level&#x27;: &#x27;strong&#x27;, &#x27;source_lag_execution_blocked&#x27;: False, &#x27;provider_ok&#x27;: 3, &#x27;knowledge_entry_count&#x27;: 1067, &#x27;blocking_count&#x27;: 5}</li>
+          <li>实时快照摘要：{&#x27;snapshot_id&#x27;: 16, &#x27;fetched_at&#x27;: &#x27;2026-06-12T12:37:35&#x27;, &#x27;previous_snapshot_id&#x27;: 15, &#x27;previous_fetched_at&#x27;: &#x27;2026-06-12T12:15:00&#x27;, &#x27;snapshot_age_minutes&#x27;: 5, &#x27;match_count&#x27;: 22, &#x27;main_odds_rows&#x27;: 1167, &#x27;bookmaker_rows&#x27;: 1450, &#x27;analysis_payloads&#x27;: 22, &#x27;previous_match_count&#x27;: 22, &#x27;previous_main_odds_rows&#x27;: 1167, &#x27;main_odds_changed_count&#x27;: 10, &#x27;source_status&#x27;: &#x27;fresh&#x27;, &#x27;official_confirmation_level&#x27;: &#x27;strong&#x27;, &#x27;freshness_status&#x27;: &#x27;fresh&#x27;, &#x27;usable_for_execution&#x27;: False, &#x27;execution_gate_status&#x27;: &#x27;blocked&#x27;, &#x27;can_execute_bet&#x27;: False}</li>
+          <li>临场单场卡片：{&#x27;cards&#x27;: 22, &#x27;candidate&#x27;: 5, &#x27;observe&#x27;: 13, &#x27;avoid&#x27;: 4, &#x27;blocked&#x27;: 22, &#x27;hard_buy&#x27;: 0, &#x27;gate_status&#x27;: &#x27;blocked&#x27;, &#x27;can_execute_bet&#x27;: False, &#x27;live_snapshot_id&#x27;: 16, &#x27;main_odds_changed_count&#x27;: 10}</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h2>下一复核窗口</h2>
+        <ul><li>2026-06-13T01:00:00 T-2h：周五003 加拿大 vs 波黑，状态 未到</li><li>2026-06-13T07:00:00 T-2h：周五004 美国 vs 巴拉圭，状态 未到</li><li>2026-06-14T01:00:00 T-2h：周六005 卡塔尔 vs 瑞士，状态 未到</li><li>2026-06-14T04:00:00 T-2h：周六006 巴西 vs 摩洛哥，状态 未到</li><li>2026-06-14T07:00:00 T-2h：周六007 海地 vs 苏格兰，状态 未到</li><li>2026-06-14T10:00:00 T-2h：周六008 澳大利亚 vs 土耳其，状态 未到</li><li>2026-06-14T23:00:00 T-2h：周日009 德国 vs 库拉索，状态 未到</li><li>2026-06-15T02:00:00 T-2h：周日010 荷兰 vs 日本，状态 未到</li><li>2026-06-15T05:00:00 T-2h：周日011 科特迪瓦 vs 厄瓜多尔，状态 未到</li><li>2026-06-15T08:00:00 T-2h：周日012 瑞典 vs 突尼斯，状态 未到</li></ul>
+      </div>
+    </section>
+    <section class="grid">
+      <div class="panel"><h2>全历史趋势高风险</h2><div class="entry"><h3>周五004 美国 vs 巴拉圭<span class="tag">high / 26.4</span></h3><div class="meta">2026-06-13 09:00</div><ul><li>胜平负主胜 1.71 -&gt; 1.74 (+0.03)，持续上调</li><li>胜平负客胜 4.2 -&gt; 4.05 (-0.15)，持续下调</li></ul></div><div class="entry"><h3>周五003 加拿大 vs 波黑<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-13 03:00</div><ul><li>全历史快照未出现显著慢速趋势</li></ul></div><div class="entry"><h3>周六005 卡塔尔 vs 瑞士<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-14 03:00</div><ul><li>全历史快照未出现显著慢速趋势</li></ul></div><div class="entry"><h3>周六006 巴西 vs 摩洛哥<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-14 06:00</div><ul><li>全历史快照未出现显著慢速趋势</li></ul></div><div class="entry"><h3>周六007 海地 vs 苏格兰<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-14 09:00</div><ul><li>全历史快照未出现显著慢速趋势</li></ul></div><div class="entry"><h3>周六008 澳大利亚 vs 土耳其<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-14 12:00</div><ul><li>全历史快照未出现显著慢速趋势</li></ul></div><div class="entry"><h3>周日009 德国 vs 库拉索<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-15 01:00</div><ul><li>全历史快照未出现显著慢速趋势</li></ul></div><div class="entry"><h3>周日010 荷兰 vs 日本<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-15 04:00</div><ul><li>全历史快照未出现显著慢速趋势</li></ul></div></div>
+      <div class="panel"><h2>跨快照变盘高风险</h2><div class="entry"><h3>周五004 美国 vs 巴拉圭<span class="tag">high / 23.4</span></h3><div class="meta">2026-06-13 09:00</div><ul><li>胜平负主胜：1.71 -&gt; 1.74 (+0.03)</li><li>胜平负客胜：4.2 -&gt; 4.05 (-0.15)</li><li>让球胜平负让平：3.18 -&gt; 3.23 (+0.05)</li></ul></div><div class="entry"><h3>周五003 加拿大 vs 波黑<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-13 03:00</div><ul><li>无明显跨快照变盘</li></ul></div><div class="entry"><h3>周六005 卡塔尔 vs 瑞士<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-14 03:00</div><ul><li>无明显跨快照变盘</li></ul></div><div class="entry"><h3>周六006 巴西 vs 摩洛哥<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-14 06:00</div><ul><li>无明显跨快照变盘</li></ul></div><div class="entry"><h3>周六007 海地 vs 苏格兰<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-14 09:00</div><ul><li>无明显跨快照变盘</li></ul></div><div class="entry"><h3>周六008 澳大利亚 vs 土耳其<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-14 12:00</div><ul><li>无明显跨快照变盘</li></ul></div><div class="entry"><h3>周日009 德国 vs 库拉索<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-15 01:00</div><ul><li>无明显跨快照变盘</li></ul></div><div class="entry"><h3>周日010 荷兰 vs 日本<span class="tag">low / 0.0</span></h3><div class="meta">2026-06-15 04:00</div><ul><li>无明显跨快照变盘</li></ul></div></div>
+    </section>
+    <section class="panel">
+      <h2>单场报告</h2>
+      <table>
+        <thead><tr><th>编号</th><th>比赛</th><th>开赛</th><th>入口</th></tr></thead>
+        <tbody><tr><td>周五003</td><td>加拿大 vs 波黑</td><td>2026-06-13 03:00</td><td><a href="../reports/2026-06-13/周五003_加拿大_vs_波黑.md">报告</a> / <a href="dashboard.html#match-365">Dashboard</a></td></tr><tr><td>周五004</td><td>美国 vs 巴拉圭</td><td>2026-06-13 09:00</td><td><a href="../reports/2026-06-13/周五004_美国_vs_巴拉圭.md">报告</a> / <a href="dashboard.html#match-366">Dashboard</a></td></tr><tr><td>周六005</td><td>卡塔尔 vs 瑞士</td><td>2026-06-14 03:00</td><td><a href="../reports/2026-06-14/周六005_卡塔尔_vs_瑞士.md">报告</a> / <a href="dashboard.html#match-367">Dashboard</a></td></tr><tr><td>周六006</td><td>巴西 vs 摩洛哥</td><td>2026-06-14 06:00</td><td><a href="../reports/2026-06-14/周六006_巴西_vs_摩洛哥.md">报告</a> / <a href="dashboard.html#match-368">Dashboard</a></td></tr><tr><td>周六007</td><td>海地 vs 苏格兰</td><td>2026-06-14 09:00</td><td><a href="../reports/2026-06-14/周六007_海地_vs_苏格兰.md">报告</a> / <a href="dashboard.html#match-369">Dashboard</a></td></tr><tr><td>周六008</td><td>澳大利亚 vs 土耳其</td><td>2026-06-14 12:00</td><td><a href="../reports/2026-06-14/周六008_澳大利亚_vs_土耳其.md">报告</a> / <a href="dashboard.html#match-370">Dashboard</a></td></tr><tr><td>周日009</td><td>德国 vs 库拉索</td><td>2026-06-15 01:00</td><td><a href="../reports/2026-06-15/周日009_德国_vs_库拉索.md">报告</a> / <a href="dashboard.html#match-371">Dashboard</a></td></tr><tr><td>周日010</td><td>荷兰 vs 日本</td><td>2026-06-15 04:00</td><td><a href="../reports/2026-06-15/周日010_荷兰_vs_日本.md">报告</a> / <a href="dashboard.html#match-372">Dashboard</a></td></tr><tr><td>周日011</td><td>科特迪瓦 vs 厄瓜多尔</td><td>2026-06-15 07:00</td><td><a href="../reports/2026-06-15/周日011_科特迪瓦_vs_厄瓜多尔.md">报告</a> / <a href="dashboard.html#match-373">Dashboard</a></td></tr><tr><td>周日012</td><td>瑞典 vs 突尼斯</td><td>2026-06-15 10:00</td><td><a href="../reports/2026-06-15/周日012_瑞典_vs_突尼斯.md">报告</a> / <a href="dashboard.html#match-374">Dashboard</a></td></tr><tr><td>周一013</td><td>西班牙 vs 佛得角</td><td>2026-06-16 00:00</td><td><a href="../reports/2026-06-16/周一013_西班牙_vs_佛得角.md">报告</a> / <a href="dashboard.html#match-375">Dashboard</a></td></tr><tr><td>周一014</td><td>比利时 vs 埃及</td><td>2026-06-16 03:00</td><td><a href="../reports/2026-06-16/周一014_比利时_vs_埃及.md">报告</a> / <a href="dashboard.html#match-376">Dashboard</a></td></tr><tr><td>周一015</td><td>沙特阿拉伯 vs 乌拉圭</td><td>2026-06-16 06:00</td><td><a href="../reports/2026-06-16/周一015_沙特阿拉伯_vs_乌拉圭.md">报告</a> / <a href="dashboard.html#match-377">Dashboard</a></td></tr><tr><td>周一016</td><td>伊朗 vs 新西兰</td><td>2026-06-16 09:00</td><td><a href="../reports/2026-06-16/周一016_伊朗_vs_新西兰.md">报告</a> / <a href="dashboard.html#match-378">Dashboard</a></td></tr><tr><td>周二017</td><td>法国 vs 塞内加尔</td><td>2026-06-17 03:00</td><td><a href="../reports/2026-06-17/周二017_法国_vs_塞内加尔.md">报告</a> / <a href="dashboard.html#match-379">Dashboard</a></td></tr><tr><td>周二018</td><td>伊拉克 vs 挪威</td><td>2026-06-17 06:00</td><td><a href="../reports/2026-06-17/周二018_伊拉克_vs_挪威.md">报告</a> / <a href="dashboard.html#match-380">Dashboard</a></td></tr><tr><td>周二019</td><td>阿根廷 vs 阿尔及利亚</td><td>2026-06-17 09:00</td><td><a href="../reports/2026-06-17/周二019_阿根廷_vs_阿尔及利亚.md">报告</a> / <a href="dashboard.html#match-381">Dashboard</a></td></tr><tr><td>周二020</td><td>奥地利 vs 约旦</td><td>2026-06-17 12:00</td><td><a href="../reports/2026-06-17/周二020_奥地利_vs_约旦.md">报告</a> / <a href="dashboard.html#match-382">Dashboard</a></td></tr><tr><td>周三021</td><td>葡萄牙 vs 刚果(金)</td><td>2026-06-18 01:00</td><td><a href="../reports/2026-06-18/周三021_葡萄牙_vs_刚果(金).md">报告</a> / <a href="dashboard.html#match-383">Dashboard</a></td></tr><tr><td>周三022</td><td>英格兰 vs 克罗地亚</td><td>2026-06-18 04:00</td><td><a href="../reports/2026-06-18/周三022_英格兰_vs_克罗地亚.md">报告</a> / <a href="dashboard.html#match-384">Dashboard</a></td></tr><tr><td>周三023</td><td>加纳 vs 巴拿马</td><td>2026-06-18 07:00</td><td><a href="../reports/2026-06-18/周三023_加纳_vs_巴拿马.md">报告</a> / <a href="dashboard.html#match-385">Dashboard</a></td></tr><tr><td>周三024</td><td>乌兹别克 vs 哥伦比亚</td><td>2026-06-18 10:00</td><td><a href="../reports/2026-06-18/周三024_乌兹别克_vs_哥伦比亚.md">报告</a> / <a href="dashboard.html#match-386">Dashboard</a></td></tr></tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
