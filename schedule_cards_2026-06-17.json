@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-17",
-  "generated_at": "2026-06-17T05:05:43",
+  "generated_at": "2026-06-17T05:16:28",
   "snapshot": {
     "id": 71,
     "source": "500_jczq",
@@ -4084,13 +4084,13 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "T-1h外部欧赔显示客胜为当前主线，隐含概率约78.6%，领先约64.0个百分点；已按临场欧亚盘重新校准。"
+          "reason": "T-1h外部欧赔显示客胜为当前主线，隐含概率约78.1%，领先约63.2个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
-          "option": "伊拉克+2方向",
-          "reason": "欧赔偏客胜，但亚盘客队水位偏高，客胜不等于穿盘，让球方向按临场水位降穿盘预期。",
-          "label": "受让主队",
-          "line": 2.0
+          "option": "挪威-1.75方向",
+          "reason": "T-1h亚盘参考线+1.75，主水2.07/客水1.85，结论按挪威-1.75方向处理。",
+          "label": "客队受让",
+          "line": 1.75
         },
         "score": {
           "option": "1:2 / 1:3 / 0:3",
@@ -4119,16 +4119,15 @@
         "consistent": true,
         "t1h_external_rechecked": true,
         "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-17T05:00:47"
+        "t1h_rechecked_at": "2026-06-17T05:15:48"
       },
       "t1h_recheck": {
         "status": "updated",
         "changed": true,
         "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
         "source": "kaiyun_playwright",
-        "updated_at": "2026-06-17T05:00:47",
+        "updated_at": "2026-06-17T05:15:48",
         "conflicts": [
-          "欧赔偏客胜，但亚盘客队水位偏高，客胜不等于穿盘",
           "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型",
           "大小球水位差较明显，进球数方向需要随临场节奏校准"
         ]
