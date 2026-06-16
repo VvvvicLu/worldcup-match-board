@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-17",
-  "generated_at": "2026-06-16T20:39:14",
+  "generated_at": "2026-06-17T02:01:46",
   "snapshot": {
     "id": 70,
     "source": "500_jczq",
@@ -3945,42 +3945,53 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "法国实力和胜赔仍是主线，但盘口不支持把优势直接放大成深穿。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约64.7%，领先约43.3个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
-          "option": "塞内加尔 +1",
-          "reason": "法国热度明显，但受让方向保护更足；塞内加尔输一球以内更符合当前风险收益。",
-          "label": "塞内加尔 +1",
-          "line": 1
+          "option": "塞内加尔+1.25方向",
+          "reason": "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘，让球方向按临场水位降穿盘预期。",
+          "label": "让负",
+          "line": -1.25
         },
         "score": {
-          "option": "1:1 / 2:1 / 1:0",
-          "reason": "1:1保留冷门分支，2:1和1:0对应法国小胜，不按大胜剧本处理。",
+          "option": "2:1 / 3:1 / 3:0",
+          "reason": "比分只保留3个分支：2:1, 3:1, 3:0；它们与主胜和小2.75这两条临场主线保持一致。",
           "options": [
-            "1:1",
             "2:1",
-            "1:0"
+            "3:1",
+            "3:0"
           ],
-          "primary": "1:1",
+          "primary": "2:1",
           "result_options": [
-            "平局",
+            "主胜",
             "主胜",
             "主胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
-          "covers_total": true
+          "covers_total": false
         },
         "total": {
-          "option": "小2.5",
-          "reason": "盘口没有形成明确大球共识，比分路径集中在平局或法国小胜。",
+          "option": "小2.75",
+          "reason": "T-1h大小球2.75，大水1.99/小水1.91，临场更偏小2.75。",
           "side": "小",
-          "line": 2.5
+          "line": 2.75
         },
         "consistent": true,
-        "t1h_external_rechecked": false,
-        "t1h_source": "manual-public-baseline",
-        "t1h_rechecked_at": "2026-06-16T20:19:27+08:00"
+        "t1h_external_rechecked": true,
+        "t1h_source": "kaiyun_playwright",
+        "t1h_rechecked_at": "2026-06-17T02:01:06"
+      },
+      "t1h_recheck": {
+        "status": "updated",
+        "changed": true,
+        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "source": "kaiyun_playwright",
+        "updated_at": "2026-06-17T02:01:06",
+        "conflicts": [
+          "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘",
+          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
+        ]
       },
       "detail_filename": "周二017_法国_vs_塞内加尔.html",
       "analysis_filename": "周二017_法国_vs_塞内加尔_analysis.html",
