@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-17",
-  "generated_at": "2026-06-17T05:25:42",
+  "generated_at": "2026-06-17T08:01:29",
   "snapshot": {
     "id": 71,
     "source": "500_jczq",
@@ -4193,42 +4193,52 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "阿根廷实力和胜赔仍是优势方，但需要防止热门方向过热。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约60.9%，领先约36.6个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
-          "option": "阿根廷 -1",
-          "reason": "一球小胜可接受走水，赢两球才兑现；比直接追-1.5更稳。",
-          "label": "阿根廷 -1",
-          "line": -1
+          "option": "-1盘口均衡",
+          "reason": "T-1h亚盘参考线-1，主水1.97/客水1.95，结论按-1盘口均衡处理。",
+          "label": "让平",
+          "line": -1.0
         },
         "score": {
-          "option": "2:0 / 2:1 / 1:1",
-          "reason": "2:0和2:1是阿根廷优势路径，1:1只保留盘口不穿时的冷门分支。",
+          "option": "1:0 / 2:0 / 2:1",
+          "reason": "比分只保留3个分支：1:0, 2:0, 2:1；它们与主胜和小2.5这两条临场主线保持一致。",
           "options": [
+            "1:0",
             "2:0",
-            "2:1",
-            "1:1"
+            "2:1"
           ],
-          "primary": "2:0",
+          "primary": "1:0",
           "result_options": [
             "主胜",
             "主胜",
-            "平局"
+            "主胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "小3",
-          "reason": "盘口更像控制局，不支持直接拉到大比分；2球到3球是核心区间。",
+          "option": "小2.5",
+          "reason": "T-1h大小球2.5，大水2.04/小水1.86，临场更偏小2.5。",
           "side": "小",
-          "line": 3
+          "line": 2.5
         },
         "consistent": true,
-        "t1h_external_rechecked": false,
-        "t1h_source": "manual-public-baseline",
-        "t1h_rechecked_at": "2026-06-16T20:19:27+08:00"
+        "t1h_external_rechecked": true,
+        "t1h_source": "kaiyun_playwright",
+        "t1h_rechecked_at": "2026-06-17T08:00:48"
+      },
+      "t1h_recheck": {
+        "status": "updated",
+        "changed": true,
+        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "source": "kaiyun_playwright",
+        "updated_at": "2026-06-17T08:00:48",
+        "conflicts": [
+          "大小球水位差较明显，进球数方向需要随临场节奏校准"
+        ]
       },
       "detail_filename": "周二019_阿根廷_vs_阿尔及利亚.html",
       "analysis_filename": "周二019_阿根廷_vs_阿尔及利亚_analysis.html",
