@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-17",
-  "generated_at": "2026-06-17T08:25:43",
+  "generated_at": "2026-06-17T11:03:33",
   "snapshot": {
     "id": 74,
     "source": "500_jczq",
@@ -4332,21 +4332,21 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "奥地利实力、胜赔和对位质量都占优，主胜仍是基本盘。"
+          "reason": "T-1h外部欧赔与原方向基本一致，主胜仍是当前主线，隐含概率约68.8%。"
         },
         "handicap": {
-          "option": "奥地利 -1",
-          "reason": "奥地利赢一球可接受走水，赢两球兑现，比追更深盘更合理。",
-          "label": "奥地利 -1",
-          "line": -1
+          "option": "奥地利-1.25方向",
+          "reason": "T-1h亚盘参考线-1.25，主水1.89/客水2.03，结论按奥地利-1.25方向处理。",
+          "label": "让胜",
+          "line": -1.25
         },
         "score": {
-          "option": "2:1 / 3:0 / 3:1",
-          "reason": "三个比分都支持奥地利胜面，同时覆盖大2.5的核心进球路径。",
+          "option": "2:1 / 3:1 / 3:0",
+          "reason": "比分只保留3个分支：2:1, 3:1, 3:0；它们与主胜和大2.5这两条临场主线保持一致。",
           "options": [
             "2:1",
-            "3:0",
-            "3:1"
+            "3:1",
+            "3:0"
           ],
           "primary": "2:1",
           "result_options": [
@@ -4360,14 +4360,22 @@
         },
         "total": {
           "option": "大2.5",
-          "reason": "盘口和比分路径都更支持至少3球，方向优先级高于硬追深让。",
+          "reason": "T-1h大小球2.5，大水1.91/小水1.99，临场更偏大2.5。",
           "side": "大",
           "line": 2.5
         },
         "consistent": true,
-        "t1h_external_rechecked": false,
-        "t1h_source": "manual-public-baseline",
-        "t1h_rechecked_at": "2026-06-16T20:19:27+08:00"
+        "t1h_external_rechecked": true,
+        "t1h_source": "kaiyun_playwright",
+        "t1h_rechecked_at": "2026-06-17T11:02:51"
+      },
+      "t1h_recheck": {
+        "status": "updated",
+        "changed": true,
+        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "source": "kaiyun_playwright",
+        "updated_at": "2026-06-17T11:02:51",
+        "conflicts": []
       },
       "detail_filename": "周二020_奥地利_vs_约旦.html",
       "analysis_filename": "周二020_奥地利_vs_约旦_analysis.html",
