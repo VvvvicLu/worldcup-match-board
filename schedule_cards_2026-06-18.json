@@ -1,13 +1,13 @@
 {
   "event_date": "2026-06-18",
-  "generated_at": "2026-06-18T03:02:41",
+  "generated_at": "2026-06-18T03:06:42",
   "snapshot": {
-    "id": 82,
+    "id": 83,
     "source": "500_jczq",
     "event_date": "2026-06-18",
-    "fetched_at": "2026-06-17T16:54:15",
+    "fetched_at": "2026-06-18T03:05:01",
     "url": "https://trade.500.com/jczq/?playid=312&g=2&date=2026-06-18",
-    "raw_count": 18
+    "raw_count": 9
   },
   "source_snapshots": [
     {
@@ -495,6 +495,12 @@
       "event_date": "2026-06-18",
       "fetched_at": "2026-06-17T16:54:15",
       "raw_count": 18
+    },
+    {
+      "id": 83,
+      "event_date": "2026-06-18",
+      "fetched_at": "2026-06-18T03:05:01",
+      "raw_count": 9
     }
   ],
   "summary": {
@@ -504,15 +510,15 @@
     "avoid": 0,
     "hard_buy": 0,
     "can_execute_bet": false,
-    "next_kickoff": "2026-06-18 01:00",
+    "next_kickoff": "2026-06-18 04:00",
     "analysis_matches": 32,
     "opened_matches": 32,
     "schedule_matches": 72,
     "clickable_matches": 32,
     "static_matches": 40,
-    "snapshot_count": 81,
+    "snapshot_count": 82,
     "snapshot_dates": 9,
-    "primary_snapshot_id": 82
+    "primary_snapshot_id": 83
   },
   "gate": {},
   "source_lag": {},
@@ -1215,8 +1221,14 @@
         "乌兹别克",
         "哥伦比亚"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "score": "1:1",
+        "result": "平局",
+        "total_goals": 2
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-18/周三021_葡萄牙_vs_刚果(金).html",
       "analysis_href": "match_analysis_2026-06-18/周三021_葡萄牙_vs_刚果(金)_analysis.html",
@@ -1332,10 +1344,10 @@
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-18/周四025_捷克_vs_南非.html",
       "analysis_href": "match_analysis_2026-06-18/周四025_捷克_vs_南非_analysis.html",
-      "action": "observe",
+      "action": "avoid",
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "source_match_num": "周四025"
     },
     {
@@ -1360,10 +1372,10 @@
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-18/周四026_瑞士_vs_波黑.html",
       "analysis_href": "match_analysis_2026-06-18/周四026_瑞士_vs_波黑_analysis.html",
-      "action": "observe",
+      "action": "avoid",
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "source_match_num": "周四026"
     },
     {
@@ -1388,10 +1400,10 @@
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-18/周四027_加拿大_vs_卡塔尔.html",
       "analysis_href": "match_analysis_2026-06-18/周四027_加拿大_vs_卡塔尔_analysis.html",
-      "action": "observe",
+      "action": "avoid",
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "source_match_num": "周四027"
     },
     {
@@ -1416,10 +1428,10 @@
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-18/周四028_墨西哥_vs_韩国.html",
       "analysis_href": "match_analysis_2026-06-18/周四028_墨西哥_vs_韩国_analysis.html",
-      "action": "observe",
+      "action": "avoid",
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "source_match_num": "周四028"
     },
     {
@@ -1444,10 +1456,10 @@
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-18/周五029_美国_vs_澳大利亚.html",
       "analysis_href": "match_analysis_2026-06-18/周五029_美国_vs_澳大利亚_analysis.html",
-      "action": "observe",
+      "action": "avoid",
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "source_match_num": "周五029"
     },
     {
@@ -1472,10 +1484,10 @@
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-18/周五030_苏格兰_vs_摩洛哥.html",
       "analysis_href": "match_analysis_2026-06-18/周五030_苏格兰_vs_摩洛哥_analysis.html",
-      "action": "observe",
+      "action": "avoid",
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "source_match_num": "周五030"
     },
     {
@@ -1502,8 +1514,8 @@
       "analysis_href": "match_analysis_2026-06-18/周五031_巴西_vs_海地_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "source_match_num": "周五031"
     },
     {
@@ -1528,10 +1540,10 @@
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-18/周五032_土耳其_vs_巴拉圭.html",
       "analysis_href": "match_analysis_2026-06-18/周五032_土耳其_vs_巴拉圭_analysis.html",
-      "action": "observe",
+      "action": "avoid",
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "source_match_num": "周五032"
     },
     {
@@ -4471,8 +4483,14 @@
       "freshness": {},
       "quality_status": "谨慎",
       "quality_score": 72,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "score": "1:1",
+        "result": "平局",
+        "total_goals": 2
+      },
       "source_event_date": "2026-06-18",
       "source_snapshot_id": 82,
       "source_snapshot_fetched_at": "2026-06-17T16:54:15",
@@ -4821,7 +4839,7 @@
       "analysis_href": "match_analysis_2026-06-18/周三024_乌兹别克_vs_哥伦比亚_analysis.html"
     },
     {
-      "match_id": 1326,
+      "match_id": 1335,
       "match_num": "周四025",
       "league": "世界杯",
       "kickoff": "2026-06-19 00:00",
@@ -4837,9 +4855,9 @@
       ],
       "match_title": "捷克 vs 南非",
       "probabilities": {
-        "主胜": 0.5094,
-        "平局": 0.277,
-        "客胜": 0.2136
+        "主胜": 0.5239,
+        "平局": 0.2725,
+        "客胜": 0.2036
       },
       "predicted_result": "主胜",
       "score_band": [
@@ -4850,34 +4868,33 @@
         "0:0"
       ],
       "confidence": "低",
-      "action": "observe",
+      "action": "avoid",
       "action_label": "筛选/观察",
       "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
       "candidate_view": [
         "无自动硬买项，赛前2小时复核后再决定"
       ],
       "watch_view": [
-        "数据质量为谨慎，只能观察或等待赛前复核",
-        "比分区间优先看2-3球，不直接追小2.5",
-        "亚盘复核主线：半球/一球",
-        "大小球复核主线：2/2.5"
+        "比分区间优先看2-3球，不直接追小2.5"
       ],
       "avoid_view": [
+        "数据质量未过关，本场不做实战投注",
+        "Sporttery官方候选源与500存在关键分歧，放弃赛前硬买",
         "诱盘规则综合高风险，禁止按单一热门叙事硬买"
       ],
       "freshness": {},
-      "quality_status": "谨慎",
-      "quality_score": 72,
+      "quality_status": "回避",
+      "quality_score": 0,
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "fixture_no": 25,
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约50.9%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "主胜概率约52.4%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
           "option": "捷克-1平",
@@ -4904,10 +4921,10 @@
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2/2.5线以下）",
-          "reason": "主流进球数分界在2/2.5，偏少球（2/2.5线以下）热度高于对侧，当前更像这个比赛节奏。不再用1球/2球/3球替代进球数预测。",
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
           "side": "小",
-          "line": "2/2.5"
+          "line": "2.5"
         },
         "consistent": true
       },
@@ -4917,7 +4934,7 @@
       "analysis_href": "match_analysis_2026-06-18/周四025_捷克_vs_南非_analysis.html"
     },
     {
-      "match_id": 1327,
+      "match_id": 1336,
       "match_num": "周四026",
       "league": "世界杯",
       "kickoff": "2026-06-19 03:00",
@@ -4946,29 +4963,28 @@
         "3:0"
       ],
       "confidence": "低",
-      "action": "observe",
+      "action": "avoid",
       "action_label": "筛选/观察",
       "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
       "candidate_view": [
         "无自动硬买项，赛前2小时复核后再决定"
       ],
       "watch_view": [
-        "数据质量为谨慎，只能观察或等待赛前复核",
         "存在诱盘规则命中，必须等待临场盘口和首发确认",
         "比分区间优先看2-3球，不直接追小2.5",
-        "主胜方向有基础优势，但需等首发确认",
-        "亚盘复核主线：一球",
-        "大小球复核主线：2/2.5"
+        "主胜方向有基础优势，但需等首发确认"
       ],
-      "avoid_view": [],
+      "avoid_view": [
+        "数据质量未过关，本场不做实战投注"
+      ],
       "freshness": {},
-      "quality_status": "谨慎",
-      "quality_score": 72,
+      "quality_status": "回避",
+      "quality_score": 18,
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "fixture_no": 26,
       "advice_summary": {
         "result": {
@@ -4977,33 +4993,33 @@
         },
         "handicap": {
           "option": "瑞士-1胜",
-          "reason": "让球参考线-1下，当前热度更靠近瑞士-1胜，娱乐预测按该方向处理。",
+          "reason": "盘口分歧较多，娱乐预测按瑞士-1胜处理。",
           "label": "让胜",
           "line": -1.0
         },
         "score": {
-          "option": "2:0 / 3:0 / 2:1",
-          "reason": "首选看2:0；3:0 / 2:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "2:0 / 1:0 / 1:1",
+          "reason": "首选看2:0；1:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
           "options": [
             "2:0",
-            "3:0",
-            "2:1"
+            "1:0",
+            "1:1"
           ],
           "primary": "2:0",
           "result_options": [
             "主胜",
             "主胜",
-            "主胜"
+            "平局"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "2-3球节奏",
-          "reason": "总进球最高热度仍在2球，其次才是3球，不能按单边大胜处理。",
-          "side": "区间",
-          "line": "2-3"
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "side": "小",
+          "line": "2.5"
         },
         "consistent": true
       },
@@ -5013,7 +5029,7 @@
       "analysis_href": "match_analysis_2026-06-18/周四026_瑞士_vs_波黑_analysis.html"
     },
     {
-      "match_id": 1328,
+      "match_id": 1337,
       "match_num": "周四027",
       "league": "世界杯",
       "kickoff": "2026-06-19 06:00",
@@ -5042,31 +5058,29 @@
         "1:1"
       ],
       "confidence": "低",
-      "action": "observe",
+      "action": "avoid",
       "action_label": "筛选/观察",
       "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
       "candidate_view": [
         "无自动硬买项，赛前2小时复核后再决定"
       ],
       "watch_view": [
-        "数据质量为谨慎，只能观察或等待赛前复核",
         "比分区间优先看2-3球，不直接追小2.5",
-        "主胜方向有基础优势，但需等首发确认",
-        "亚盘复核主线：球半",
-        "大小球复核主线：2.5/3"
+        "主胜方向有基础优势，但需等首发确认"
       ],
       "avoid_view": [
+        "数据质量未过关，本场不做实战投注",
         "诱盘规则综合高风险，禁止按单一热门叙事硬买",
         "加拿大低赔主胜串关"
       ],
       "freshness": {},
-      "quality_status": "谨慎",
-      "quality_score": 72,
+      "quality_status": "回避",
+      "quality_score": 18,
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "fixture_no": 27,
       "advice_summary": {
         "result": {
@@ -5075,33 +5089,33 @@
         },
         "handicap": {
           "option": "加拿大-1胜",
-          "reason": "让球参考线-1下，当前热度更靠近加拿大-1胜，娱乐预测按该方向处理。",
+          "reason": "盘口分歧较多，娱乐预测按加拿大-1胜处理。",
           "label": "让胜",
           "line": -1.0
         },
         "score": {
-          "option": "2:0 / 3:0 / 2:1",
-          "reason": "首选看2:0；3:0 / 2:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "2:0 / 1:0 / 1:1",
+          "reason": "首选看2:0；1:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
           "options": [
             "2:0",
-            "3:0",
-            "2:1"
+            "1:0",
+            "1:1"
           ],
           "primary": "2:0",
           "result_options": [
             "主胜",
             "主胜",
-            "主胜"
+            "平局"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "2-3球节奏",
-          "reason": "总进球最高热度仍在2球，其次才是3球，不能按单边大胜处理。",
-          "side": "区间",
-          "line": "2-3"
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "side": "小",
+          "line": "2.5"
         },
         "consistent": true
       },
@@ -5111,7 +5125,7 @@
       "analysis_href": "match_analysis_2026-06-18/周四027_加拿大_vs_卡塔尔_analysis.html"
     },
     {
-      "match_id": 1329,
+      "match_id": 1338,
       "match_num": "周四028",
       "league": "世界杯",
       "kickoff": "2026-06-19 09:00",
@@ -5140,28 +5154,27 @@
         "0:0"
       ],
       "confidence": "低",
-      "action": "observe",
+      "action": "avoid",
       "action_label": "筛选/观察",
       "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
       "candidate_view": [
         "无自动硬买项，赛前2小时复核后再决定"
       ],
       "watch_view": [
-        "数据质量为谨慎，只能观察或等待赛前复核",
         "存在诱盘规则命中，必须等待临场盘口和首发确认",
-        "比分区间优先看2-3球，不直接追小2.5",
-        "亚盘复核主线：半球",
-        "大小球复核主线：2"
+        "比分区间优先看2-3球，不直接追小2.5"
       ],
-      "avoid_view": [],
+      "avoid_view": [
+        "数据质量未过关，本场不做实战投注"
+      ],
       "freshness": {},
-      "quality_status": "谨慎",
-      "quality_score": 72,
+      "quality_status": "回避",
+      "quality_score": 18,
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "fixture_no": 28,
       "advice_summary": {
         "result": {
@@ -5193,10 +5206,10 @@
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2线以下）",
-          "reason": "主流进球数分界在2，偏少球（2线以下）热度高于对侧，当前更像这个比赛节奏。不再用1球/2球/3球替代进球数预测。",
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
           "side": "小",
-          "line": "2"
+          "line": "2.5"
         },
         "consistent": true
       },
@@ -5206,7 +5219,7 @@
       "analysis_href": "match_analysis_2026-06-18/周四028_墨西哥_vs_韩国_analysis.html"
     },
     {
-      "match_id": 1331,
+      "match_id": 1340,
       "match_num": "周五029",
       "league": "世界杯",
       "kickoff": "2026-06-20 03:00",
@@ -5235,29 +5248,28 @@
         "3:0"
       ],
       "confidence": "低",
-      "action": "observe",
+      "action": "avoid",
       "action_label": "筛选/观察",
       "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
       "candidate_view": [
         "无自动硬买项，赛前2小时复核后再决定"
       ],
       "watch_view": [
-        "数据质量为谨慎，只能观察或等待赛前复核",
         "存在诱盘规则命中，必须等待临场盘口和首发确认",
         "比分区间优先看2-3球，不直接追小2.5",
-        "主胜方向有基础优势，但需等首发确认",
-        "亚盘复核主线：一球",
-        "大小球复核主线：2.5"
+        "主胜方向有基础优势，但需等首发确认"
       ],
-      "avoid_view": [],
+      "avoid_view": [
+        "数据质量未过关，本场不做实战投注"
+      ],
       "freshness": {},
-      "quality_status": "谨慎",
-      "quality_score": 72,
+      "quality_status": "回避",
+      "quality_score": 18,
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "fixture_no": 29,
       "advice_summary": {
         "result": {
@@ -5289,8 +5301,8 @@
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线以下）",
-          "reason": "主流进球数分界在2.5，偏少球（2.5线以下）热度高于对侧，当前更像这个比赛节奏。不再用1球/2球/3球替代进球数预测。",
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
           "side": "小",
           "line": "2.5"
         },
@@ -5302,7 +5314,7 @@
       "analysis_href": "match_analysis_2026-06-18/周五029_美国_vs_澳大利亚_analysis.html"
     },
     {
-      "match_id": 1332,
+      "match_id": 1341,
       "match_num": "周五030",
       "league": "世界杯",
       "kickoff": "2026-06-20 06:00",
@@ -5331,29 +5343,27 @@
         "0:0"
       ],
       "confidence": "低",
-      "action": "observe",
+      "action": "avoid",
       "action_label": "筛选/观察",
       "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
       "candidate_view": [
         "无自动硬买项，赛前2小时复核后再决定"
       ],
       "watch_view": [
-        "数据质量为谨慎，只能观察或等待赛前复核",
-        "比分区间优先看2-3球，不直接追小2.5",
-        "亚盘复核主线：受半球/一球",
-        "大小球复核主线：2/2.5"
+        "存在诱盘规则命中，必须等待临场盘口和首发确认",
+        "比分区间优先看2-3球，不直接追小2.5"
       ],
       "avoid_view": [
-        "诱盘规则综合高风险，禁止按单一热门叙事硬买"
+        "数据质量未过关，本场不做实战投注"
       ],
       "freshness": {},
-      "quality_status": "谨慎",
-      "quality_score": 72,
+      "quality_status": "回避",
+      "quality_score": 18,
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "fixture_no": 30,
       "advice_summary": {
         "result": {
@@ -5385,10 +5395,10 @@
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2/2.5线以下）",
-          "reason": "主流进球数分界在2/2.5，偏少球（2/2.5线以下）热度高于对侧，当前更像这个比赛节奏。不再用1球/2球/3球替代进球数预测。",
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
           "side": "小",
-          "line": "2/2.5"
+          "line": "2.5"
         },
         "consistent": true
       },
@@ -5398,7 +5408,7 @@
       "analysis_href": "match_analysis_2026-06-18/周五030_苏格兰_vs_摩洛哥_analysis.html"
     },
     {
-      "match_id": 1333,
+      "match_id": 1342,
       "match_num": "周五031",
       "league": "世界杯",
       "kickoff": "2026-06-20 08:30",
@@ -5434,9 +5444,7 @@
         "无自动硬买项，赛前2小时复核后再决定"
       ],
       "watch_view": [
-        "比分区间优先看2-3球，不直接追小2.5",
-        "亚盘复核主线：两球半",
-        "大小球复核主线：3.5"
+        "比分区间优先看2-3球，不直接追小2.5"
       ],
       "avoid_view": [
         "数据质量未过关，本场不做实战投注",
@@ -5445,12 +5453,12 @@
       ],
       "freshness": {},
       "quality_status": "回避",
-      "quality_score": 42,
+      "quality_score": 0,
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "fixture_no": 31,
       "advice_summary": {
         "result": {
@@ -5464,30 +5472,30 @@
           "line": -2.0
         },
         "score": {
-          "option": "4:0 / 5:0 / 4:1",
-          "reason": "首选看4:0；5:0 / 4:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "2:0 / 1:0 / 1:1",
+          "reason": "首选看2:0；1:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
           "options": [
-            "4:0",
-            "5:0",
-            "4:1"
+            "2:0",
+            "1:0",
+            "1:1"
           ],
-          "primary": "4:0",
+          "primary": "2:0",
           "result_options": [
             "主胜",
             "主胜",
-            "主胜"
+            "平局"
           ],
           "covers_result": true,
-          "covers_handicap": true,
+          "covers_handicap": false,
           "covers_total": true
         },
         "total": {
-          "option": "偏多球（3.5线以上）",
-          "reason": "主流进球数分界在3.5，偏多球（3.5线以上）热度略高于对侧，优势很薄。只给单一娱乐方向，不再列多个总进球数。",
-          "side": "大",
-          "line": "3.5"
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "side": "小",
+          "line": "2.5"
         },
-        "consistent": true
+        "consistent": false
       },
       "detail_filename": "周五031_巴西_vs_海地.html",
       "analysis_filename": "周五031_巴西_vs_海地_analysis.html",
@@ -5495,7 +5503,7 @@
       "analysis_href": "match_analysis_2026-06-18/周五031_巴西_vs_海地_analysis.html"
     },
     {
-      "match_id": 1334,
+      "match_id": 1343,
       "match_num": "周五032",
       "league": "世界杯",
       "kickoff": "2026-06-20 11:00",
@@ -5524,28 +5532,27 @@
         "2:0"
       ],
       "confidence": "低",
-      "action": "observe",
+      "action": "avoid",
       "action_label": "筛选/观察",
       "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
       "candidate_view": [
         "无自动硬买项，赛前2小时复核后再决定"
       ],
       "watch_view": [
-        "数据质量为谨慎，只能观察或等待赛前复核",
         "存在诱盘规则命中，必须等待临场盘口和首发确认",
-        "比分区间优先看2-3球，不直接追小2.5",
-        "亚盘复核主线：半球",
-        "大小球复核主线：2/2.5"
+        "比分区间优先看2-3球，不直接追小2.5"
       ],
-      "avoid_view": [],
+      "avoid_view": [
+        "数据质量未过关，本场不做实战投注"
+      ],
       "freshness": {},
-      "quality_status": "谨慎",
-      "quality_score": 72,
+      "quality_status": "回避",
+      "quality_score": 18,
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-18",
-      "source_snapshot_id": 82,
-      "source_snapshot_fetched_at": "2026-06-17T16:54:15",
+      "source_snapshot_id": 83,
+      "source_snapshot_fetched_at": "2026-06-18T03:05:01",
       "fixture_no": 32,
       "advice_summary": {
         "result": {
@@ -5577,10 +5584,10 @@
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2/2.5线以下）",
-          "reason": "主流进球数分界在2/2.5，偏少球（2/2.5线以下）热度高于对侧，当前更像这个比赛节奏。不再用1球/2球/3球替代进球数预测。",
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
           "side": "小",
-          "line": "2/2.5"
+          "line": "2.5"
         },
         "consistent": true
       },
