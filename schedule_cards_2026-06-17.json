@@ -1,13 +1,13 @@
 {
   "event_date": "2026-06-17",
-  "generated_at": "2026-06-17T11:25:44",
+  "generated_at": "2026-06-17T14:17:51",
   "snapshot": {
-    "id": 77,
+    "id": 81,
     "source": "500_jczq",
     "event_date": "2026-06-17",
-    "fetched_at": "2026-06-17T11:05:01",
+    "fetched_at": "2026-06-17T14:17:03",
     "url": "https://trade.500.com/jczq/?playid=312&g=2&date=2026-06-17",
-    "raw_count": 19
+    "raw_count": 18
   },
   "source_snapshots": [
     {
@@ -477,6 +477,18 @@
       "event_date": "2026-06-18",
       "fetched_at": "2026-06-17T11:05:01",
       "raw_count": 19
+    },
+    {
+      "id": 80,
+      "event_date": "2026-06-17",
+      "fetched_at": "2026-06-17T14:05:01",
+      "raw_count": 18
+    },
+    {
+      "id": 81,
+      "event_date": "2026-06-17",
+      "fetched_at": "2026-06-17T14:17:03",
+      "raw_count": 18
     }
   ],
   "summary": {
@@ -486,15 +498,15 @@
     "avoid": 0,
     "hard_buy": 0,
     "can_execute_bet": false,
-    "next_kickoff": "2026-06-17 12:00",
+    "next_kickoff": "2026-06-18 01:00",
     "analysis_matches": 32,
     "opened_matches": 32,
     "schedule_matches": 72,
     "clickable_matches": 32,
     "static_matches": 40,
-    "snapshot_count": 78,
+    "snapshot_count": 80,
     "snapshot_dates": 9,
-    "primary_snapshot_id": 77
+    "primary_snapshot_id": 81
   },
   "gate": {},
   "source_lag": {},
@@ -1163,8 +1175,14 @@
         "阿尔及利亚",
         "约旦"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 3,
+        "away_score": 1,
+        "score": "3:1",
+        "result": "主胜",
+        "total_goals": 4
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-17/周二020_奥地利_vs_约旦.html",
       "analysis_href": "match_analysis_2026-06-17/周二020_奥地利_vs_约旦_analysis.html",
@@ -1197,9 +1215,9 @@
       "detail_href": "match_details_2026-06-17/周三021_葡萄牙_vs_刚果(金).html",
       "analysis_href": "match_analysis_2026-06-17/周三021_葡萄牙_vs_刚果(金)_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周三021"
     },
     {
@@ -1225,9 +1243,9 @@
       "detail_href": "match_details_2026-06-17/周三022_英格兰_vs_克罗地亚.html",
       "analysis_href": "match_analysis_2026-06-17/周三022_英格兰_vs_克罗地亚_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周三022"
     },
     {
@@ -1253,9 +1271,9 @@
       "detail_href": "match_details_2026-06-17/周三023_加纳_vs_巴拿马.html",
       "analysis_href": "match_analysis_2026-06-17/周三023_加纳_vs_巴拿马_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周三023"
     },
     {
@@ -1281,9 +1299,9 @@
       "detail_href": "match_details_2026-06-17/周三024_乌兹别克_vs_哥伦比亚.html",
       "analysis_href": "match_analysis_2026-06-17/周三024_乌兹别克_vs_哥伦比亚_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周三024"
     },
     {
@@ -1309,9 +1327,9 @@
       "detail_href": "match_details_2026-06-17/周四025_捷克_vs_南非.html",
       "analysis_href": "match_analysis_2026-06-17/周四025_捷克_vs_南非_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周四025"
     },
     {
@@ -1337,9 +1355,9 @@
       "detail_href": "match_details_2026-06-17/周四026_瑞士_vs_波黑.html",
       "analysis_href": "match_analysis_2026-06-17/周四026_瑞士_vs_波黑_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周四026"
     },
     {
@@ -1365,9 +1383,9 @@
       "detail_href": "match_details_2026-06-17/周四027_加拿大_vs_卡塔尔.html",
       "analysis_href": "match_analysis_2026-06-17/周四027_加拿大_vs_卡塔尔_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周四027"
     },
     {
@@ -1393,9 +1411,9 @@
       "detail_href": "match_details_2026-06-17/周四028_墨西哥_vs_韩国.html",
       "analysis_href": "match_analysis_2026-06-17/周四028_墨西哥_vs_韩国_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周四028"
     },
     {
@@ -1421,9 +1439,9 @@
       "detail_href": "match_details_2026-06-17/周五029_美国_vs_澳大利亚.html",
       "analysis_href": "match_analysis_2026-06-17/周五029_美国_vs_澳大利亚_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周五029"
     },
     {
@@ -1449,9 +1467,9 @@
       "detail_href": "match_details_2026-06-17/周五030_苏格兰_vs_摩洛哥.html",
       "analysis_href": "match_analysis_2026-06-17/周五030_苏格兰_vs_摩洛哥_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周五030"
     },
     {
@@ -1477,9 +1495,9 @@
       "detail_href": "match_details_2026-06-17/周五031_巴西_vs_海地.html",
       "analysis_href": "match_analysis_2026-06-17/周五031_巴西_vs_海地_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周五031"
     },
     {
@@ -1505,9 +1523,9 @@
       "detail_href": "match_details_2026-06-17/周五032_土耳其_vs_巴拉圭.html",
       "analysis_href": "match_analysis_2026-06-17/周五032_土耳其_vs_巴拉圭_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "source_match_num": "周五032"
     },
     {
@@ -4381,8 +4399,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 0,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 3,
+        "away_score": 1,
+        "score": "3:1",
+        "result": "主胜",
+        "total_goals": 4
+      },
       "source_event_date": "2026-06-18",
       "source_snapshot_id": 79,
       "source_snapshot_fetched_at": "2026-06-17T11:05:01",
@@ -4443,7 +4467,7 @@
       "analysis_href": "match_analysis_2026-06-17/周二020_奥地利_vs_约旦_analysis.html"
     },
     {
-      "match_id": 1263,
+      "match_id": 1299,
       "match_num": "周三021",
       "league": "世界杯",
       "kickoff": "2026-06-18 01:00",
@@ -4479,6 +4503,7 @@
         "无自动硬买项，赛前2小时复核后再决定"
       ],
       "watch_view": [
+        "Sporttery官方候选源与500存在轻微分歧，等待下一次盘口刷新",
         "刚果(金)受让方向或让负",
         "比分区间优先看2-3球，不直接追小2.5",
         "主胜是赛果主线，但盘口表达需降风险"
@@ -4491,12 +4516,12 @@
       ],
       "freshness": {},
       "quality_status": "回避",
-      "quality_score": 18,
+      "quality_score": 12,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 21,
       "advice_summary": {
         "result": {
@@ -4541,7 +4566,7 @@
       "analysis_href": "match_analysis_2026-06-17/周三021_葡萄牙_vs_刚果(金)_analysis.html"
     },
     {
-      "match_id": 1264,
+      "match_id": 1300,
       "match_num": "周三022",
       "league": "世界杯",
       "kickoff": "2026-06-18 04:00",
@@ -4557,16 +4582,16 @@
       ],
       "match_title": "英格兰 vs 克罗地亚",
       "probabilities": {
-        "主胜": 0.5465,
-        "平局": 0.2529,
-        "客胜": 0.2006
+        "主胜": 0.5506,
+        "平局": 0.2494,
+        "客胜": 0.2
       },
       "predicted_result": "主胜",
       "score_band": [
         "1:0",
         "1:1",
-        "2:0",
         "2:1",
+        "2:0",
         "0:0"
       ],
       "confidence": "低",
@@ -4577,6 +4602,7 @@
         "无自动硬买项，赛前2小时复核后再决定"
       ],
       "watch_view": [
+        "Sporttery官方候选源与500存在轻微分歧，等待下一次盘口刷新",
         "存在诱盘规则命中，必须等待临场盘口和首发确认",
         "比分区间优先看2-3球，不直接追小2.5"
       ],
@@ -4585,17 +4611,17 @@
       ],
       "freshness": {},
       "quality_status": "回避",
-      "quality_score": 18,
+      "quality_score": 12,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 22,
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约54.6%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "主胜概率约55.1%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
           "option": "英格兰-1平",
@@ -4635,7 +4661,7 @@
       "analysis_href": "match_analysis_2026-06-17/周三022_英格兰_vs_克罗地亚_analysis.html"
     },
     {
-      "match_id": 1265,
+      "match_id": 1301,
       "match_num": "周三023",
       "league": "世界杯",
       "kickoff": "2026-06-18 07:00",
@@ -4651,9 +4677,9 @@
       ],
       "match_title": "加纳 vs 巴拿马",
       "probabilities": {
-        "主胜": 0.4471,
-        "平局": 0.2902,
-        "客胜": 0.2627
+        "主胜": 0.436,
+        "平局": 0.295,
+        "客胜": 0.269
       },
       "predicted_result": "主胜",
       "score_band": [
@@ -4683,14 +4709,14 @@
       "quality_score": 0,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 23,
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约44.7%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "主胜概率约43.6%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
           "option": "加纳-1平",
@@ -4730,7 +4756,7 @@
       "analysis_href": "match_analysis_2026-06-17/周三023_加纳_vs_巴拿马_analysis.html"
     },
     {
-      "match_id": 1266,
+      "match_id": 1302,
       "match_num": "周三024",
       "league": "世界杯",
       "kickoff": "2026-06-18 10:00",
@@ -4779,9 +4805,9 @@
       "quality_score": 0,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 24,
       "advice_summary": {
         "result": {
@@ -4826,7 +4852,7 @@
       "analysis_href": "match_analysis_2026-06-17/周三024_乌兹别克_vs_哥伦比亚_analysis.html"
     },
     {
-      "match_id": 1272,
+      "match_id": 1308,
       "match_num": "周四025",
       "league": "世界杯",
       "kickoff": "2026-06-19 00:00",
@@ -4874,9 +4900,9 @@
       "quality_score": 12,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 25,
       "advice_summary": {
         "result": {
@@ -4921,7 +4947,7 @@
       "analysis_href": "match_analysis_2026-06-17/周四025_捷克_vs_南非_analysis.html"
     },
     {
-      "match_id": 1273,
+      "match_id": 1309,
       "match_num": "周四026",
       "league": "世界杯",
       "kickoff": "2026-06-19 03:00",
@@ -4970,9 +4996,9 @@
       "quality_score": 12,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 26,
       "advice_summary": {
         "result": {
@@ -5017,7 +5043,7 @@
       "analysis_href": "match_analysis_2026-06-17/周四026_瑞士_vs_波黑_analysis.html"
     },
     {
-      "match_id": 1274,
+      "match_id": 1310,
       "match_num": "周四027",
       "league": "世界杯",
       "kickoff": "2026-06-19 06:00",
@@ -5067,9 +5093,9 @@
       "quality_score": 12,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 27,
       "advice_summary": {
         "result": {
@@ -5114,7 +5140,7 @@
       "analysis_href": "match_analysis_2026-06-17/周四027_加拿大_vs_卡塔尔_analysis.html"
     },
     {
-      "match_id": 1275,
+      "match_id": 1311,
       "match_num": "周四028",
       "league": "世界杯",
       "kickoff": "2026-06-19 09:00",
@@ -5162,9 +5188,9 @@
       "quality_score": 12,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 28,
       "advice_summary": {
         "result": {
@@ -5209,7 +5235,7 @@
       "analysis_href": "match_analysis_2026-06-17/周四028_墨西哥_vs_韩国_analysis.html"
     },
     {
-      "match_id": 1277,
+      "match_id": 1313,
       "match_num": "周五029",
       "league": "世界杯",
       "kickoff": "2026-06-20 03:00",
@@ -5258,9 +5284,9 @@
       "quality_score": 12,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 29,
       "advice_summary": {
         "result": {
@@ -5305,7 +5331,7 @@
       "analysis_href": "match_analysis_2026-06-17/周五029_美国_vs_澳大利亚_analysis.html"
     },
     {
-      "match_id": 1278,
+      "match_id": 1314,
       "match_num": "周五030",
       "league": "世界杯",
       "kickoff": "2026-06-20 06:00",
@@ -5353,9 +5379,9 @@
       "quality_score": 12,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 30,
       "advice_summary": {
         "result": {
@@ -5400,7 +5426,7 @@
       "analysis_href": "match_analysis_2026-06-17/周五030_苏格兰_vs_摩洛哥_analysis.html"
     },
     {
-      "match_id": 1279,
+      "match_id": 1315,
       "match_num": "周五031",
       "league": "世界杯",
       "kickoff": "2026-06-20 08:30",
@@ -5449,9 +5475,9 @@
       "quality_score": 0,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 31,
       "advice_summary": {
         "result": {
@@ -5496,7 +5522,7 @@
       "analysis_href": "match_analysis_2026-06-17/周五031_巴西_vs_海地_analysis.html"
     },
     {
-      "match_id": 1280,
+      "match_id": 1316,
       "match_num": "周五032",
       "league": "世界杯",
       "kickoff": "2026-06-20 11:00",
@@ -5544,9 +5570,9 @@
       "quality_score": 12,
       "is_finished": false,
       "result": {},
-      "source_event_date": "2026-06-18",
-      "source_snapshot_id": 79,
-      "source_snapshot_fetched_at": "2026-06-17T11:05:01",
+      "source_event_date": "2026-06-17",
+      "source_snapshot_id": 81,
+      "source_snapshot_fetched_at": "2026-06-17T14:17:03",
       "fixture_no": 32,
       "advice_summary": {
         "result": {
