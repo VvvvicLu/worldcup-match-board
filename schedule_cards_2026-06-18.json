@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-18",
-  "generated_at": "2026-06-18T03:26:39",
+  "generated_at": "2026-06-18T06:02:37",
   "snapshot": {
     "id": 83,
     "source": "500_jczq",
@@ -4702,39 +4702,53 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约42.8%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约40.5%，领先约10.4个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
-          "option": "加纳-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为加纳-1平。",
-          "label": "让平",
-          "line": -1.0
+          "option": "巴拿马+0.25方向",
+          "reason": "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘，让球方向按临场水位降穿盘预期。",
+          "label": "让负",
+          "line": -0.25
         },
         "score": {
-          "option": "1:0 / 2:0 / 1:1",
-          "reason": "首选看1:0；2:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "1:0 / 2:0 / 2:1",
+          "reason": "比分只保留3个分支：1:0, 2:0, 2:1；它们与主胜和小2.25这两条临场主线保持一致。",
           "options": [
             "1:0",
             "2:0",
-            "1:1"
+            "2:1"
           ],
           "primary": "1:0",
           "result_options": [
             "主胜",
             "主胜",
-            "平局"
+            "主胜"
           ],
           "covers_result": true,
-          "covers_handicap": true,
+          "covers_handicap": false,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2/2.5线以下）",
-          "reason": "主流进球数分界在2/2.5，偏少球（2/2.5线以下）热度高于对侧，当前更像这个比赛节奏。不再用1球/2球/3球替代进球数预测。",
+          "option": "小2.25",
+          "reason": "T-1h大小球2.25，大水2.04/小水1.86，临场更偏小2.25。",
           "side": "小",
-          "line": "2/2.5"
+          "line": 2.25
         },
-        "consistent": true
+        "consistent": true,
+        "t1h_external_rechecked": true,
+        "t1h_source": "kaiyun_playwright",
+        "t1h_rechecked_at": "2026-06-18T06:00:56"
+      },
+      "t1h_recheck": {
+        "status": "updated",
+        "changed": true,
+        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "source": "kaiyun_playwright",
+        "updated_at": "2026-06-18T06:00:56",
+        "conflicts": [
+          "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘",
+          "大小球水位差较明显，进球数方向需要随临场节奏校准"
+        ]
       },
       "detail_filename": "周三023_加纳_vs_巴拿马.html",
       "analysis_filename": "周三023_加纳_vs_巴拿马_analysis.html",
