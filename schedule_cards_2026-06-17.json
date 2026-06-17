@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-17",
-  "generated_at": "2026-06-17T11:05:47",
+  "generated_at": "2026-06-17T11:18:35",
   "snapshot": {
     "id": 77,
     "source": "500_jczq",
@@ -4390,11 +4390,11 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "T-1h外部欧赔与原方向基本一致，主胜仍是当前主线，隐含概率约68.8%。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约69.5%，领先约49.3个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
           "option": "奥地利-1.25方向",
-          "reason": "T-1h亚盘参考线-1.25，主水1.89/客水2.03，结论按奥地利-1.25方向处理。",
+          "reason": "T-1h亚盘参考线-1.25，主水1.85/客水2.07，结论按奥地利-1.25方向处理。",
           "label": "让胜",
           "line": -1.25
         },
@@ -4418,22 +4418,24 @@
         },
         "total": {
           "option": "大2.5",
-          "reason": "T-1h大小球2.5，大水1.91/小水1.99，临场更偏大2.5。",
+          "reason": "T-1h大小球2.5，大水1.87/小水2.03，临场更偏大2.5。",
           "side": "大",
           "line": 2.5
         },
         "consistent": true,
         "t1h_external_rechecked": true,
         "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-17T11:02:51"
+        "t1h_rechecked_at": "2026-06-17T11:17:51"
       },
       "t1h_recheck": {
-        "status": "updated",
-        "changed": true,
-        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "status": "kept",
+        "changed": false,
+        "summary": "T-1h发现风险冲突，但最终结论仍可保留，已写入风险理由。",
         "source": "kaiyun_playwright",
-        "updated_at": "2026-06-17T11:02:51",
-        "conflicts": []
+        "updated_at": "2026-06-17T11:17:51",
+        "conflicts": [
+          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
+        ]
       },
       "detail_filename": "周二020_奥地利_vs_约旦.html",
       "analysis_filename": "周二020_奥地利_vs_约旦_analysis.html",
