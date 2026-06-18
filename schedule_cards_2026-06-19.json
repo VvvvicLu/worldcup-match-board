@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-19",
-  "generated_at": "2026-06-18T23:18:08",
+  "generated_at": "2026-06-19T02:02:45",
   "snapshot": {
     "id": 86,
     "source": "500_jczq",
@@ -5071,39 +5071,50 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约64.2%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "T-1h外部欧赔与原方向基本一致，主胜仍是当前主线，隐含概率约61.2%。"
         },
         "handicap": {
-          "option": "瑞士-1胜",
-          "reason": "盘口分歧较多，娱乐预测按瑞士-1胜处理。",
-          "label": "让胜",
+          "option": "-1盘口均衡",
+          "reason": "T-1h亚盘参考线-1，主水1.99/客水1.93，结论按-1盘口均衡处理。",
+          "label": "让平",
           "line": -1.0
         },
         "score": {
-          "option": "2:0 / 1:0 / 1:1",
-          "reason": "首选看2:0；1:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "1:0 / 2:0 / 2:1",
+          "reason": "比分只保留3个分支：1:0, 2:0, 2:1；它们与主胜和2.5附近均衡这两条临场主线保持一致。",
           "options": [
-            "2:0",
             "1:0",
-            "1:1"
+            "2:0",
+            "2:1"
           ],
-          "primary": "2:0",
+          "primary": "1:0",
           "result_options": [
             "主胜",
             "主胜",
-            "平局"
+            "主胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "2.5附近均衡",
+          "reason": "T-1h大小球2.5附近两侧接近，不强行放大进球数方向。",
+          "side": "均衡",
+          "line": 2.5
         },
-        "consistent": true
+        "consistent": true,
+        "t1h_external_rechecked": true,
+        "t1h_source": "kaiyun_playwright",
+        "t1h_rechecked_at": "2026-06-19T02:01:06"
+      },
+      "t1h_recheck": {
+        "status": "updated",
+        "changed": true,
+        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "source": "kaiyun_playwright",
+        "updated_at": "2026-06-19T02:01:06",
+        "conflicts": []
       },
       "detail_filename": "周四026_瑞士_vs_波黑.html",
       "analysis_filename": "周四026_瑞士_vs_波黑_analysis.html",
