@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-19",
-  "generated_at": "2026-06-19T02:06:42",
+  "generated_at": "2026-06-19T02:18:00",
   "snapshot": {
     "id": 87,
     "source": "500_jczq",
@@ -5089,12 +5089,12 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "T-1h外部欧赔与原方向基本一致，主胜仍是当前主线，隐含概率约61.2%。"
+          "reason": "T-1h外部欧赔与原方向基本一致，主胜仍是当前主线，隐含概率约61.0%。"
         },
         "handicap": {
-          "option": "-1盘口均衡",
-          "reason": "T-1h亚盘参考线-1，主水1.99/客水1.93，结论按-1盘口均衡处理。",
-          "label": "让平",
+          "option": "波黑+1方向",
+          "reason": "T-1h亚盘参考线-1，主水2.00/客水1.92，结论按波黑+1方向处理。",
+          "label": "让负",
           "line": -1.0
         },
         "score": {
@@ -5112,7 +5112,7 @@
             "主胜"
           ],
           "covers_result": true,
-          "covers_handicap": true,
+          "covers_handicap": false,
           "covers_total": true
         },
         "total": {
@@ -5124,14 +5124,14 @@
         "consistent": true,
         "t1h_external_rechecked": true,
         "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-19T02:01:06"
+        "t1h_rechecked_at": "2026-06-19T02:16:19"
       },
       "t1h_recheck": {
         "status": "updated",
         "changed": true,
         "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
         "source": "kaiyun_playwright",
-        "updated_at": "2026-06-19T02:01:06",
+        "updated_at": "2026-06-19T02:16:19",
         "conflicts": []
       },
       "detail_filename": "周四026_瑞士_vs_波黑.html",
