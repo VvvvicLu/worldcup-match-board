@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-19",
-  "generated_at": "2026-06-18T23:02:43",
+  "generated_at": "2026-06-18T23:18:08",
   "snapshot": {
     "id": 86,
     "source": "500_jczq",
@@ -4962,7 +4962,7 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约51.3%，领先约23.5个百分点；已按临场欧亚盘重新校准。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约51.4%，领先约23.7个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
           "option": "捷克-0.5方向",
@@ -4971,14 +4971,14 @@
           "line": -0.5
         },
         "score": {
-          "option": "2:1 / 3:1 / 3:0",
-          "reason": "比分只保留3个分支：2:1, 3:1, 3:0；它们与主胜和大2.25这两条临场主线保持一致。",
+          "option": "1:0 / 2:0 / 2:1",
+          "reason": "比分只保留3个分支：1:0, 2:0, 2:1；它们与主胜和2.25附近均衡这两条临场主线保持一致。",
           "options": [
-            "2:1",
-            "3:1",
-            "3:0"
+            "1:0",
+            "2:0",
+            "2:1"
           ],
-          "primary": "2:1",
+          "primary": "1:0",
           "result_options": [
             "主胜",
             "主胜",
@@ -4989,24 +4989,23 @@
           "covers_total": true
         },
         "total": {
-          "option": "大2.25",
-          "reason": "T-1h大小球2.25，大水1.91/小水1.99，临场更偏大2.25。",
-          "side": "大",
+          "option": "2.25附近均衡",
+          "reason": "T-1h大小球2.25附近两侧接近，不强行放大进球数方向。",
+          "side": "均衡",
           "line": 2.25
         },
         "consistent": true,
         "t1h_external_rechecked": true,
         "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-18T23:01:01"
+        "t1h_rechecked_at": "2026-06-18T23:16:29"
       },
       "t1h_recheck": {
         "status": "updated",
         "changed": true,
         "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
         "source": "kaiyun_playwright",
-        "updated_at": "2026-06-18T23:01:01",
+        "updated_at": "2026-06-18T23:16:29",
         "conflicts": [
-          "欧赔方向从原先平局校准为主胜",
           "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
         ]
       },
