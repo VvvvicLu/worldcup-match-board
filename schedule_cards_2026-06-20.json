@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-20",
-  "generated_at": "2026-06-20T02:17:52",
+  "generated_at": "2026-06-20T05:02:34",
   "snapshot": {
     "id": 91,
     "source": "500_jczq",
@@ -5560,39 +5560,53 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约61.2%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "T-1h外部欧赔显示客胜为当前主线，隐含概率约58.6%，领先约32.5个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
-          "option": "苏格兰+1平",
-          "reason": "让球热度与赛果主线打架，按0:1这条首选比分折回为苏格兰+1平。",
-          "label": "让平",
-          "line": 1.0
+          "option": "摩洛哥-0.75方向",
+          "reason": "T-1h亚盘参考线+0.75，主水2.09/客水1.83，结论按摩洛哥-0.75方向处理。",
+          "label": "客队受让",
+          "line": 0.75
         },
         "score": {
-          "option": "0:1 / 0:2 / 1:1",
-          "reason": "首选看0:1；0:2 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "0:1 / 0:2 / 1:2",
+          "reason": "比分只保留3个分支：0:1, 0:2, 1:2；它们与客胜和小2.25这两条临场主线保持一致。",
           "options": [
             "0:1",
             "0:2",
-            "1:1"
+            "1:2"
           ],
           "primary": "0:1",
           "result_options": [
             "客胜",
             "客胜",
-            "平局"
+            "客胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "option": "小2.25",
+          "reason": "T-1h大小球2.25，大水2.04/小水1.86，临场更偏小2.25。",
           "side": "小",
-          "line": "2.5"
+          "line": 2.25
         },
-        "consistent": true
+        "consistent": true,
+        "t1h_external_rechecked": true,
+        "t1h_source": "kaiyun_playwright",
+        "t1h_rechecked_at": "2026-06-20T05:00:48"
+      },
+      "t1h_recheck": {
+        "status": "updated",
+        "changed": true,
+        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "source": "kaiyun_playwright",
+        "updated_at": "2026-06-20T05:00:48",
+        "conflicts": [
+          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型",
+          "大小球水位差较明显，进球数方向需要随临场节奏校准"
+        ]
       },
       "detail_filename": "周五030_苏格兰_vs_摩洛哥.html",
       "analysis_filename": "周五030_苏格兰_vs_摩洛哥_analysis.html",
