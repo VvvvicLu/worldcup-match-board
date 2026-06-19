@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-20",
-  "generated_at": "2026-06-20T05:06:51",
+  "generated_at": "2026-06-20T05:17:35",
   "snapshot": {
     "id": 92,
     "source": "500_jczq",
@@ -5578,11 +5578,11 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "T-1h外部欧赔显示客胜为当前主线，隐含概率约58.6%，领先约32.5个百分点；已按临场欧亚盘重新校准。"
+          "reason": "T-1h外部欧赔显示客胜为当前主线，隐含概率约59.3%，领先约33.7个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
           "option": "摩洛哥-0.75方向",
-          "reason": "T-1h亚盘参考线+0.75，主水2.09/客水1.83，结论按摩洛哥-0.75方向处理。",
+          "reason": "T-1h亚盘参考线+0.75，主水2.11/客水1.82，结论按摩洛哥-0.75方向处理。",
           "label": "客队受让",
           "line": 0.75
         },
@@ -5606,24 +5606,23 @@
         },
         "total": {
           "option": "小2.25",
-          "reason": "T-1h大小球2.25，大水2.04/小水1.86，临场更偏小2.25。",
+          "reason": "T-1h大小球2.25，大水2.02/小水1.88，临场更偏小2.25。",
           "side": "小",
           "line": 2.25
         },
         "consistent": true,
         "t1h_external_rechecked": true,
         "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-20T05:00:48"
+        "t1h_rechecked_at": "2026-06-20T05:15:48"
       },
       "t1h_recheck": {
-        "status": "updated",
-        "changed": true,
-        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "status": "kept",
+        "changed": false,
+        "summary": "T-1h发现风险冲突，但最终结论仍可保留，已写入风险理由。",
         "source": "kaiyun_playwright",
-        "updated_at": "2026-06-20T05:00:48",
+        "updated_at": "2026-06-20T05:15:48",
         "conflicts": [
-          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型",
-          "大小球水位差较明显，进球数方向需要随临场节奏校准"
+          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
         ]
       },
       "detail_filename": "周五030_苏格兰_vs_摩洛哥.html",
