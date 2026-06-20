@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-21",
-  "generated_at": "2026-06-21T06:26:51",
+  "generated_at": "2026-06-21T07:02:59",
   "snapshot": {
     "id": 100,
     "source": "500_jczq",
@@ -6219,39 +6219,53 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约43.4%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约81.5%，领先约68.7个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
-          "option": "厄瓜多尔-2胜",
-          "reason": "盘口分歧较多，娱乐预测按厄瓜多尔-2胜处理。",
-          "label": "让胜",
-          "line": -2.0
+          "option": "库拉索+2.25方向",
+          "reason": "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘，让球方向按临场水位降穿盘预期。",
+          "label": "让负",
+          "line": -2.25
         },
         "score": {
-          "option": "2:0 / 1:0 / 1:1",
-          "reason": "首选看2:0；1:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "2:1 / 3:1 / 3:0",
+          "reason": "比分只保留3个分支：2:1, 3:1, 3:0；它们与主胜和大3这两条临场主线保持一致。",
           "options": [
-            "2:0",
-            "1:0",
-            "1:1"
+            "2:1",
+            "3:1",
+            "3:0"
           ],
-          "primary": "2:0",
+          "primary": "2:1",
           "result_options": [
             "主胜",
             "主胜",
-            "平局"
+            "主胜"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "大3",
+          "reason": "T-1h大小球3，大水1.91/小水1.99，临场更偏大3。",
+          "side": "大",
+          "line": 3.0
         },
-        "consistent": false
+        "consistent": true,
+        "t1h_external_rechecked": true,
+        "t1h_source": "kaiyun_playwright",
+        "t1h_rechecked_at": "2026-06-21T07:01:07"
+      },
+      "t1h_recheck": {
+        "status": "updated",
+        "changed": true,
+        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "source": "kaiyun_playwright",
+        "updated_at": "2026-06-21T07:01:07",
+        "conflicts": [
+          "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘",
+          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
+        ]
       },
       "detail_filename": "周六035_厄瓜多尔_vs_库拉索.html",
       "analysis_filename": "周六035_厄瓜多尔_vs_库拉索_analysis.html",
