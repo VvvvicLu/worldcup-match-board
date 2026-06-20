@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-21",
-  "generated_at": "2026-06-21T00:02:57",
+  "generated_at": "2026-06-21T00:27:11",
   "snapshot": {
     "id": 96,
     "source": "500_jczq",
@@ -5940,11 +5940,11 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约57.2%，领先约34.8个百分点；已按临场欧亚盘重新校准。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约57.6%，领先约35.2个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
           "option": "荷兰-0.75方向",
-          "reason": "T-1h亚盘参考线-0.75，主水1.89/客水2.03，结论按荷兰-0.75方向处理。",
+          "reason": "T-1h亚盘参考线-0.75，主水1.87/客水2.05，结论按荷兰-0.75方向处理。",
           "label": "让胜",
           "line": -0.75
         },
@@ -5968,23 +5968,23 @@
         },
         "total": {
           "option": "小3",
-          "reason": "T-1h大小球3，大水2.02/小水1.88，临场更偏小3。",
+          "reason": "T-1h大小球3，大水2.03/小水1.87，临场更偏小3。",
           "side": "小",
           "line": 3.0
         },
         "consistent": true,
         "t1h_external_rechecked": true,
         "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-21T00:01:08"
+        "t1h_rechecked_at": "2026-06-21T00:25:23"
       },
       "t1h_recheck": {
-        "status": "updated",
-        "changed": true,
-        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "status": "kept",
+        "changed": false,
+        "summary": "T-1h发现风险冲突，但最终结论仍可保留，已写入风险理由。",
         "source": "kaiyun_playwright",
-        "updated_at": "2026-06-21T00:01:08",
+        "updated_at": "2026-06-21T00:25:23",
         "conflicts": [
-          "欧赔方向从原先平局校准为主胜"
+          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
         ]
       },
       "detail_filename": "周六033_荷兰_vs_瑞典.html",
