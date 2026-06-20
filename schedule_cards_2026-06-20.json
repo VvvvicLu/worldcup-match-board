@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-20",
-  "generated_at": "2026-06-20T08:26:48",
+  "generated_at": "2026-06-20T10:02:58",
   "snapshot": {
     "id": 93,
     "source": "500_jczq",
@@ -5814,39 +5814,53 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约49.7%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约46.8%，领先约18.4个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
-          "option": "土耳其-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为土耳其-1平。",
-          "label": "让平",
-          "line": -1.0
+          "option": "巴拉圭+0.5方向",
+          "reason": "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘，让球方向按临场水位降穿盘预期。",
+          "label": "让负",
+          "line": -0.5
         },
         "score": {
-          "option": "1:0 / 2:0 / 1:1",
-          "reason": "首选看1:0；2:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "1:0 / 2:0 / 2:1",
+          "reason": "比分只保留3个分支：1:0, 2:0, 2:1；它们与主胜和2.25附近均衡这两条临场主线保持一致。",
           "options": [
             "1:0",
             "2:0",
-            "1:1"
+            "2:1"
           ],
           "primary": "1:0",
           "result_options": [
             "主胜",
             "主胜",
-            "平局"
+            "主胜"
           ],
           "covers_result": true,
-          "covers_handicap": true,
+          "covers_handicap": false,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "2.25附近均衡",
+          "reason": "T-1h大小球2.25附近两侧接近，不强行放大进球数方向。",
+          "side": "均衡",
+          "line": 2.25
         },
-        "consistent": true
+        "consistent": true,
+        "t1h_external_rechecked": true,
+        "t1h_source": "kaiyun_playwright",
+        "t1h_rechecked_at": "2026-06-20T10:01:08"
+      },
+      "t1h_recheck": {
+        "status": "updated",
+        "changed": true,
+        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "source": "kaiyun_playwright",
+        "updated_at": "2026-06-20T10:01:08",
+        "conflicts": [
+          "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘",
+          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
+        ]
       },
       "detail_filename": "周五032_土耳其_vs_巴拉圭.html",
       "analysis_filename": "周五032_土耳其_vs_巴拉圭_analysis.html",
