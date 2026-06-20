@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-21",
-  "generated_at": "2026-06-21T03:06:52",
+  "generated_at": "2026-06-21T03:17:51",
   "snapshot": {
     "id": 97,
     "source": "500_jczq",
@@ -6079,7 +6079,7 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约65.4%，领先约45.7个百分点；已按临场欧亚盘重新校准。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约64.5%，领先约44.3个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
           "option": "科特迪瓦+1.25方向",
@@ -6089,7 +6089,7 @@
         },
         "score": {
           "option": "2:1 / 3:1 / 3:0",
-          "reason": "比分只保留3个分支：2:1, 3:1, 3:0；它们与主胜和3附近均衡这两条临场主线保持一致。",
+          "reason": "比分只保留3个分支：2:1, 3:1, 3:0；它们与主胜和小3这两条临场主线保持一致。",
           "options": [
             "2:1",
             "3:1",
@@ -6103,27 +6103,28 @@
           ],
           "covers_result": true,
           "covers_handicap": true,
-          "covers_total": true
+          "covers_total": false
         },
         "total": {
-          "option": "3附近均衡",
-          "reason": "T-1h大小球3附近两侧接近，不强行放大进球数方向。",
-          "side": "均衡",
+          "option": "小3",
+          "reason": "T-1h大小球3，大水1.99/小水1.91，临场更偏小3。",
+          "side": "小",
           "line": 3.0
         },
         "consistent": true,
         "t1h_external_rechecked": true,
         "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-21T03:01:04"
+        "t1h_rechecked_at": "2026-06-21T03:16:01"
       },
       "t1h_recheck": {
         "status": "updated",
         "changed": true,
         "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
         "source": "kaiyun_playwright",
-        "updated_at": "2026-06-21T03:01:04",
+        "updated_at": "2026-06-21T03:16:01",
         "conflicts": [
-          "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘"
+          "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘",
+          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
         ]
       },
       "detail_filename": "周六034_德国_vs_科特迪瓦.html",
