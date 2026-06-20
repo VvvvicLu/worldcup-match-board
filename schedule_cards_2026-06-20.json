@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-20",
-  "generated_at": "2026-06-20T10:02:58",
+  "generated_at": "2026-06-20T10:18:07",
   "snapshot": {
     "id": 93,
     "source": "500_jczq",
@@ -5814,7 +5814,7 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约46.8%，领先约18.4个百分点；已按临场欧亚盘重新校准。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约47.1%，领先约18.9个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
           "option": "巴拉圭+0.5方向",
@@ -5849,17 +5849,16 @@
         "consistent": true,
         "t1h_external_rechecked": true,
         "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-20T10:01:08"
+        "t1h_rechecked_at": "2026-06-20T10:16:21"
       },
       "t1h_recheck": {
-        "status": "updated",
-        "changed": true,
-        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "status": "kept",
+        "changed": false,
+        "summary": "T-1h发现风险冲突，但最终结论仍可保留，已写入风险理由。",
         "source": "kaiyun_playwright",
-        "updated_at": "2026-06-20T10:01:08",
+        "updated_at": "2026-06-20T10:16:21",
         "conflicts": [
-          "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘",
-          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
+          "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘"
         ]
       },
       "detail_filename": "周五032_土耳其_vs_巴拉圭.html",
