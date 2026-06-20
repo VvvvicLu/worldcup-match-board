@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-21",
-  "generated_at": "2026-06-21T07:02:59",
+  "generated_at": "2026-06-21T07:17:58",
   "snapshot": {
     "id": 100,
     "source": "500_jczq",
@@ -6219,7 +6219,7 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约81.5%，领先约68.7个百分点；已按临场欧亚盘重新校准。"
+          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约81.4%，领先约68.7个百分点；已按临场欧亚盘重新校准。"
         },
         "handicap": {
           "option": "库拉索+2.25方向",
@@ -6247,21 +6247,21 @@
         },
         "total": {
           "option": "大3",
-          "reason": "T-1h大小球3，大水1.91/小水1.99，临场更偏大3。",
+          "reason": "T-1h大小球3，大水1.89/小水2.01，临场更偏大3。",
           "side": "大",
           "line": 3.0
         },
         "consistent": true,
         "t1h_external_rechecked": true,
         "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-21T07:01:07"
+        "t1h_rechecked_at": "2026-06-21T07:16:07"
       },
       "t1h_recheck": {
-        "status": "updated",
-        "changed": true,
-        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "status": "kept",
+        "changed": false,
+        "summary": "T-1h发现风险冲突，但最终结论仍可保留，已写入风险理由。",
         "source": "kaiyun_playwright",
-        "updated_at": "2026-06-21T07:01:07",
+        "updated_at": "2026-06-21T07:16:07",
         "conflicts": [
           "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘",
           "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
