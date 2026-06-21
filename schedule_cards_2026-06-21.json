@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-21",
-  "generated_at": "2026-06-21T10:26:53",
+  "generated_at": "2026-06-21T11:03:29",
   "snapshot": {
     "id": 103,
     "source": "500_jczq",
@@ -6359,39 +6359,50 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约67.9%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "T-1h外部欧赔与原方向基本一致，客胜仍是当前主线，隐含概率约66.9%。"
         },
         "handicap": {
-          "option": "突尼斯+1负",
-          "reason": "盘口分歧较多，娱乐预测按突尼斯+1负处理。",
-          "label": "让负",
-          "line": 1.0
+          "option": "突尼斯+1.25方向",
+          "reason": "T-1h亚盘参考线+1.25，主水1.91/客水2.01，结论按突尼斯+1.25方向处理。",
+          "label": "受让主队",
+          "line": 1.25
         },
         "score": {
-          "option": "0:2 / 0:1 / 1:1",
-          "reason": "首选看0:2；0:1 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "0:1 / 0:2 / 1:2",
+          "reason": "比分只保留3个分支：0:1, 0:2, 1:2；它们与客胜和小2.5这两条临场主线保持一致。",
           "options": [
-            "0:2",
             "0:1",
-            "1:1"
+            "0:2",
+            "1:2"
           ],
-          "primary": "0:2",
+          "primary": "0:1",
           "result_options": [
             "客胜",
             "客胜",
-            "平局"
+            "客胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "option": "小2.5",
+          "reason": "T-1h大小球2.5，大水1.99/小水1.91，临场更偏小2.5。",
           "side": "小",
-          "line": "2.5"
+          "line": 2.5
         },
-        "consistent": true
+        "consistent": true,
+        "t1h_external_rechecked": true,
+        "t1h_source": "kaiyun_playwright",
+        "t1h_rechecked_at": "2026-06-21T11:01:37"
+      },
+      "t1h_recheck": {
+        "status": "updated",
+        "changed": true,
+        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "source": "kaiyun_playwright",
+        "updated_at": "2026-06-21T11:01:37",
+        "conflicts": []
       },
       "detail_filename": "周六036_突尼斯_vs_日本.html",
       "analysis_filename": "周六036_突尼斯_vs_日本_analysis.html",
