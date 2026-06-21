@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-21",
-  "generated_at": "2026-06-21T14:26:58",
+  "generated_at": "2026-06-21T15:23:37",
   "snapshot": {
     "id": 106,
     "source": "500_jczq",
@@ -6058,52 +6058,39 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约57.6%，领先约35.2个百分点；已按临场欧亚盘重新校准。"
+          "reason": "主胜概率约60.9%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "荷兰-0.75方向",
-          "reason": "T-1h亚盘参考线-0.75，主水1.87/客水2.05，结论按荷兰-0.75方向处理。",
-          "label": "让胜",
-          "line": -0.75
+          "option": "荷兰-1平",
+          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为荷兰-1平。",
+          "label": "让平",
+          "line": -1.0
         },
         "score": {
-          "option": "2:1 / 3:1 / 3:0",
-          "reason": "比分只保留3个分支：2:1, 3:1, 3:0；它们与主胜和小3这两条临场主线保持一致。",
+          "option": "1:0 / 2:0 / 1:1",
+          "reason": "首选看1:0；2:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
           "options": [
-            "2:1",
-            "3:1",
-            "3:0"
+            "1:0",
+            "2:0",
+            "1:1"
           ],
-          "primary": "2:1",
+          "primary": "1:0",
           "result_options": [
             "主胜",
             "主胜",
-            "主胜"
+            "平局"
           ],
           "covers_result": true,
           "covers_handicap": true,
-          "covers_total": false
+          "covers_total": true
         },
         "total": {
-          "option": "小3",
-          "reason": "T-1h大小球3，大水2.03/小水1.87，临场更偏小3。",
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
           "side": "小",
-          "line": 3.0
+          "line": "2.5"
         },
-        "consistent": true,
-        "t1h_external_rechecked": true,
-        "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-21T00:25:23"
-      },
-      "t1h_recheck": {
-        "status": "kept",
-        "changed": false,
-        "summary": "T-1h发现风险冲突，但最终结论仍可保留，已写入风险理由。",
-        "source": "kaiyun_playwright",
-        "updated_at": "2026-06-21T00:25:23",
-        "conflicts": [
-          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
-        ]
+        "consistent": true
       },
       "detail_filename": "周六033_荷兰_vs_瑞典.html",
       "analysis_filename": "周六033_荷兰_vs_瑞典_analysis.html",
@@ -6173,53 +6160,39 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约64.5%，领先约44.3个百分点；已按临场欧亚盘重新校准。"
+          "reason": "主胜概率约68.3%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "科特迪瓦+1.25方向",
-          "reason": "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘，让球方向按临场水位降穿盘预期。",
-          "label": "让负",
-          "line": -1.25
+          "option": "德国-1胜",
+          "reason": "盘口分歧较多，娱乐预测按德国-1胜处理。",
+          "label": "让胜",
+          "line": -1.0
         },
         "score": {
-          "option": "2:1 / 3:1 / 3:0",
-          "reason": "比分只保留3个分支：2:1, 3:1, 3:0；它们与主胜和小3这两条临场主线保持一致。",
+          "option": "2:0 / 1:0 / 1:1",
+          "reason": "首选看2:0；1:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
           "options": [
-            "2:1",
-            "3:1",
-            "3:0"
+            "2:0",
+            "1:0",
+            "1:1"
           ],
-          "primary": "2:1",
+          "primary": "2:0",
           "result_options": [
             "主胜",
             "主胜",
-            "主胜"
+            "平局"
           ],
           "covers_result": true,
           "covers_handicap": true,
-          "covers_total": false
+          "covers_total": true
         },
         "total": {
-          "option": "小3",
-          "reason": "T-1h大小球3，大水1.99/小水1.91，临场更偏小3。",
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
           "side": "小",
-          "line": 3.0
+          "line": "2.5"
         },
-        "consistent": true,
-        "t1h_external_rechecked": true,
-        "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-21T03:16:01"
-      },
-      "t1h_recheck": {
-        "status": "updated",
-        "changed": true,
-        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
-        "source": "kaiyun_playwright",
-        "updated_at": "2026-06-21T03:16:01",
-        "conflicts": [
-          "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘",
-          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
-        ]
+        "consistent": true
       },
       "detail_filename": "周六034_德国_vs_科特迪瓦.html",
       "analysis_filename": "周六034_德国_vs_科特迪瓦_analysis.html",
@@ -6289,53 +6262,39 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "T-1h外部欧赔显示主胜为当前主线，隐含概率约81.4%，领先约68.7个百分点；已按临场欧亚盘重新校准。"
+          "reason": "主胜概率约43.4%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "库拉索+2.25方向",
-          "reason": "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘，让球方向按临场水位降穿盘预期。",
-          "label": "让负",
-          "line": -2.25
+          "option": "厄瓜多尔-2胜",
+          "reason": "盘口分歧较多，娱乐预测按厄瓜多尔-2胜处理。",
+          "label": "让胜",
+          "line": -2.0
         },
         "score": {
-          "option": "2:1 / 3:1 / 3:0",
-          "reason": "比分只保留3个分支：2:1, 3:1, 3:0；它们与主胜和大3这两条临场主线保持一致。",
+          "option": "2:0 / 1:0 / 1:1",
+          "reason": "首选看2:0；1:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
           "options": [
-            "2:1",
-            "3:1",
-            "3:0"
+            "2:0",
+            "1:0",
+            "1:1"
           ],
-          "primary": "2:1",
+          "primary": "2:0",
           "result_options": [
             "主胜",
             "主胜",
-            "主胜"
+            "平局"
           ],
           "covers_result": true,
-          "covers_handicap": true,
+          "covers_handicap": false,
           "covers_total": true
         },
         "total": {
-          "option": "大3",
-          "reason": "T-1h大小球3，大水1.89/小水2.01，临场更偏大3。",
-          "side": "大",
-          "line": 3.0
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "side": "小",
+          "line": "2.5"
         },
-        "consistent": true,
-        "t1h_external_rechecked": true,
-        "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-21T07:16:07"
-      },
-      "t1h_recheck": {
-        "status": "kept",
-        "changed": false,
-        "summary": "T-1h发现风险冲突，但最终结论仍可保留，已写入风险理由。",
-        "source": "kaiyun_playwright",
-        "updated_at": "2026-06-21T07:16:07",
-        "conflicts": [
-          "欧赔偏主胜，但亚盘主队水位偏高，主胜不等于穿盘",
-          "亚盘两侧水位差较明显，优先尊重临场水位而不是旧模型"
-        ]
+        "consistent": false
       },
       "detail_filename": "周六035_厄瓜多尔_vs_库拉索.html",
       "analysis_filename": "周六035_厄瓜多尔_vs_库拉索_analysis.html",
@@ -6405,50 +6364,39 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "T-1h外部欧赔与原方向基本一致，客胜仍是当前主线，隐含概率约66.9%。"
+          "reason": "客胜概率约67.9%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "突尼斯+1.25方向",
-          "reason": "T-1h亚盘参考线+1.25，主水1.91/客水2.01，结论按突尼斯+1.25方向处理。",
-          "label": "受让主队",
-          "line": 1.25
+          "option": "突尼斯+1负",
+          "reason": "盘口分歧较多，娱乐预测按突尼斯+1负处理。",
+          "label": "让负",
+          "line": 1.0
         },
         "score": {
-          "option": "0:1 / 0:2 / 1:2",
-          "reason": "比分只保留3个分支：0:1, 0:2, 1:2；它们与客胜和小2.5这两条临场主线保持一致。",
+          "option": "0:2 / 0:1 / 1:1",
+          "reason": "首选看0:2；0:1 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
           "options": [
-            "0:1",
             "0:2",
-            "1:2"
+            "0:1",
+            "1:1"
           ],
-          "primary": "0:1",
+          "primary": "0:2",
           "result_options": [
             "客胜",
             "客胜",
-            "客胜"
+            "平局"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "小2.5",
-          "reason": "T-1h大小球2.5，大水1.99/小水1.91，临场更偏小2.5。",
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
           "side": "小",
-          "line": 2.5
+          "line": "2.5"
         },
-        "consistent": true,
-        "t1h_external_rechecked": true,
-        "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-21T11:16:36"
-      },
-      "t1h_recheck": {
-        "status": "kept",
-        "changed": false,
-        "summary": "T-1h外部欧亚盘未明显推翻原结论，网页预测保持。",
-        "source": "kaiyun_playwright",
-        "updated_at": "2026-06-21T11:16:36",
-        "conflicts": []
+        "consistent": true
       },
       "detail_filename": "周六036_突尼斯_vs_日本.html",
       "analysis_filename": "周六036_突尼斯_vs_日本_analysis.html",
@@ -6512,39 +6460,39 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约44.3%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "西班牙胜面仍是主线，但盘口已经把反弹预期计入价格。主胜可作方向，不等于支持深盘大穿。"
         },
         "handicap": {
-          "option": "西班牙-2胜",
-          "reason": "盘口分歧较多，娱乐预测按西班牙-2胜处理。",
-          "label": "让胜",
-          "line": -2.0
+          "option": "沙特+2.5方向",
+          "reason": "外部亚盘主线在西班牙-2.5，深盘需要至少赢3球；结合首轮节奏和沙特低位防守，更适合防2球以内。",
+          "label": "受让客队",
+          "line": 2.5
         },
         "score": {
-          "option": "2:0 / 1:0 / 1:1",
-          "reason": "首选看2:0；1:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "2:0 / 3:0 / 2:1",
+          "reason": "比分围绕西班牙赢球但不盲目放大，2:0是最贴合主胜和小3.5的路径。",
           "options": [
             "2:0",
-            "1:0",
-            "1:1"
+            "3:0",
+            "2:1"
           ],
           "primary": "2:0",
           "result_options": [
             "主胜",
             "主胜",
-            "平局"
+            "主胜"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "option": "小3.5",
+          "reason": "总进球主线在3.5，小球水位更低；市场防西班牙赢球但不支持无脑4球以上。",
           "side": "小",
-          "line": "2.5"
+          "line": 3.5
         },
-        "consistent": false
+        "consistent": true
       },
       "detail_filename": "周日037_西班牙_vs_沙特阿拉伯.html",
       "analysis_filename": "周日037_西班牙_vs_沙特阿拉伯_analysis.html",
@@ -6608,23 +6556,23 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约69.2%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "比利时阵容质量和欧赔仍占优，但首轮防线不稳，主胜只作为赛果方向。"
         },
         "handicap": {
-          "option": "比利时-1胜",
-          "reason": "盘口分歧较多，娱乐预测按比利时-1胜处理。",
-          "label": "让胜",
-          "line": -1.0
+          "option": "伊朗+1.25方向",
+          "reason": "亚盘比利时-1.25处于高水，市场没有强支持两球穿盘；伊朗受让更贴合1球小胜或2:1路径。",
+          "label": "受让客队",
+          "line": 1.25
         },
         "score": {
-          "option": "2:0 / 1:0 / 1:1",
-          "reason": "首选看2:0；1:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "2:1 / 1:0 / 1:1",
+          "reason": "比分保留比利时小胜和伊朗拿分分支，和受让方向一致。",
           "options": [
-            "2:0",
+            "2:1",
             "1:0",
             "1:1"
           ],
-          "primary": "2:0",
+          "primary": "2:1",
           "result_options": [
             "主胜",
             "主胜",
@@ -6635,10 +6583,10 @@
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "option": "小2.75",
+          "reason": "大小球在2.75附近且小球水位更低，市场更偏控制局，防2球或3球走半。",
           "side": "小",
-          "line": "2.5"
+          "line": 2.75
         },
         "consistent": true
       },
@@ -6704,37 +6652,37 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约68.1%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "乌拉圭必须抢分且整体强度高于佛得角，赛果主线仍是主胜。"
         },
         "handicap": {
-          "option": "乌拉圭-1胜",
-          "reason": "盘口分歧较多，娱乐预测按乌拉圭-1胜处理。",
-          "label": "让胜",
+          "option": "乌拉圭-1方向",
+          "reason": "亚盘主线在-1，赢1球走水、赢2球吃，兼顾乌拉圭胜面和佛得角防守韧性。",
+          "label": "让胜/走水保护",
           "line": -1.0
         },
         "score": {
-          "option": "2:0 / 1:0 / 1:1",
-          "reason": "首选看2:0；1:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "1:0 / 2:0 / 2:1",
+          "reason": "比分围绕乌拉圭小胜，避免把佛得角首轮防守表现直接推成冷门剧本。",
           "options": [
-            "2:0",
             "1:0",
-            "1:1"
+            "2:0",
+            "2:1"
           ],
-          "primary": "2:0",
+          "primary": "1:0",
           "result_options": [
             "主胜",
             "主胜",
-            "平局"
+            "主胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "option": "小2.25",
+          "reason": "总进球主线仅2.25且小球低水，市场更像防1-0/2-0，而不是乌拉圭大胜。",
           "side": "小",
-          "line": "2.5"
+          "line": 2.25
         },
         "consistent": true
       },
@@ -6800,37 +6748,37 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约61.5%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "埃及个人能力和前场终结更好，赛果方向仍倾向客胜。"
         },
         "handicap": {
-          "option": "新西兰+1平",
-          "reason": "让球热度与赛果主线打架，按0:1这条首选比分折回为新西兰+1平。",
-          "label": "让平",
+          "option": "新西兰+1方向",
+          "reason": "埃及-1处于偏高回报，市场没有确认两球穿盘；新西兰+1能覆盖0:1走水和1:1冷平。",
+          "label": "受让主队",
           "line": 1.0
         },
         "score": {
-          "option": "0:1 / 0:2 / 1:1",
-          "reason": "首选看0:1；0:2 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "0:1 / 1:1 / 1:2",
+          "reason": "比分以埃及小胜为主，同时保留新西兰进球和拿分分支。",
           "options": [
             "0:1",
-            "0:2",
-            "1:1"
+            "1:1",
+            "1:2"
           ],
           "primary": "0:1",
           "result_options": [
             "客胜",
-            "客胜",
-            "平局"
+            "平局",
+            "客胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "大1.5/2",
+          "reason": "主线2.25附近但双方首轮都有进球能力，低门槛大1.5/2比直接追大2.5更合理。",
+          "side": "大",
+          "line": 1.75
         },
         "consistent": true
       },
