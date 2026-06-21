@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-21",
-  "generated_at": "2026-06-21T11:03:29",
+  "generated_at": "2026-06-21T11:18:27",
   "snapshot": {
     "id": 103,
     "source": "500_jczq",
@@ -6394,14 +6394,14 @@
         "consistent": true,
         "t1h_external_rechecked": true,
         "t1h_source": "kaiyun_playwright",
-        "t1h_rechecked_at": "2026-06-21T11:01:37"
+        "t1h_rechecked_at": "2026-06-21T11:16:36"
       },
       "t1h_recheck": {
-        "status": "updated",
-        "changed": true,
-        "summary": "T-1h外部欧亚盘与原模型存在差异，已同步修正网页预测。",
+        "status": "kept",
+        "changed": false,
+        "summary": "T-1h外部欧亚盘未明显推翻原结论，网页预测保持。",
         "source": "kaiyun_playwright",
-        "updated_at": "2026-06-21T11:01:37",
+        "updated_at": "2026-06-21T11:16:36",
         "conflicts": []
       },
       "detail_filename": "周六036_突尼斯_vs_日本.html",
