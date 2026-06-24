@@ -1,13 +1,13 @@
 {
   "event_date": "2026-06-24",
-  "generated_at": "2026-06-24T09:27:29",
+  "generated_at": "2026-06-24T12:07:35",
   "snapshot": {
-    "id": 121,
+    "id": 122,
     "source": "500_jczq",
     "event_date": "2026-06-24",
-    "fetched_at": "2026-06-24T09:05:01",
+    "fetched_at": "2026-06-24T12:05:01",
     "url": "https://trade.500.com/jczq/?playid=312&g=2&date=2026-06-24",
-    "raw_count": 12
+    "raw_count": 18
   },
   "source_snapshots": [
     {
@@ -729,6 +729,12 @@
       "event_date": "2026-06-24",
       "fetched_at": "2026-06-24T09:05:01",
       "raw_count": 12
+    },
+    {
+      "id": 122,
+      "event_date": "2026-06-24",
+      "fetched_at": "2026-06-24T12:05:01",
+      "raw_count": 18
     }
   ],
   "summary": {
@@ -738,15 +744,15 @@
     "avoid": 0,
     "hard_buy": 0,
     "can_execute_bet": false,
-    "next_kickoff": "2026-06-24 10:00",
-    "analysis_matches": 60,
-    "opened_matches": 60,
+    "next_kickoff": "2026-06-25 03:00",
+    "analysis_matches": 66,
+    "opened_matches": 66,
     "schedule_matches": 72,
-    "clickable_matches": 60,
-    "static_matches": 12,
-    "snapshot_count": 120,
+    "clickable_matches": 66,
+    "static_matches": 6,
+    "snapshot_count": 121,
     "snapshot_dates": 15,
-    "primary_snapshot_id": 121
+    "primary_snapshot_id": 122
   },
   "gate": {},
   "source_lag": {},
@@ -2367,8 +2373,14 @@
         "乌兹别克",
         "哥伦比亚"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 1,
+        "away_score": 0,
+        "score": "1:0",
+        "result": "主胜",
+        "total_goals": 1
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-24/周二048_哥伦比亚_vs_刚果(金).html",
       "analysis_href": "match_analysis_2026-06-24/周二048_哥伦比亚_vs_刚果(金)_analysis.html",
@@ -2402,8 +2414,8 @@
       "analysis_href": "match_analysis_2026-06-24/周三049_瑞士_vs_加拿大_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周三049"
     },
     {
@@ -2430,8 +2442,8 @@
       "analysis_href": "match_analysis_2026-06-24/周三050_波黑_vs_卡塔尔_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周三050"
     },
     {
@@ -2458,8 +2470,8 @@
       "analysis_href": "match_analysis_2026-06-24/周三051_苏格兰_vs_巴西_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周三051"
     },
     {
@@ -2486,8 +2498,8 @@
       "analysis_href": "match_analysis_2026-06-24/周三052_摩洛哥_vs_海地_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周三052"
     },
     {
@@ -2514,8 +2526,8 @@
       "analysis_href": "match_analysis_2026-06-24/周三054_捷克_vs_墨西哥_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周三054"
     },
     {
@@ -2542,8 +2554,8 @@
       "analysis_href": "match_analysis_2026-06-24/周三053_南非_vs_韩国_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周三053"
     },
     {
@@ -2570,8 +2582,8 @@
       "analysis_href": "match_analysis_2026-06-24/周四056_库拉索_vs_科特迪瓦_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周四056"
     },
     {
@@ -2598,8 +2610,8 @@
       "analysis_href": "match_analysis_2026-06-24/周四055_厄瓜多尔_vs_德国_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周四055"
     },
     {
@@ -2626,8 +2638,8 @@
       "analysis_href": "match_analysis_2026-06-24/周四058_日本_vs_瑞典_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周四058"
     },
     {
@@ -2654,8 +2666,8 @@
       "analysis_href": "match_analysis_2026-06-24/周四057_突尼斯_vs_荷兰_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周四057"
     },
     {
@@ -2682,8 +2694,8 @@
       "analysis_href": "match_analysis_2026-06-24/周四060_土耳其_vs_美国_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周四060"
     },
     {
@@ -2710,8 +2722,8 @@
       "analysis_href": "match_analysis_2026-06-24/周四059_巴拉圭_vs_澳大利亚_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "source_match_num": "周四059"
     },
     {
@@ -2733,7 +2745,14 @@
       ],
       "result": {},
       "is_finished": false,
-      "is_schedule_only": true
+      "is_schedule_only": false,
+      "detail_href": "match_details_2026-06-24/周五061_挪威_vs_法国.html",
+      "analysis_href": "match_analysis_2026-06-24/周五061_挪威_vs_法国_analysis.html",
+      "action": "avoid",
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "source_match_num": "周五061"
     },
     {
       "fixture_no": 62,
@@ -2754,7 +2773,14 @@
       ],
       "result": {},
       "is_finished": false,
-      "is_schedule_only": true
+      "is_schedule_only": false,
+      "detail_href": "match_details_2026-06-24/周五062_塞内加尔_vs_伊拉克.html",
+      "analysis_href": "match_analysis_2026-06-24/周五062_塞内加尔_vs_伊拉克_analysis.html",
+      "action": "avoid",
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "source_match_num": "周五062"
     },
     {
       "fixture_no": 63,
@@ -2775,7 +2801,14 @@
       ],
       "result": {},
       "is_finished": false,
-      "is_schedule_only": true
+      "is_schedule_only": false,
+      "detail_href": "match_details_2026-06-24/周五063_佛得角_vs_沙特阿拉伯.html",
+      "analysis_href": "match_analysis_2026-06-24/周五063_佛得角_vs_沙特阿拉伯_analysis.html",
+      "action": "avoid",
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "source_match_num": "周五063"
     },
     {
       "fixture_no": 64,
@@ -2796,7 +2829,14 @@
       ],
       "result": {},
       "is_finished": false,
-      "is_schedule_only": true
+      "is_schedule_only": false,
+      "detail_href": "match_details_2026-06-24/周五064_乌拉圭_vs_西班牙.html",
+      "analysis_href": "match_analysis_2026-06-24/周五064_乌拉圭_vs_西班牙_analysis.html",
+      "action": "avoid",
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "source_match_num": "周五064"
     },
     {
       "fixture_no": 65,
@@ -2817,7 +2857,14 @@
       ],
       "result": {},
       "is_finished": false,
-      "is_schedule_only": true
+      "is_schedule_only": false,
+      "detail_href": "match_details_2026-06-24/周五065_埃及_vs_伊朗.html",
+      "analysis_href": "match_analysis_2026-06-24/周五065_埃及_vs_伊朗_analysis.html",
+      "action": "avoid",
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "source_match_num": "周五065"
     },
     {
       "fixture_no": 66,
@@ -2838,7 +2885,14 @@
       ],
       "result": {},
       "is_finished": false,
-      "is_schedule_only": true
+      "is_schedule_only": false,
+      "detail_href": "match_details_2026-06-24/周五066_新西兰_vs_比利时.html",
+      "analysis_href": "match_analysis_2026-06-24/周五066_新西兰_vs_比利时_analysis.html",
+      "action": "avoid",
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "source_match_num": "周五066"
     },
     {
       "fixture_no": 67,
@@ -7813,8 +7867,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 12,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 1,
+        "away_score": 0,
+        "score": "1:0",
+        "result": "主胜",
+        "total_goals": 1
+      },
       "source_event_date": "2026-06-24",
       "source_snapshot_id": 118,
       "source_snapshot_fetched_at": "2026-06-23T16:28:11",
@@ -7862,7 +7922,7 @@
       "analysis_href": "match_analysis_2026-06-24/周二048_哥伦比亚_vs_刚果(金)_analysis.html"
     },
     {
-      "match_id": 1742,
+      "match_id": 1754,
       "match_num": "周三049",
       "league": "世界杯",
       "kickoff": "2026-06-25 03:00",
@@ -7878,16 +7938,16 @@
       ],
       "match_title": "瑞士 vs 加拿大",
       "probabilities": {
-        "主胜": 0.3611,
-        "平局": 0.3381,
-        "客胜": 0.3008
+        "主胜": 0.3695,
+        "平局": 0.3341,
+        "客胜": 0.2964
       },
       "predicted_result": "主胜",
       "score_band": [
         "1:1",
-        "1:0",
-        "0:0",
         "2:1",
+        "0:0",
+        "1:0",
         "0:1"
       ],
       "confidence": "低",
@@ -7899,11 +7959,11 @@
       ],
       "watch_view": [
         "缺少Sporttery官方候选源匹配，不能把单源盘口当作硬依据",
-        "存在诱盘规则命中，必须等待临场盘口和首发确认",
         "比分区间优先看2-3球，不直接追小2.5"
       ],
       "avoid_view": [
-        "数据质量未过关，本场不做实战投注"
+        "数据质量未过关，本场不做实战投注",
+        "诱盘规则综合高风险，禁止按单一热门叙事硬买"
       ],
       "freshness": {},
       "quality_status": "回避",
@@ -7911,8 +7971,8 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 49,
       "advice_summary": {
         "result": {
@@ -7957,7 +8017,7 @@
       "analysis_href": "match_analysis_2026-06-24/周三049_瑞士_vs_加拿大_analysis.html"
     },
     {
-      "match_id": 1743,
+      "match_id": 1755,
       "match_num": "周三050",
       "league": "世界杯",
       "kickoff": "2026-06-25 03:00",
@@ -7973,17 +8033,17 @@
       ],
       "match_title": "波黑 vs 卡塔尔",
       "probabilities": {
-        "主胜": 0.6416,
-        "平局": 0.1989,
-        "客胜": 0.1595
+        "主胜": 0.6813,
+        "平局": 0.1845,
+        "客胜": 0.1342
       },
       "predicted_result": "主胜",
       "score_band": [
         "2:1",
         "2:0",
         "1:0",
-        "1:1",
-        "3:1"
+        "3:1",
+        "1:1"
       ],
       "confidence": "低",
       "action": "avoid",
@@ -7994,12 +8054,12 @@
       ],
       "watch_view": [
         "缺少Sporttery官方候选源匹配，不能把单源盘口当作硬依据",
-        "存在诱盘规则命中，必须等待临场盘口和首发确认",
         "比分区间优先看2-3球，不直接追小2.5",
         "主胜方向有基础优势，但需等首发确认"
       ],
       "avoid_view": [
-        "数据质量未过关，本场不做实战投注"
+        "数据质量未过关，本场不做实战投注",
+        "诱盘规则综合高风险，禁止按单一热门叙事硬买"
       ],
       "freshness": {},
       "quality_status": "回避",
@@ -8007,13 +8067,13 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 50,
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约64.2%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "主胜概率约68.1%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
           "option": "波黑-1胜",
@@ -8053,7 +8113,7 @@
       "analysis_href": "match_analysis_2026-06-24/周三050_波黑_vs_卡塔尔_analysis.html"
     },
     {
-      "match_id": 1744,
+      "match_id": 1756,
       "match_num": "周三051",
       "league": "世界杯",
       "kickoff": "2026-06-25 06:00",
@@ -8069,9 +8129,9 @@
       ],
       "match_title": "苏格兰 vs 巴西",
       "probabilities": {
-        "主胜": 0.1128,
-        "平局": 0.1845,
-        "客胜": 0.7027
+        "主胜": 0.0983,
+        "平局": 0.1702,
+        "客胜": 0.7315
       },
       "predicted_result": "客胜",
       "score_band": [
@@ -8103,13 +8163,13 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 51,
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约70.3%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "客胜概率约73.2%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
           "option": "苏格兰+1负",
@@ -8149,7 +8209,7 @@
       "analysis_href": "match_analysis_2026-06-24/周三051_苏格兰_vs_巴西_analysis.html"
     },
     {
-      "match_id": 1745,
+      "match_id": 1757,
       "match_num": "周三052",
       "league": "世界杯",
       "kickoff": "2026-06-25 06:00",
@@ -8199,8 +8259,8 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 52,
       "advice_summary": {
         "result": {
@@ -8245,7 +8305,7 @@
       "analysis_href": "match_analysis_2026-06-24/周三052_摩洛哥_vs_海地_analysis.html"
     },
     {
-      "match_id": 1746,
+      "match_id": 1758,
       "match_num": "周三053",
       "league": "世界杯",
       "kickoff": "2026-06-25 09:00",
@@ -8261,14 +8321,14 @@
       ],
       "match_title": "南非 vs 韩国",
       "probabilities": {
-        "主胜": 0.1754,
-        "平局": 0.2605,
-        "客胜": 0.5641
+        "主胜": 0.1639,
+        "平局": 0.2459,
+        "客胜": 0.5902
       },
       "predicted_result": "客胜",
       "score_band": [
-        "1:1",
         "0:1",
+        "1:1",
         "1:2",
         "0:2",
         "0:0"
@@ -8283,7 +8343,8 @@
       "watch_view": [
         "缺少Sporttery官方候选源匹配，不能把单源盘口当作硬依据",
         "存在诱盘规则命中，必须等待临场盘口和首发确认",
-        "比分区间优先看2-3球，不直接追小2.5"
+        "比分区间优先看2-3球，不直接追小2.5",
+        "客胜方向有基础优势，但需等首发确认"
       ],
       "avoid_view": [
         "数据质量未过关，本场不做实战投注"
@@ -8294,13 +8355,13 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 53,
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约56.4%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "客胜概率约59.0%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
           "option": "南非+1平",
@@ -8340,7 +8401,7 @@
       "analysis_href": "match_analysis_2026-06-24/周三053_南非_vs_韩国_analysis.html"
     },
     {
-      "match_id": 1747,
+      "match_id": 1759,
       "match_num": "周三054",
       "league": "世界杯",
       "kickoff": "2026-06-25 09:00",
@@ -8356,9 +8417,9 @@
       ],
       "match_title": "捷克 vs 墨西哥",
       "probabilities": {
-        "主胜": 0.2605,
-        "平局": 0.2684,
-        "客胜": 0.4711
+        "主胜": 0.2529,
+        "平局": 0.2634,
+        "客胜": 0.4837
       },
       "predicted_result": "客胜",
       "score_band": [
@@ -8389,13 +8450,13 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 54,
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约47.1%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "客胜概率约48.4%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
           "option": "捷克+1平",
@@ -8435,7 +8496,7 @@
       "analysis_href": "match_analysis_2026-06-24/周三054_捷克_vs_墨西哥_analysis.html"
     },
     {
-      "match_id": 1748,
+      "match_id": 1760,
       "match_num": "周四055",
       "league": "世界杯",
       "kickoff": "2026-06-26 04:00",
@@ -8451,9 +8512,9 @@
       ],
       "match_title": "厄瓜多尔 vs 德国",
       "probabilities": {
-        "主胜": 0.2087,
-        "平局": 0.2461,
-        "客胜": 0.5452
+        "主胜": 0.2034,
+        "平局": 0.2427,
+        "客胜": 0.5539
       },
       "predicted_result": "客胜",
       "score_band": [
@@ -8484,13 +8545,13 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 55,
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约54.5%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "客胜概率约55.4%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
           "option": "厄瓜多尔+1平",
@@ -8530,7 +8591,7 @@
       "analysis_href": "match_analysis_2026-06-24/周四055_厄瓜多尔_vs_德国_analysis.html"
     },
     {
-      "match_id": 1749,
+      "match_id": 1761,
       "match_num": "周四056",
       "league": "世界杯",
       "kickoff": "2026-06-26 04:00",
@@ -8579,8 +8640,8 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 56,
       "advice_summary": {
         "result": {
@@ -8625,7 +8686,7 @@
       "analysis_href": "match_analysis_2026-06-24/周四056_库拉索_vs_科特迪瓦_analysis.html"
     },
     {
-      "match_id": 1750,
+      "match_id": 1762,
       "match_num": "周四057",
       "league": "世界杯",
       "kickoff": "2026-06-26 07:00",
@@ -8674,8 +8735,8 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 57,
       "advice_summary": {
         "result": {
@@ -8720,7 +8781,7 @@
       "analysis_href": "match_analysis_2026-06-24/周四057_突尼斯_vs_荷兰_analysis.html"
     },
     {
-      "match_id": 1751,
+      "match_id": 1763,
       "match_num": "周四058",
       "league": "世界杯",
       "kickoff": "2026-06-26 07:00",
@@ -8769,8 +8830,8 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 58,
       "advice_summary": {
         "result": {
@@ -8815,7 +8876,7 @@
       "analysis_href": "match_analysis_2026-06-24/周四058_日本_vs_瑞典_analysis.html"
     },
     {
-      "match_id": 1752,
+      "match_id": 1764,
       "match_num": "周四059",
       "league": "世界杯",
       "kickoff": "2026-06-26 10:00",
@@ -8864,8 +8925,8 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 59,
       "advice_summary": {
         "result": {
@@ -8910,7 +8971,7 @@
       "analysis_href": "match_analysis_2026-06-24/周四059_巴拉圭_vs_澳大利亚_analysis.html"
     },
     {
-      "match_id": 1753,
+      "match_id": 1765,
       "match_num": "周四060",
       "league": "世界杯",
       "kickoff": "2026-06-26 10:00",
@@ -8959,8 +9020,8 @@
       "is_finished": false,
       "result": {},
       "source_event_date": "2026-06-24",
-      "source_snapshot_id": 121,
-      "source_snapshot_fetched_at": "2026-06-24T09:05:01",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
       "fixture_no": 60,
       "advice_summary": {
         "result": {
@@ -9003,6 +9064,580 @@
       "analysis_filename": "周四060_土耳其_vs_美国_analysis.html",
       "detail_href": "match_details_2026-06-24/周四060_土耳其_vs_美国.html",
       "analysis_href": "match_analysis_2026-06-24/周四060_土耳其_vs_美国_analysis.html"
+    },
+    {
+      "match_id": 1766,
+      "match_num": "周五061",
+      "league": "世界杯",
+      "kickoff": "2026-06-27 03:00",
+      "home_team": "挪威",
+      "away_team": "法国",
+      "group_code": "Group I",
+      "group_label": "I组",
+      "group_teams": [
+        "法国",
+        "塞内加尔",
+        "伊拉克",
+        "挪威"
+      ],
+      "match_title": "挪威 vs 法国",
+      "probabilities": {
+        "主胜": 0.1784,
+        "平局": 0.227,
+        "客胜": 0.5946
+      },
+      "predicted_result": "客胜",
+      "score_band": [
+        "1:2",
+        "1:1",
+        "0:2",
+        "0:1",
+        "1:3"
+      ],
+      "confidence": "低",
+      "action": "avoid",
+      "action_label": "筛选/观察",
+      "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
+      "candidate_view": [
+        "无自动硬买项，赛前2小时复核后再决定"
+      ],
+      "watch_view": [
+        "缺少Sporttery官方候选源匹配，不能把单源盘口当作硬依据",
+        "存在诱盘规则命中，必须等待临场盘口和首发确认",
+        "比分区间优先看2-3球，不直接追小2.5",
+        "客胜方向有基础优势，但需等首发确认"
+      ],
+      "avoid_view": [
+        "数据质量未过关，本场不做实战投注"
+      ],
+      "freshness": {},
+      "quality_status": "回避",
+      "quality_score": 4,
+      "is_finished": false,
+      "result": {},
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "fixture_no": 61,
+      "advice_summary": {
+        "result": {
+          "option": "客胜",
+          "reason": "客胜概率约59.5%，领先幅度清楚，赛果建议保留强弱主线。"
+        },
+        "handicap": {
+          "option": "挪威+1负",
+          "reason": "让球热度与赛果主线打架，按0:2这条首选比分折回为挪威+1负。",
+          "label": "让负",
+          "line": 1.0
+        },
+        "score": {
+          "option": "0:2 / 0:1 / 1:1",
+          "reason": "首选看0:2；0:1 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "options": [
+            "0:2",
+            "0:1",
+            "1:1"
+          ],
+          "primary": "0:2",
+          "result_options": [
+            "客胜",
+            "客胜",
+            "平局"
+          ],
+          "covers_result": true,
+          "covers_handicap": true,
+          "covers_total": true
+        },
+        "total": {
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "side": "小",
+          "line": "2.5"
+        },
+        "consistent": true
+      },
+      "detail_filename": "周五061_挪威_vs_法国.html",
+      "analysis_filename": "周五061_挪威_vs_法国_analysis.html",
+      "detail_href": "match_details_2026-06-24/周五061_挪威_vs_法国.html",
+      "analysis_href": "match_analysis_2026-06-24/周五061_挪威_vs_法国_analysis.html"
+    },
+    {
+      "match_id": 1767,
+      "match_num": "周五062",
+      "league": "世界杯",
+      "kickoff": "2026-06-27 03:00",
+      "home_team": "塞内加尔",
+      "away_team": "伊拉克",
+      "group_code": "Group I",
+      "group_label": "I组",
+      "group_teams": [
+        "法国",
+        "塞内加尔",
+        "伊拉克",
+        "挪威"
+      ],
+      "match_title": "塞内加尔 vs 伊拉克",
+      "probabilities": {
+        "主胜": 0.4209,
+        "平局": 0.2644,
+        "客胜": 0.3147
+      },
+      "predicted_result": "主胜",
+      "score_band": [
+        "2:0",
+        "2:1",
+        "3:0",
+        "1:0",
+        "3:1"
+      ],
+      "confidence": "低",
+      "action": "avoid",
+      "action_label": "筛选/观察",
+      "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
+      "candidate_view": [
+        "无自动硬买项，赛前2小时复核后再决定"
+      ],
+      "watch_view": [
+        "缺少Sporttery官方候选源匹配，不能把单源盘口当作硬依据",
+        "伊拉克受让方向或让负",
+        "比分区间优先看2-3球，不直接追小2.5"
+      ],
+      "avoid_view": [
+        "数据质量未过关，本场不做实战投注",
+        "诱盘规则综合高风险，禁止按单一热门叙事硬买",
+        "塞内加尔深让"
+      ],
+      "freshness": {},
+      "quality_status": "回避",
+      "quality_score": 0,
+      "is_finished": false,
+      "result": {},
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "fixture_no": 62,
+      "advice_summary": {
+        "result": {
+          "option": "主胜",
+          "reason": "主胜仍是概率最高方向，但三项分布接近，只作为本场赛果主倾向。"
+        },
+        "handicap": {
+          "option": "塞内加尔-2负",
+          "reason": "盘口分歧较多，娱乐预测按塞内加尔-2负处理。",
+          "label": "让负",
+          "line": -2.0
+        },
+        "score": {
+          "option": "1:0 / 1:1 / 2:0",
+          "reason": "首选看1:0；1:1 / 2:0是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "options": [
+            "1:0",
+            "1:1",
+            "2:0"
+          ],
+          "primary": "1:0",
+          "result_options": [
+            "主胜",
+            "平局",
+            "主胜"
+          ],
+          "covers_result": true,
+          "covers_handicap": true,
+          "covers_total": true
+        },
+        "total": {
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "side": "小",
+          "line": "2.5"
+        },
+        "consistent": true
+      },
+      "detail_filename": "周五062_塞内加尔_vs_伊拉克.html",
+      "analysis_filename": "周五062_塞内加尔_vs_伊拉克_analysis.html",
+      "detail_href": "match_details_2026-06-24/周五062_塞内加尔_vs_伊拉克.html",
+      "analysis_href": "match_analysis_2026-06-24/周五062_塞内加尔_vs_伊拉克_analysis.html"
+    },
+    {
+      "match_id": 1768,
+      "match_num": "周五063",
+      "league": "世界杯",
+      "kickoff": "2026-06-27 08:00",
+      "home_team": "佛得角",
+      "away_team": "沙特阿拉伯",
+      "group_code": "Group H",
+      "group_label": "H组",
+      "group_teams": [
+        "西班牙",
+        "佛得角",
+        "沙特阿拉伯",
+        "乌拉圭"
+      ],
+      "match_title": "佛得角 vs 沙特阿拉伯",
+      "probabilities": {
+        "主胜": 0.3599,
+        "平局": 0.2902,
+        "客胜": 0.3499
+      },
+      "predicted_result": "主胜",
+      "score_band": [
+        "1:1",
+        "2:1",
+        "1:0",
+        "1:2",
+        "0:1"
+      ],
+      "confidence": "低",
+      "action": "avoid",
+      "action_label": "筛选/观察",
+      "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
+      "candidate_view": [
+        "无自动硬买项，赛前2小时复核后再决定"
+      ],
+      "watch_view": [
+        "缺少Sporttery官方候选源匹配，不能把单源盘口当作硬依据",
+        "存在诱盘规则命中，必须等待临场盘口和首发确认",
+        "比分区间优先看2-3球，不直接追小2.5"
+      ],
+      "avoid_view": [
+        "数据质量未过关，本场不做实战投注"
+      ],
+      "freshness": {},
+      "quality_status": "回避",
+      "quality_score": 12,
+      "is_finished": false,
+      "result": {},
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "fixture_no": 63,
+      "advice_summary": {
+        "result": {
+          "option": "平局",
+          "reason": "三项赛果概率没有拉开，且让球/进球数主线更贴近平局路径，赛果建议改看平局。"
+        },
+        "handicap": {
+          "option": "佛得角-1负",
+          "reason": "盘口分歧较多，娱乐预测按佛得角-1负处理。",
+          "label": "让负",
+          "line": -1.0
+        },
+        "score": {
+          "option": "1:1 / 0:0 / 0:1",
+          "reason": "首选看1:1；0:0 / 0:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "options": [
+            "1:1",
+            "0:0",
+            "0:1"
+          ],
+          "primary": "1:1",
+          "result_options": [
+            "平局",
+            "平局",
+            "客胜"
+          ],
+          "covers_result": true,
+          "covers_handicap": true,
+          "covers_total": true
+        },
+        "total": {
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "side": "小",
+          "line": "2.5"
+        },
+        "consistent": true
+      },
+      "detail_filename": "周五063_佛得角_vs_沙特阿拉伯.html",
+      "analysis_filename": "周五063_佛得角_vs_沙特阿拉伯_analysis.html",
+      "detail_href": "match_details_2026-06-24/周五063_佛得角_vs_沙特阿拉伯.html",
+      "analysis_href": "match_analysis_2026-06-24/周五063_佛得角_vs_沙特阿拉伯_analysis.html"
+    },
+    {
+      "match_id": 1769,
+      "match_num": "周五064",
+      "league": "世界杯",
+      "kickoff": "2026-06-27 08:00",
+      "home_team": "乌拉圭",
+      "away_team": "西班牙",
+      "group_code": "Group H",
+      "group_label": "H组",
+      "group_teams": [
+        "西班牙",
+        "佛得角",
+        "沙特阿拉伯",
+        "乌拉圭"
+      ],
+      "match_title": "乌拉圭 vs 西班牙",
+      "probabilities": {
+        "主胜": 0.0913,
+        "平局": 0.2098,
+        "客胜": 0.6989
+      },
+      "predicted_result": "客胜",
+      "score_band": [
+        "0:2",
+        "0:1",
+        "1:1",
+        "1:2",
+        "0:3"
+      ],
+      "confidence": "低",
+      "action": "avoid",
+      "action_label": "筛选/观察",
+      "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
+      "candidate_view": [
+        "无自动硬买项，赛前2小时复核后再决定"
+      ],
+      "watch_view": [
+        "缺少Sporttery官方候选源匹配，不能把单源盘口当作硬依据",
+        "存在诱盘规则命中，必须等待临场盘口和首发确认",
+        "比分区间优先看2-3球，不直接追小2.5",
+        "客胜方向有基础优势，但需等首发确认"
+      ],
+      "avoid_view": [
+        "数据质量未过关，本场不做实战投注"
+      ],
+      "freshness": {},
+      "quality_status": "回避",
+      "quality_score": 4,
+      "is_finished": false,
+      "result": {},
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "fixture_no": 64,
+      "advice_summary": {
+        "result": {
+          "option": "客胜",
+          "reason": "客胜概率约69.9%，领先幅度清楚，赛果建议保留强弱主线。"
+        },
+        "handicap": {
+          "option": "乌拉圭+1负",
+          "reason": "盘口分歧较多，娱乐预测按乌拉圭+1负处理。",
+          "label": "让负",
+          "line": 1.0
+        },
+        "score": {
+          "option": "0:2 / 0:1 / 1:1",
+          "reason": "首选看0:2；0:1 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "options": [
+            "0:2",
+            "0:1",
+            "1:1"
+          ],
+          "primary": "0:2",
+          "result_options": [
+            "客胜",
+            "客胜",
+            "平局"
+          ],
+          "covers_result": true,
+          "covers_handicap": true,
+          "covers_total": true
+        },
+        "total": {
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "side": "小",
+          "line": "2.5"
+        },
+        "consistent": true
+      },
+      "detail_filename": "周五064_乌拉圭_vs_西班牙.html",
+      "analysis_filename": "周五064_乌拉圭_vs_西班牙_analysis.html",
+      "detail_href": "match_details_2026-06-24/周五064_乌拉圭_vs_西班牙.html",
+      "analysis_href": "match_analysis_2026-06-24/周五064_乌拉圭_vs_西班牙_analysis.html"
+    },
+    {
+      "match_id": 1770,
+      "match_num": "周五065",
+      "league": "世界杯",
+      "kickoff": "2026-06-27 11:00",
+      "home_team": "埃及",
+      "away_team": "伊朗",
+      "group_code": "Group G",
+      "group_label": "G组",
+      "group_teams": [
+        "比利时",
+        "埃及",
+        "伊朗",
+        "新西兰"
+      ],
+      "match_title": "埃及 vs 伊朗",
+      "probabilities": {
+        "主胜": 0.3816,
+        "平局": 0.3541,
+        "客胜": 0.2643
+      },
+      "predicted_result": "主胜",
+      "score_band": [
+        "1:1",
+        "0:0",
+        "1:0",
+        "2:1",
+        "0:1"
+      ],
+      "confidence": "低",
+      "action": "avoid",
+      "action_label": "筛选/观察",
+      "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
+      "candidate_view": [
+        "无自动硬买项，赛前2小时复核后再决定"
+      ],
+      "watch_view": [
+        "缺少Sporttery官方候选源匹配，不能把单源盘口当作硬依据",
+        "存在诱盘规则命中，必须等待临场盘口和首发确认",
+        "比分区间优先看2-3球，不直接追小2.5"
+      ],
+      "avoid_view": [
+        "数据质量未过关，本场不做实战投注"
+      ],
+      "freshness": {},
+      "quality_status": "回避",
+      "quality_score": 4,
+      "is_finished": false,
+      "result": {},
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "fixture_no": 65,
+      "advice_summary": {
+        "result": {
+          "option": "平局",
+          "reason": "三项赛果概率没有拉开，且让球/进球数主线更贴近平局路径，赛果建议改看平局。"
+        },
+        "handicap": {
+          "option": "埃及-1负",
+          "reason": "盘口分歧较多，娱乐预测按埃及-1负处理。",
+          "label": "让负",
+          "line": -1.0
+        },
+        "score": {
+          "option": "1:1 / 0:0 / 0:1",
+          "reason": "首选看1:1；0:0 / 0:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "options": [
+            "1:1",
+            "0:0",
+            "0:1"
+          ],
+          "primary": "1:1",
+          "result_options": [
+            "平局",
+            "平局",
+            "客胜"
+          ],
+          "covers_result": true,
+          "covers_handicap": true,
+          "covers_total": true
+        },
+        "total": {
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "side": "小",
+          "line": "2.5"
+        },
+        "consistent": true
+      },
+      "detail_filename": "周五065_埃及_vs_伊朗.html",
+      "analysis_filename": "周五065_埃及_vs_伊朗_analysis.html",
+      "detail_href": "match_details_2026-06-24/周五065_埃及_vs_伊朗.html",
+      "analysis_href": "match_analysis_2026-06-24/周五065_埃及_vs_伊朗_analysis.html"
+    },
+    {
+      "match_id": 1771,
+      "match_num": "周五066",
+      "league": "世界杯",
+      "kickoff": "2026-06-27 11:00",
+      "home_team": "新西兰",
+      "away_team": "比利时",
+      "group_code": "Group G",
+      "group_label": "G组",
+      "group_teams": [
+        "比利时",
+        "埃及",
+        "伊朗",
+        "新西兰"
+      ],
+      "match_title": "新西兰 vs 比利时",
+      "probabilities": {
+        "主胜": 0.2643,
+        "平局": 0.2556,
+        "客胜": 0.4801
+      },
+      "predicted_result": "客胜",
+      "score_band": [
+        "0:2",
+        "0:3",
+        "1:2",
+        "0:1",
+        "1:3"
+      ],
+      "confidence": "低",
+      "action": "avoid",
+      "action_label": "筛选/观察",
+      "decision_rule": "等待 T-2h/T-1h 复核后再决定。",
+      "candidate_view": [
+        "无自动硬买项，赛前2小时复核后再决定"
+      ],
+      "watch_view": [
+        "缺少Sporttery官方候选源匹配，不能把单源盘口当作硬依据",
+        "比分区间优先看2-3球，不直接追小2.5"
+      ],
+      "avoid_view": [
+        "数据质量未过关，本场不做实战投注",
+        "诱盘规则综合高风险，禁止按单一热门叙事硬买"
+      ],
+      "freshness": {},
+      "quality_status": "回避",
+      "quality_score": 0,
+      "is_finished": false,
+      "result": {},
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "fixture_no": 66,
+      "advice_summary": {
+        "result": {
+          "option": "客胜",
+          "reason": "客胜概率约48.0%，领先幅度清楚，赛果建议保留强弱主线。"
+        },
+        "handicap": {
+          "option": "新西兰+2胜",
+          "reason": "盘口分歧较多，娱乐预测按新西兰+2胜处理。",
+          "label": "让胜",
+          "line": 2.0
+        },
+        "score": {
+          "option": "0:1 / 1:1 / 0:2",
+          "reason": "首选看0:1；1:1 / 0:2是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "options": [
+            "0:1",
+            "1:1",
+            "0:2"
+          ],
+          "primary": "0:1",
+          "result_options": [
+            "客胜",
+            "平局",
+            "客胜"
+          ],
+          "covers_result": true,
+          "covers_handicap": true,
+          "covers_total": true
+        },
+        "total": {
+          "option": "偏少球（2.5线）",
+          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
+          "side": "小",
+          "line": "2.5"
+        },
+        "consistent": true
+      },
+      "detail_filename": "周五066_新西兰_vs_比利时.html",
+      "analysis_filename": "周五066_新西兰_vs_比利时_analysis.html",
+      "detail_href": "match_details_2026-06-24/周五066_新西兰_vs_比利时.html",
+      "analysis_href": "match_analysis_2026-06-24/周五066_新西兰_vs_比利时_analysis.html"
     }
   ]
 }
