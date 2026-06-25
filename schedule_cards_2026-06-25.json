@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-25",
-  "generated_at": "2026-06-25T11:26:55",
+  "generated_at": "2026-06-25T11:28:16",
   "snapshot": {
     "id": 129,
     "source": "500_jczq",
@@ -786,7 +786,7 @@
     "avoid": 0,
     "hard_buy": 0,
     "can_execute_bet": false,
-    "next_kickoff": "2026-06-26 04:00",
+    "next_kickoff": "2026-06-25 09:00",
     "analysis_matches": 72,
     "opened_matches": 72,
     "schedule_matches": 72,
@@ -2585,14 +2585,8 @@
         "韩国",
         "捷克"
       ],
-      "result": {
-        "home_score": 0,
-        "away_score": 3,
-        "score": "0:3",
-        "result": "客胜",
-        "total_goals": 3
-      },
-      "is_finished": true,
+      "result": {},
+      "is_finished": false,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-25/周三054_捷克_vs_墨西哥.html",
       "analysis_href": "match_analysis_2026-06-25/周三054_捷克_vs_墨西哥_analysis.html",
@@ -8597,14 +8591,8 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 12,
-      "is_finished": true,
-      "result": {
-        "home_score": 0,
-        "away_score": 3,
-        "score": "0:3",
-        "result": "客胜",
-        "total_goals": 3
-      },
+      "is_finished": false,
+      "result": {},
       "source_event_date": "2026-06-24",
       "source_snapshot_id": 122,
       "source_snapshot_fetched_at": "2026-06-24T12:05:01",
