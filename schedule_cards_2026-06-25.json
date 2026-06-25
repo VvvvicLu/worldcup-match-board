@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-25",
-  "generated_at": "2026-06-25T16:26:57",
+  "generated_at": "2026-06-25T17:06:17",
   "snapshot": {
     "id": 129,
     "source": "500_jczq",
@@ -802,8 +802,8 @@
   "schedule_items": [
     {
       "fixture_no": 1,
-      "fixture_label": "第01场",
-      "match_num": "第01场",
+      "fixture_label": "周四001",
+      "match_num": "周四001",
       "league": "世界杯",
       "kickoff": "2026-06-12 03:00",
       "home_team": "墨西哥",
@@ -836,8 +836,8 @@
     },
     {
       "fixture_no": 2,
-      "fixture_label": "第02场",
-      "match_num": "第02场",
+      "fixture_label": "周四002",
+      "match_num": "周四002",
       "league": "世界杯",
       "kickoff": "2026-06-12 10:00",
       "home_team": "韩国",
@@ -870,8 +870,8 @@
     },
     {
       "fixture_no": 3,
-      "fixture_label": "第03场",
-      "match_num": "第03场",
+      "fixture_label": "周五003",
+      "match_num": "周五003",
       "league": "世界杯",
       "kickoff": "2026-06-13 03:00",
       "home_team": "加拿大",
@@ -904,8 +904,8 @@
     },
     {
       "fixture_no": 4,
-      "fixture_label": "第04场",
-      "match_num": "第04场",
+      "fixture_label": "周五004",
+      "match_num": "周五004",
       "league": "世界杯",
       "kickoff": "2026-06-13 09:00",
       "home_team": "美国",
@@ -938,8 +938,8 @@
     },
     {
       "fixture_no": 5,
-      "fixture_label": "第05场",
-      "match_num": "第05场",
+      "fixture_label": "周六005",
+      "match_num": "周六005",
       "league": "世界杯",
       "kickoff": "2026-06-14 03:00",
       "home_team": "卡塔尔",
@@ -972,8 +972,8 @@
     },
     {
       "fixture_no": 6,
-      "fixture_label": "第06场",
-      "match_num": "第06场",
+      "fixture_label": "周六006",
+      "match_num": "周六006",
       "league": "世界杯",
       "kickoff": "2026-06-14 06:00",
       "home_team": "巴西",
@@ -1006,8 +1006,8 @@
     },
     {
       "fixture_no": 7,
-      "fixture_label": "第07场",
-      "match_num": "第07场",
+      "fixture_label": "周六007",
+      "match_num": "周六007",
       "league": "世界杯",
       "kickoff": "2026-06-14 09:00",
       "home_team": "海地",
@@ -1040,8 +1040,8 @@
     },
     {
       "fixture_no": 8,
-      "fixture_label": "第08场",
-      "match_num": "第08场",
+      "fixture_label": "周六008",
+      "match_num": "周六008",
       "league": "世界杯",
       "kickoff": "2026-06-14 12:00",
       "home_team": "澳大利亚",
@@ -1074,8 +1074,8 @@
     },
     {
       "fixture_no": 9,
-      "fixture_label": "第09场",
-      "match_num": "第09场",
+      "fixture_label": "周日009",
+      "match_num": "周日009",
       "league": "世界杯",
       "kickoff": "2026-06-15 01:00",
       "home_team": "德国",
@@ -1108,8 +1108,8 @@
     },
     {
       "fixture_no": 10,
-      "fixture_label": "第10场",
-      "match_num": "第10场",
+      "fixture_label": "周日010",
+      "match_num": "周日010",
       "league": "世界杯",
       "kickoff": "2026-06-15 04:00",
       "home_team": "荷兰",
@@ -1142,8 +1142,8 @@
     },
     {
       "fixture_no": 11,
-      "fixture_label": "第11场",
-      "match_num": "第11场",
+      "fixture_label": "周日011",
+      "match_num": "周日011",
       "league": "世界杯",
       "kickoff": "2026-06-15 07:00",
       "home_team": "科特迪瓦",
@@ -1176,8 +1176,8 @@
     },
     {
       "fixture_no": 12,
-      "fixture_label": "第12场",
-      "match_num": "第12场",
+      "fixture_label": "周日012",
+      "match_num": "周日012",
       "league": "世界杯",
       "kickoff": "2026-06-15 10:00",
       "home_team": "瑞典",
@@ -1210,8 +1210,8 @@
     },
     {
       "fixture_no": 13,
-      "fixture_label": "第13场",
-      "match_num": "第13场",
+      "fixture_label": "周一013",
+      "match_num": "周一013",
       "league": "世界杯",
       "kickoff": "2026-06-16 00:00",
       "home_team": "西班牙",
@@ -1244,8 +1244,8 @@
     },
     {
       "fixture_no": 14,
-      "fixture_label": "第14场",
-      "match_num": "第14场",
+      "fixture_label": "周一014",
+      "match_num": "周一014",
       "league": "世界杯",
       "kickoff": "2026-06-16 03:00",
       "home_team": "比利时",
@@ -1278,8 +1278,8 @@
     },
     {
       "fixture_no": 15,
-      "fixture_label": "第15场",
-      "match_num": "第15场",
+      "fixture_label": "周一015",
+      "match_num": "周一015",
       "league": "世界杯",
       "kickoff": "2026-06-16 06:00",
       "home_team": "沙特阿拉伯",
@@ -1312,8 +1312,8 @@
     },
     {
       "fixture_no": 16,
-      "fixture_label": "第16场",
-      "match_num": "第16场",
+      "fixture_label": "周一016",
+      "match_num": "周一016",
       "league": "世界杯",
       "kickoff": "2026-06-16 09:00",
       "home_team": "伊朗",
@@ -1346,8 +1346,8 @@
     },
     {
       "fixture_no": 17,
-      "fixture_label": "第17场",
-      "match_num": "第17场",
+      "fixture_label": "周二017",
+      "match_num": "周二017",
       "league": "世界杯",
       "kickoff": "2026-06-17 03:00",
       "home_team": "法国",
@@ -1380,8 +1380,8 @@
     },
     {
       "fixture_no": 18,
-      "fixture_label": "第18场",
-      "match_num": "第18场",
+      "fixture_label": "周二018",
+      "match_num": "周二018",
       "league": "世界杯",
       "kickoff": "2026-06-17 06:00",
       "home_team": "伊拉克",
@@ -1414,8 +1414,8 @@
     },
     {
       "fixture_no": 19,
-      "fixture_label": "第19场",
-      "match_num": "第19场",
+      "fixture_label": "周二019",
+      "match_num": "周二019",
       "league": "世界杯",
       "kickoff": "2026-06-17 09:00",
       "home_team": "阿根廷",
@@ -1448,8 +1448,8 @@
     },
     {
       "fixture_no": 20,
-      "fixture_label": "第20场",
-      "match_num": "第20场",
+      "fixture_label": "周二020",
+      "match_num": "周二020",
       "league": "世界杯",
       "kickoff": "2026-06-17 12:00",
       "home_team": "奥地利",
@@ -1482,8 +1482,8 @@
     },
     {
       "fixture_no": 21,
-      "fixture_label": "第21场",
-      "match_num": "第21场",
+      "fixture_label": "周三021",
+      "match_num": "周三021",
       "league": "世界杯",
       "kickoff": "2026-06-18 01:00",
       "home_team": "葡萄牙",
@@ -1516,8 +1516,8 @@
     },
     {
       "fixture_no": 22,
-      "fixture_label": "第22场",
-      "match_num": "第22场",
+      "fixture_label": "周三022",
+      "match_num": "周三022",
       "league": "世界杯",
       "kickoff": "2026-06-18 04:00",
       "home_team": "英格兰",
@@ -1550,8 +1550,8 @@
     },
     {
       "fixture_no": 23,
-      "fixture_label": "第23场",
-      "match_num": "第23场",
+      "fixture_label": "周三023",
+      "match_num": "周三023",
       "league": "世界杯",
       "kickoff": "2026-06-18 07:00",
       "home_team": "加纳",
@@ -1584,8 +1584,8 @@
     },
     {
       "fixture_no": 24,
-      "fixture_label": "第24场",
-      "match_num": "第24场",
+      "fixture_label": "周三024",
+      "match_num": "周三024",
       "league": "世界杯",
       "kickoff": "2026-06-18 10:00",
       "home_team": "乌兹别克",
@@ -1618,8 +1618,8 @@
     },
     {
       "fixture_no": 25,
-      "fixture_label": "第25场",
-      "match_num": "第25场",
+      "fixture_label": "周四025",
+      "match_num": "周四025",
       "league": "世界杯",
       "kickoff": "2026-06-19 00:00",
       "home_team": "捷克",
@@ -1652,8 +1652,8 @@
     },
     {
       "fixture_no": 26,
-      "fixture_label": "第26场",
-      "match_num": "第26场",
+      "fixture_label": "周四026",
+      "match_num": "周四026",
       "league": "世界杯",
       "kickoff": "2026-06-19 03:00",
       "home_team": "瑞士",
@@ -1686,8 +1686,8 @@
     },
     {
       "fixture_no": 27,
-      "fixture_label": "第27场",
-      "match_num": "第27场",
+      "fixture_label": "周四027",
+      "match_num": "周四027",
       "league": "世界杯",
       "kickoff": "2026-06-19 06:00",
       "home_team": "加拿大",
@@ -1720,8 +1720,8 @@
     },
     {
       "fixture_no": 28,
-      "fixture_label": "第28场",
-      "match_num": "第28场",
+      "fixture_label": "周四028",
+      "match_num": "周四028",
       "league": "世界杯",
       "kickoff": "2026-06-19 09:00",
       "home_team": "墨西哥",
@@ -1754,8 +1754,8 @@
     },
     {
       "fixture_no": 29,
-      "fixture_label": "第29场",
-      "match_num": "第29场",
+      "fixture_label": "周五029",
+      "match_num": "周五029",
       "league": "世界杯",
       "kickoff": "2026-06-20 03:00",
       "home_team": "美国",
@@ -1788,8 +1788,8 @@
     },
     {
       "fixture_no": 30,
-      "fixture_label": "第30场",
-      "match_num": "第30场",
+      "fixture_label": "周五030",
+      "match_num": "周五030",
       "league": "世界杯",
       "kickoff": "2026-06-20 06:00",
       "home_team": "苏格兰",
@@ -1822,8 +1822,8 @@
     },
     {
       "fixture_no": 31,
-      "fixture_label": "第31场",
-      "match_num": "第31场",
+      "fixture_label": "周五031",
+      "match_num": "周五031",
       "league": "世界杯",
       "kickoff": "2026-06-20 08:30",
       "home_team": "巴西",
@@ -1856,8 +1856,8 @@
     },
     {
       "fixture_no": 32,
-      "fixture_label": "第32场",
-      "match_num": "第32场",
+      "fixture_label": "周五032",
+      "match_num": "周五032",
       "league": "世界杯",
       "kickoff": "2026-06-20 11:00",
       "home_team": "土耳其",
@@ -1890,8 +1890,8 @@
     },
     {
       "fixture_no": 33,
-      "fixture_label": "第33场",
-      "match_num": "第33场",
+      "fixture_label": "周六033",
+      "match_num": "周六033",
       "league": "世界杯",
       "kickoff": "2026-06-21 01:00",
       "home_team": "荷兰",
@@ -1924,8 +1924,8 @@
     },
     {
       "fixture_no": 34,
-      "fixture_label": "第34场",
-      "match_num": "第34场",
+      "fixture_label": "周六034",
+      "match_num": "周六034",
       "league": "世界杯",
       "kickoff": "2026-06-21 04:00",
       "home_team": "德国",
@@ -1958,8 +1958,8 @@
     },
     {
       "fixture_no": 35,
-      "fixture_label": "第35场",
-      "match_num": "第35场",
+      "fixture_label": "周六035",
+      "match_num": "周六035",
       "league": "世界杯",
       "kickoff": "2026-06-21 08:00",
       "home_team": "厄瓜多尔",
@@ -1992,8 +1992,8 @@
     },
     {
       "fixture_no": 36,
-      "fixture_label": "第36场",
-      "match_num": "第36场",
+      "fixture_label": "周六036",
+      "match_num": "周六036",
       "league": "世界杯",
       "kickoff": "2026-06-21 12:00",
       "home_team": "突尼斯",
@@ -2026,8 +2026,8 @@
     },
     {
       "fixture_no": 37,
-      "fixture_label": "第37场",
-      "match_num": "第37场",
+      "fixture_label": "周日037",
+      "match_num": "周日037",
       "league": "世界杯",
       "kickoff": "2026-06-22 00:00",
       "home_team": "西班牙",
@@ -2060,8 +2060,8 @@
     },
     {
       "fixture_no": 38,
-      "fixture_label": "第38场",
-      "match_num": "第38场",
+      "fixture_label": "周日038",
+      "match_num": "周日038",
       "league": "世界杯",
       "kickoff": "2026-06-22 03:00",
       "home_team": "比利时",
@@ -2094,8 +2094,8 @@
     },
     {
       "fixture_no": 39,
-      "fixture_label": "第39场",
-      "match_num": "第39场",
+      "fixture_label": "周日039",
+      "match_num": "周日039",
       "league": "世界杯",
       "kickoff": "2026-06-22 06:00",
       "home_team": "乌拉圭",
@@ -2128,8 +2128,8 @@
     },
     {
       "fixture_no": 40,
-      "fixture_label": "第40场",
-      "match_num": "第40场",
+      "fixture_label": "周日040",
+      "match_num": "周日040",
       "league": "世界杯",
       "kickoff": "2026-06-22 09:00",
       "home_team": "新西兰",
@@ -2162,8 +2162,8 @@
     },
     {
       "fixture_no": 41,
-      "fixture_label": "第41场",
-      "match_num": "第41场",
+      "fixture_label": "周一041",
+      "match_num": "周一041",
       "league": "世界杯",
       "kickoff": "2026-06-23 01:00",
       "home_team": "阿根廷",
@@ -2196,8 +2196,8 @@
     },
     {
       "fixture_no": 42,
-      "fixture_label": "第42场",
-      "match_num": "第42场",
+      "fixture_label": "周一042",
+      "match_num": "周一042",
       "league": "世界杯",
       "kickoff": "2026-06-23 05:00",
       "home_team": "法国",
@@ -2230,8 +2230,8 @@
     },
     {
       "fixture_no": 43,
-      "fixture_label": "第43场",
-      "match_num": "第43场",
+      "fixture_label": "周一043",
+      "match_num": "周一043",
       "league": "世界杯",
       "kickoff": "2026-06-23 08:00",
       "home_team": "挪威",
@@ -2264,8 +2264,8 @@
     },
     {
       "fixture_no": 44,
-      "fixture_label": "第44场",
-      "match_num": "第44场",
+      "fixture_label": "周一044",
+      "match_num": "周一044",
       "league": "世界杯",
       "kickoff": "2026-06-23 11:00",
       "home_team": "约旦",
@@ -2298,8 +2298,8 @@
     },
     {
       "fixture_no": 45,
-      "fixture_label": "第45场",
-      "match_num": "第45场",
+      "fixture_label": "周二045",
+      "match_num": "周二045",
       "league": "世界杯",
       "kickoff": "2026-06-24 01:00",
       "home_team": "葡萄牙",
@@ -2332,8 +2332,8 @@
     },
     {
       "fixture_no": 46,
-      "fixture_label": "第46场",
-      "match_num": "第46场",
+      "fixture_label": "周二046",
+      "match_num": "周二046",
       "league": "世界杯",
       "kickoff": "2026-06-24 04:00",
       "home_team": "英格兰",
@@ -2366,8 +2366,8 @@
     },
     {
       "fixture_no": 47,
-      "fixture_label": "第47场",
-      "match_num": "第47场",
+      "fixture_label": "周二047",
+      "match_num": "周二047",
       "league": "世界杯",
       "kickoff": "2026-06-24 07:00",
       "home_team": "巴拿马",
@@ -2400,8 +2400,8 @@
     },
     {
       "fixture_no": 48,
-      "fixture_label": "第48场",
-      "match_num": "第48场",
+      "fixture_label": "周二048",
+      "match_num": "周二048",
       "league": "世界杯",
       "kickoff": "2026-06-24 10:00",
       "home_team": "哥伦比亚",
@@ -2434,8 +2434,8 @@
     },
     {
       "fixture_no": 49,
-      "fixture_label": "第49场",
-      "match_num": "第49场",
+      "fixture_label": "周三049",
+      "match_num": "周三049",
       "league": "世界杯",
       "kickoff": "2026-06-25 03:00",
       "home_team": "瑞士",
@@ -2468,8 +2468,8 @@
     },
     {
       "fixture_no": 50,
-      "fixture_label": "第50场",
-      "match_num": "第50场",
+      "fixture_label": "周三050",
+      "match_num": "周三050",
       "league": "世界杯",
       "kickoff": "2026-06-25 03:00",
       "home_team": "波黑",
@@ -2502,8 +2502,8 @@
     },
     {
       "fixture_no": 51,
-      "fixture_label": "第51场",
-      "match_num": "第51场",
+      "fixture_label": "周三051",
+      "match_num": "周三051",
       "league": "世界杯",
       "kickoff": "2026-06-25 06:00",
       "home_team": "苏格兰",
@@ -2536,8 +2536,8 @@
     },
     {
       "fixture_no": 52,
-      "fixture_label": "第52场",
-      "match_num": "第52场",
+      "fixture_label": "周三052",
+      "match_num": "周三052",
       "league": "世界杯",
       "kickoff": "2026-06-25 06:00",
       "home_team": "摩洛哥",
@@ -2570,42 +2570,8 @@
     },
     {
       "fixture_no": 53,
-      "fixture_label": "第53场",
-      "match_num": "第53场",
-      "league": "世界杯",
-      "kickoff": "2026-06-25 09:00",
-      "home_team": "捷克",
-      "away_team": "墨西哥",
-      "venue": "Estadio Azteca, Mexico City",
-      "group_code": "Group A",
-      "group_label": "A组",
-      "group_teams": [
-        "墨西哥",
-        "南非",
-        "韩国",
-        "捷克"
-      ],
-      "result": {
-        "home_score": 0,
-        "away_score": 3,
-        "score": "0:3",
-        "result": "客胜",
-        "total_goals": 3
-      },
-      "is_finished": true,
-      "is_schedule_only": false,
-      "detail_href": "match_details_2026-06-25/周三054_捷克_vs_墨西哥.html",
-      "analysis_href": "match_analysis_2026-06-25/周三054_捷克_vs_墨西哥_analysis.html",
-      "action": "avoid",
-      "source_event_date": "2026-06-24",
-      "source_snapshot_id": 122,
-      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
-      "source_match_num": "周三054"
-    },
-    {
-      "fixture_no": 54,
-      "fixture_label": "第54场",
-      "match_num": "第54场",
+      "fixture_label": "周三053",
+      "match_num": "周三053",
       "league": "世界杯",
       "kickoff": "2026-06-25 09:00",
       "home_team": "南非",
@@ -2637,37 +2603,43 @@
       "source_match_num": "周三053"
     },
     {
-      "fixture_no": 55,
-      "fixture_label": "第55场",
-      "match_num": "第55场",
+      "fixture_no": 54,
+      "fixture_label": "周三054",
+      "match_num": "周三054",
       "league": "世界杯",
-      "kickoff": "2026-06-26 04:00",
-      "home_team": "库拉索",
-      "away_team": "科特迪瓦",
-      "venue": "Lincoln Financial Field, Philadelphia",
-      "group_code": "Group E",
-      "group_label": "E组",
+      "kickoff": "2026-06-25 09:00",
+      "home_team": "捷克",
+      "away_team": "墨西哥",
+      "venue": "Estadio Azteca, Mexico City",
+      "group_code": "Group A",
+      "group_label": "A组",
       "group_teams": [
-        "德国",
-        "库拉索",
-        "科特迪瓦",
-        "厄瓜多尔"
+        "墨西哥",
+        "南非",
+        "韩国",
+        "捷克"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 0,
+        "away_score": 3,
+        "score": "0:3",
+        "result": "客胜",
+        "total_goals": 3
+      },
+      "is_finished": true,
       "is_schedule_only": false,
-      "detail_href": "match_details_2026-06-25/周四056_库拉索_vs_科特迪瓦.html",
-      "analysis_href": "match_analysis_2026-06-25/周四056_库拉索_vs_科特迪瓦_analysis.html",
+      "detail_href": "match_details_2026-06-25/周三054_捷克_vs_墨西哥.html",
+      "analysis_href": "match_analysis_2026-06-25/周三054_捷克_vs_墨西哥_analysis.html",
       "action": "avoid",
-      "source_event_date": "2026-06-25",
-      "source_snapshot_id": 129,
-      "source_snapshot_fetched_at": "2026-06-25T11:25:01",
-      "source_match_num": "周四056"
+      "source_event_date": "2026-06-24",
+      "source_snapshot_id": 122,
+      "source_snapshot_fetched_at": "2026-06-24T12:05:01",
+      "source_match_num": "周三054"
     },
     {
-      "fixture_no": 56,
-      "fixture_label": "第56场",
-      "match_num": "第56场",
+      "fixture_no": 55,
+      "fixture_label": "周四055",
+      "match_num": "周四055",
       "league": "世界杯",
       "kickoff": "2026-06-26 04:00",
       "home_team": "厄瓜多尔",
@@ -2693,37 +2665,37 @@
       "source_match_num": "周四055"
     },
     {
-      "fixture_no": 57,
-      "fixture_label": "第57场",
-      "match_num": "第57场",
+      "fixture_no": 56,
+      "fixture_label": "周四056",
+      "match_num": "周四056",
       "league": "世界杯",
-      "kickoff": "2026-06-26 07:00",
-      "home_team": "日本",
-      "away_team": "瑞典",
-      "venue": "AT&T Stadium, Dallas",
-      "group_code": "Group F",
-      "group_label": "F组",
+      "kickoff": "2026-06-26 04:00",
+      "home_team": "库拉索",
+      "away_team": "科特迪瓦",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "group_code": "Group E",
+      "group_label": "E组",
       "group_teams": [
-        "荷兰",
-        "日本",
-        "突尼斯",
-        "瑞典"
+        "德国",
+        "库拉索",
+        "科特迪瓦",
+        "厄瓜多尔"
       ],
       "result": {},
       "is_finished": false,
       "is_schedule_only": false,
-      "detail_href": "match_details_2026-06-25/周四058_日本_vs_瑞典.html",
-      "analysis_href": "match_analysis_2026-06-25/周四058_日本_vs_瑞典_analysis.html",
+      "detail_href": "match_details_2026-06-25/周四056_库拉索_vs_科特迪瓦.html",
+      "analysis_href": "match_analysis_2026-06-25/周四056_库拉索_vs_科特迪瓦_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-25",
       "source_snapshot_id": 129,
       "source_snapshot_fetched_at": "2026-06-25T11:25:01",
-      "source_match_num": "周四058"
+      "source_match_num": "周四056"
     },
     {
-      "fixture_no": 58,
-      "fixture_label": "第58场",
-      "match_num": "第58场",
+      "fixture_no": 57,
+      "fixture_label": "周四057",
+      "match_num": "周四057",
       "league": "世界杯",
       "kickoff": "2026-06-26 07:00",
       "home_team": "突尼斯",
@@ -2749,37 +2721,37 @@
       "source_match_num": "周四057"
     },
     {
-      "fixture_no": 59,
-      "fixture_label": "第59场",
-      "match_num": "第59场",
+      "fixture_no": 58,
+      "fixture_label": "周四058",
+      "match_num": "周四058",
       "league": "世界杯",
-      "kickoff": "2026-06-26 10:00",
-      "home_team": "土耳其",
-      "away_team": "美国",
-      "venue": "SoFi Stadium, Los Angeles",
-      "group_code": "Group D",
-      "group_label": "D组",
+      "kickoff": "2026-06-26 07:00",
+      "home_team": "日本",
+      "away_team": "瑞典",
+      "venue": "AT&T Stadium, Dallas",
+      "group_code": "Group F",
+      "group_label": "F组",
       "group_teams": [
-        "美国",
-        "巴拉圭",
-        "澳大利亚",
-        "土耳其"
+        "荷兰",
+        "日本",
+        "突尼斯",
+        "瑞典"
       ],
       "result": {},
       "is_finished": false,
       "is_schedule_only": false,
-      "detail_href": "match_details_2026-06-25/周四060_土耳其_vs_美国.html",
-      "analysis_href": "match_analysis_2026-06-25/周四060_土耳其_vs_美国_analysis.html",
+      "detail_href": "match_details_2026-06-25/周四058_日本_vs_瑞典.html",
+      "analysis_href": "match_analysis_2026-06-25/周四058_日本_vs_瑞典_analysis.html",
       "action": "avoid",
       "source_event_date": "2026-06-25",
       "source_snapshot_id": 129,
       "source_snapshot_fetched_at": "2026-06-25T11:25:01",
-      "source_match_num": "周四060"
+      "source_match_num": "周四058"
     },
     {
-      "fixture_no": 60,
-      "fixture_label": "第60场",
-      "match_num": "第60场",
+      "fixture_no": 59,
+      "fixture_label": "周四059",
+      "match_num": "周四059",
       "league": "世界杯",
       "kickoff": "2026-06-26 10:00",
       "home_team": "巴拉圭",
@@ -2805,9 +2777,37 @@
       "source_match_num": "周四059"
     },
     {
+      "fixture_no": 60,
+      "fixture_label": "周四060",
+      "match_num": "周四060",
+      "league": "世界杯",
+      "kickoff": "2026-06-26 10:00",
+      "home_team": "土耳其",
+      "away_team": "美国",
+      "venue": "SoFi Stadium, Los Angeles",
+      "group_code": "Group D",
+      "group_label": "D组",
+      "group_teams": [
+        "美国",
+        "巴拉圭",
+        "澳大利亚",
+        "土耳其"
+      ],
+      "result": {},
+      "is_finished": false,
+      "is_schedule_only": false,
+      "detail_href": "match_details_2026-06-25/周四060_土耳其_vs_美国.html",
+      "analysis_href": "match_analysis_2026-06-25/周四060_土耳其_vs_美国_analysis.html",
+      "action": "avoid",
+      "source_event_date": "2026-06-25",
+      "source_snapshot_id": 129,
+      "source_snapshot_fetched_at": "2026-06-25T11:25:01",
+      "source_match_num": "周四060"
+    },
+    {
       "fixture_no": 61,
-      "fixture_label": "第61场",
-      "match_num": "第61场",
+      "fixture_label": "周五061",
+      "match_num": "周五061",
       "league": "世界杯",
       "kickoff": "2026-06-27 03:00",
       "home_team": "挪威",
@@ -2834,8 +2834,8 @@
     },
     {
       "fixture_no": 62,
-      "fixture_label": "第62场",
-      "match_num": "第62场",
+      "fixture_label": "周五062",
+      "match_num": "周五062",
       "league": "世界杯",
       "kickoff": "2026-06-27 03:00",
       "home_team": "塞内加尔",
@@ -2862,8 +2862,8 @@
     },
     {
       "fixture_no": 63,
-      "fixture_label": "第63场",
-      "match_num": "第63场",
+      "fixture_label": "周五063",
+      "match_num": "周五063",
       "league": "世界杯",
       "kickoff": "2026-06-27 08:00",
       "home_team": "佛得角",
@@ -2890,8 +2890,8 @@
     },
     {
       "fixture_no": 64,
-      "fixture_label": "第64场",
-      "match_num": "第64场",
+      "fixture_label": "周五064",
+      "match_num": "周五064",
       "league": "世界杯",
       "kickoff": "2026-06-27 08:00",
       "home_team": "乌拉圭",
@@ -2918,8 +2918,8 @@
     },
     {
       "fixture_no": 65,
-      "fixture_label": "第65场",
-      "match_num": "第65场",
+      "fixture_label": "周五065",
+      "match_num": "周五065",
       "league": "世界杯",
       "kickoff": "2026-06-27 11:00",
       "home_team": "埃及",
@@ -2946,8 +2946,8 @@
     },
     {
       "fixture_no": 66,
-      "fixture_label": "第66场",
-      "match_num": "第66场",
+      "fixture_label": "周五066",
+      "match_num": "周五066",
       "league": "世界杯",
       "kickoff": "2026-06-27 11:00",
       "home_team": "新西兰",
@@ -2974,36 +2974,8 @@
     },
     {
       "fixture_no": 67,
-      "fixture_label": "第67场",
-      "match_num": "第67场",
-      "league": "世界杯",
-      "kickoff": "2026-06-28 05:00",
-      "home_team": "巴拿马",
-      "away_team": "英格兰",
-      "venue": "MetLife Stadium, New York/New Jersey",
-      "group_code": "Group L",
-      "group_label": "L组",
-      "group_teams": [
-        "英格兰",
-        "克罗地亚",
-        "巴拿马",
-        "加纳"
-      ],
-      "result": {},
-      "is_finished": false,
-      "is_schedule_only": false,
-      "detail_href": "match_details_2026-06-25/周六068_巴拿马_vs_英格兰.html",
-      "analysis_href": "match_analysis_2026-06-25/周六068_巴拿马_vs_英格兰_analysis.html",
-      "action": "avoid",
-      "source_event_date": "2026-06-25",
-      "source_snapshot_id": 129,
-      "source_snapshot_fetched_at": "2026-06-25T11:25:01",
-      "source_match_num": "周六068"
-    },
-    {
-      "fixture_no": 68,
-      "fixture_label": "第68场",
-      "match_num": "第68场",
+      "fixture_label": "周六067",
+      "match_num": "周六067",
       "league": "世界杯",
       "kickoff": "2026-06-28 05:00",
       "home_team": "克罗地亚",
@@ -3029,9 +3001,37 @@
       "source_match_num": "周六067"
     },
     {
+      "fixture_no": 68,
+      "fixture_label": "周六068",
+      "match_num": "周六068",
+      "league": "世界杯",
+      "kickoff": "2026-06-28 05:00",
+      "home_team": "巴拿马",
+      "away_team": "英格兰",
+      "venue": "MetLife Stadium, New York/New Jersey",
+      "group_code": "Group L",
+      "group_label": "L组",
+      "group_teams": [
+        "英格兰",
+        "克罗地亚",
+        "巴拿马",
+        "加纳"
+      ],
+      "result": {},
+      "is_finished": false,
+      "is_schedule_only": false,
+      "detail_href": "match_details_2026-06-25/周六068_巴拿马_vs_英格兰.html",
+      "analysis_href": "match_analysis_2026-06-25/周六068_巴拿马_vs_英格兰_analysis.html",
+      "action": "avoid",
+      "source_event_date": "2026-06-25",
+      "source_snapshot_id": 129,
+      "source_snapshot_fetched_at": "2026-06-25T11:25:01",
+      "source_match_num": "周六068"
+    },
+    {
       "fixture_no": 69,
-      "fixture_label": "第69场",
-      "match_num": "第69场",
+      "fixture_label": "周六069",
+      "match_num": "周六069",
       "league": "世界杯",
       "kickoff": "2026-06-28 07:30",
       "home_team": "哥伦比亚",
@@ -3058,8 +3058,8 @@
     },
     {
       "fixture_no": 70,
-      "fixture_label": "第70场",
-      "match_num": "第70场",
+      "fixture_label": "周六070",
+      "match_num": "周六070",
       "league": "世界杯",
       "kickoff": "2026-06-28 07:30",
       "home_team": "刚果(金)",
@@ -3086,8 +3086,8 @@
     },
     {
       "fixture_no": 71,
-      "fixture_label": "第71场",
-      "match_num": "第71场",
+      "fixture_label": "周六071",
+      "match_num": "周六071",
       "league": "世界杯",
       "kickoff": "2026-06-28 10:00",
       "home_team": "阿尔及利亚",
@@ -3114,8 +3114,8 @@
     },
     {
       "fixture_no": 72,
-      "fixture_label": "第72场",
-      "match_num": "第72场",
+      "fixture_label": "周六072",
+      "match_num": "周六072",
       "league": "世界杯",
       "kickoff": "2026-06-28 10:00",
       "home_team": "约旦",
@@ -3405,8 +3405,8 @@
       "match_num": "周四055",
       "matchup": "厄瓜多尔 vs 德国",
       "group": "E组",
-      "lean": "德国胜面清楚，但头名优势已经够厚，重点是保第一而不是无条件追深。",
-      "check": "经验校验：胜面和穿盘拆开；若首发轮换或盘口不升，-2以上降权。"
+      "lean": "德国胜面仍在，但已锁定E组第一，首发轮换和比赛管理权重要上调。",
+      "check": "经验校验：德国不败优先，不再追深盘；厄瓜多尔必须抢分，+1保护价值上升。"
     },
     {
       "fixture_no": 56,
@@ -3445,8 +3445,8 @@
       "match_num": "周四060",
       "matchup": "土耳其 vs 美国",
       "group": "D组",
-      "lean": "美国头名基本稳，轮换和控节奏风险上升；土耳其只有赢球才有第三名机会。",
-      "check": "经验校验：美国胜面不等于美国穿盘，土耳其+1保护逻辑加强。"
+      "lean": "美国已锁定D组第一，土耳其因相互战绩劣势已基本出局，比赛更像轮换管理局。",
+      "check": "经验校验：美国小胜仍可看，但土耳其+1只是防小胜/平局保护，不是战意加分。"
     }
   ],
   "items": [
@@ -9016,39 +9016,42 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约65.9%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "德国胜面仍在，但已锁定小组第一，首发轮换和比赛管理要明显上调。"
         },
         "handicap": {
-          "option": "厄瓜多尔+1负",
-          "reason": "盘口分歧较多，娱乐预测按厄瓜多尔+1负处理。",
-          "label": "让负",
+          "option": "厄瓜多尔+1平",
+          "reason": "按0:1/1:2的小胜路径折回，厄瓜多尔+1优先看走盘保护，不追德国深穿。",
+          "label": "让平",
           "line": 1.0
         },
         "score": {
-          "option": "0:2 / 0:1 / 1:1",
-          "reason": "首选看0:2；0:1 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "0:1 / 1:1 / 1:2",
+          "reason": "0:1是德国轮换后仍拿结果的主线；1:1防厄瓜多尔抢分，1:2防后段开放。",
           "options": [
-            "0:2",
             "0:1",
-            "1:1"
+            "1:1",
+            "1:2"
           ],
-          "primary": "0:2",
+          "primary": "0:1",
           "result_options": [
             "客胜",
-            "客胜",
-            "平局"
+            "平局",
+            "客胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "1-3球",
+          "reason": "德国轮换和厄瓜多尔进攻焦虑并存，按1-3球区间处理。",
+          "side": "区间",
+          "line": "1-3",
+          "min_goals": 1,
+          "max_goals": 3
         },
-        "consistent": true
+        "consistent": true,
+        "source": "round_three_path_experience"
       },
       "detail_filename": "周四055_厄瓜多尔_vs_德国.html",
       "analysis_filename": "周四055_厄瓜多尔_vs_德国_analysis.html",
@@ -9500,39 +9503,42 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约50.9%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "美国已锁定小组第一但阵容深度仍占优，客胜只按小胜路径处理。"
         },
         "handicap": {
           "option": "土耳其+1平",
-          "reason": "让球热度与比分/赛果主线打架，按0:1这条首选比分折回为土耳其+1平。",
+          "reason": "土耳其出线动机降级，美国也有轮换风险，按0:1折回土耳其+1平。",
           "label": "让平",
           "line": 1.0
         },
         "score": {
-          "option": "0:1 / 0:2 / 1:1",
-          "reason": "首选看0:1；0:2 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "0:1 / 1:1 / 0:2",
+          "reason": "0:1是美国小胜主线；1:1防轮换降速，0:2只作为土耳其后段压出后的上限分支。",
           "options": [
             "0:1",
-            "0:2",
-            "1:1"
+            "1:1",
+            "0:2"
           ],
           "primary": "0:1",
           "result_options": [
             "客胜",
-            "客胜",
-            "平局"
+            "平局",
+            "客胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "1-3球",
+          "reason": "双方都缺少必须大开的结构，进球数按1-3球处理。",
+          "side": "区间",
+          "line": "1-3",
+          "min_goals": 1,
+          "max_goals": 3
         },
-        "consistent": true
+        "consistent": true,
+        "source": "round_three_path_experience"
       },
       "detail_filename": "周四060_土耳其_vs_美国.html",
       "analysis_filename": "周四060_土耳其_vs_美国_analysis.html",

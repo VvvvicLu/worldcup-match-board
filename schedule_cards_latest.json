@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-25",
-  "generated_at": "2026-06-25T16:26:57",
+  "generated_at": "2026-06-25T17:06:17",
   "snapshot": {
     "id": 129,
     "source": "500_jczq",
@@ -3405,8 +3405,8 @@
       "match_num": "周四055",
       "matchup": "厄瓜多尔 vs 德国",
       "group": "E组",
-      "lean": "德国胜面清楚，但头名优势已经够厚，重点是保第一而不是无条件追深。",
-      "check": "经验校验：胜面和穿盘拆开；若首发轮换或盘口不升，-2以上降权。"
+      "lean": "德国胜面仍在，但已锁定E组第一，首发轮换和比赛管理权重要上调。",
+      "check": "经验校验：德国不败优先，不再追深盘；厄瓜多尔必须抢分，+1保护价值上升。"
     },
     {
       "fixture_no": 56,
@@ -3445,8 +3445,8 @@
       "match_num": "周四060",
       "matchup": "土耳其 vs 美国",
       "group": "D组",
-      "lean": "美国头名基本稳，轮换和控节奏风险上升；土耳其只有赢球才有第三名机会。",
-      "check": "经验校验：美国胜面不等于美国穿盘，土耳其+1保护逻辑加强。"
+      "lean": "美国已锁定D组第一，土耳其因相互战绩劣势已基本出局，比赛更像轮换管理局。",
+      "check": "经验校验：美国小胜仍可看，但土耳其+1只是防小胜/平局保护，不是战意加分。"
     }
   ],
   "items": [
@@ -9016,39 +9016,42 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约65.9%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "德国胜面仍在，但已锁定小组第一，首发轮换和比赛管理要明显上调。"
         },
         "handicap": {
-          "option": "厄瓜多尔+1负",
-          "reason": "盘口分歧较多，娱乐预测按厄瓜多尔+1负处理。",
-          "label": "让负",
+          "option": "厄瓜多尔+1平",
+          "reason": "按0:1/1:2的小胜路径折回，厄瓜多尔+1优先看走盘保护，不追德国深穿。",
+          "label": "让平",
           "line": 1.0
         },
         "score": {
-          "option": "0:2 / 0:1 / 1:1",
-          "reason": "首选看0:2；0:1 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "0:1 / 1:1 / 1:2",
+          "reason": "0:1是德国轮换后仍拿结果的主线；1:1防厄瓜多尔抢分，1:2防后段开放。",
           "options": [
-            "0:2",
             "0:1",
-            "1:1"
+            "1:1",
+            "1:2"
           ],
-          "primary": "0:2",
+          "primary": "0:1",
           "result_options": [
             "客胜",
-            "客胜",
-            "平局"
+            "平局",
+            "客胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "1-3球",
+          "reason": "德国轮换和厄瓜多尔进攻焦虑并存，按1-3球区间处理。",
+          "side": "区间",
+          "line": "1-3",
+          "min_goals": 1,
+          "max_goals": 3
         },
-        "consistent": true
+        "consistent": true,
+        "source": "round_three_path_experience"
       },
       "detail_filename": "周四055_厄瓜多尔_vs_德国.html",
       "analysis_filename": "周四055_厄瓜多尔_vs_德国_analysis.html",
@@ -9500,39 +9503,42 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约50.9%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "美国已锁定小组第一但阵容深度仍占优，客胜只按小胜路径处理。"
         },
         "handicap": {
           "option": "土耳其+1平",
-          "reason": "让球热度与比分/赛果主线打架，按0:1这条首选比分折回为土耳其+1平。",
+          "reason": "土耳其出线动机降级，美国也有轮换风险，按0:1折回土耳其+1平。",
           "label": "让平",
           "line": 1.0
         },
         "score": {
-          "option": "0:1 / 0:2 / 1:1",
-          "reason": "首选看0:1；0:2 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "0:1 / 1:1 / 0:2",
+          "reason": "0:1是美国小胜主线；1:1防轮换降速，0:2只作为土耳其后段压出后的上限分支。",
           "options": [
             "0:1",
-            "0:2",
-            "1:1"
+            "1:1",
+            "0:2"
           ],
           "primary": "0:1",
           "result_options": [
             "客胜",
-            "客胜",
-            "平局"
+            "平局",
+            "客胜"
           ],
           "covers_result": true,
           "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "1-3球",
+          "reason": "双方都缺少必须大开的结构，进球数按1-3球处理。",
+          "side": "区间",
+          "line": "1-3",
+          "min_goals": 1,
+          "max_goals": 3
         },
-        "consistent": true
+        "consistent": true,
+        "source": "round_three_path_experience"
       },
       "detail_filename": "周四060_土耳其_vs_美国.html",
       "analysis_filename": "周四060_土耳其_vs_美国_analysis.html",
