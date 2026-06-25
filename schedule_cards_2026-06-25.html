@@ -78,6 +78,32 @@
     .filter-chip:hover { transform:translateY(-2px); box-shadow:0 12px 28px rgba(0,143,104,.16); }
     .filter-chip.is-active { color:white; background:linear-gradient(90deg,var(--blue),var(--green)); border-color:transparent; box-shadow:0 12px 30px rgba(35,100,170,.24); }
     .timeline-board { display:grid; grid-template-columns:1fr; gap:26px; padding:0 46px 58px; perspective:1400px; }
+    .knockout-section { margin:0 46px 28px; border:1px solid rgba(12,89,107,.18); border-radius:34px; padding:24px; background:linear-gradient(145deg,rgba(251,255,248,.92),rgba(232,244,255,.72)); backdrop-filter:blur(16px); box-shadow:var(--shadow); animation:panelBlast .72s cubic-bezier(.16,1,.3,1) both; overflow:hidden; }
+    .knockout-head { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; margin-bottom:18px; }
+    .knockout-head h2 { margin:0 0 6px; font-size:36px; letter-spacing:-.05em; }
+    .knockout-head span { color:#536173; font-size:14px; line-height:1.65; }
+    .knockout-head b { border:1px solid rgba(35,100,170,.24); border-radius:999px; padding:8px 12px; color:var(--blue); background:rgba(35,100,170,.09); white-space:nowrap; }
+    .knockout-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:14px; }
+    .knockout-card { border:1px solid rgba(35,100,170,.16); border-radius:24px; padding:16px; background:linear-gradient(145deg,rgba(255,255,255,.68),rgba(229,245,241,.64)); min-height:228px; box-shadow:0 16px 38px rgba(6,35,56,.10); }
+    .knockout-card.is-confirmed { border-color:rgba(22,122,85,.28); background:linear-gradient(145deg,rgba(255,255,255,.70),rgba(226,247,237,.70)); }
+    .knockout-card .card-top em { border-radius:999px; padding:5px 9px; color:#fff; background:var(--night); font-style:normal; font-size:12px; font-weight:900; }
+    .knockout-match { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:10px; align-items:stretch; margin-top:12px; }
+    .knockout-team { border:1px solid rgba(25,32,42,.10); border-radius:18px; padding:12px; min-height:96px; background:rgba(255,255,255,.58); display:flex; flex-direction:column; justify-content:center; gap:5px; }
+    .knockout-team small { color:var(--blue); font-size:12px; font-weight:900; }
+    .knockout-team strong { font-size:20px; line-height:1.18; overflow-wrap:anywhere; }
+    .knockout-team span { color:var(--muted); font-size:12px; line-height:1.35; }
+    .knockout-team.pending strong { color:#6b7280; font-size:17px; }
+    .experience-section { margin:0 46px 28px; border:1px solid rgba(12,89,107,.16); border-radius:24px; padding:22px; background:rgba(255,255,255,.72); box-shadow:0 20px 55px rgba(6,35,56,.10); animation:panelBlast .72s cubic-bezier(.16,1,.3,1) both; }
+    .experience-head { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; margin-bottom:16px; }
+    .experience-head h2 { margin:0 0 6px; font-size:32px; letter-spacing:0; }
+    .experience-head span { color:#536173; font-size:14px; line-height:1.65; }
+    .experience-head b { border:1px solid rgba(205,66,46,.24); border-radius:999px; padding:8px 12px; color:#a13323; background:rgba(205,66,46,.08); white-space:nowrap; }
+    .experience-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:12px; }
+    .experience-card { border:1px solid rgba(25,32,42,.10); border-radius:12px; padding:15px; background:rgba(248,252,255,.76); min-height:188px; display:flex; flex-direction:column; gap:10px; }
+    .experience-card h3 { margin:0; font-size:18px; line-height:1.25; overflow-wrap:anywhere; }
+    .experience-card p { margin:0; color:#2a3441; font-size:14px; line-height:1.55; }
+    .experience-card strong { margin-top:auto; display:block; color:#a13323; font-size:13px; line-height:1.5; }
+    .versus { align-self:center; color:var(--amber); font-weight:1000; }
     .date-section { position:relative; border:1px solid rgba(0,167,181,.18); border-radius:34px; padding:22px; background:linear-gradient(145deg,rgba(251,255,248,.90),rgba(219,243,235,.70)); backdrop-filter:blur(16px); box-shadow:var(--shadow); animation:panelBlast .72s cubic-bezier(.16,1,.3,1) both; overflow:hidden; }
     .date-section.is-hidden, .group-section.is-hidden { display:none; }
     .date-section:before { content:""; position:absolute; inset:0 auto 0 0; width:7px; background:linear-gradient(180deg,var(--blue),var(--teal),var(--green),var(--lime)); opacity:.95; }
@@ -257,6 +283,14 @@
       .lead { font-size:14px; line-height:1.72; }
       .status-strip { grid-template-columns:1fr 1fr; padding-left:20px; padding-right:20px; }
       .timeline-board,.group-board { grid-template-columns:1fr; padding-left:20px; padding-right:20px; }
+      .knockout-section { margin-left:20px; margin-right:20px; padding:18px; border-radius:26px; }
+      .knockout-head { flex-direction:column; }
+      .knockout-head h2 { font-size:30px; }
+      .knockout-grid { grid-template-columns:1fr; }
+      .experience-section { margin-left:20px; margin-right:20px; padding:18px; border-radius:20px; }
+      .experience-head { flex-direction:column; }
+      .experience-head h2 { font-size:28px; }
+      .experience-grid { grid-template-columns:1fr; }
       .date-match-grid { grid-template-columns:1fr; }
       .notice,.back-link,.analysis-entry,.advice-panel,.filter-bar { margin-left:20px; margin-right:20px; }
       .filter-bar { align-items:flex-start; flex-direction:column; padding:12px; border-radius:22px; position:sticky; top:0; z-index:20; }
@@ -289,21 +323,25 @@
         radial-gradient(circle at 50% 110%, rgba(8,120,79,.22), transparent 42%),
         linear-gradient(180deg,#e0f4f1,var(--bg)); }
       body:before { opacity:.16; }
-      body,.hero,.match-hero,h1,.match-card,.panel,.group-section,.date-section,.advice-card,.analysis-entry,.filter-bar { animation:none; opacity:1; transform:none; filter:none; }
+      body,.hero,.match-hero,h1,.match-card,.panel,.group-section,.date-section,.advice-card,.analysis-entry,.filter-bar,.experience-section,.experience-card { animation:none; opacity:1; transform:none; filter:none; }
       .hero,.match-hero { padding:22px 14px 16px; }
       .hero:before,.match-hero:before { opacity:.65; transform:skewX(-8deg) scale(.92); }
-      .hero-panel,.decision-card,.panel,.match-card,.notice,.filter-bar,.analysis-entry { backdrop-filter:blur(10px); }
+      .hero-panel,.decision-card,.panel,.match-card,.notice,.filter-bar,.analysis-entry,.experience-section { backdrop-filter:blur(10px); }
       .hero,.match-hero { width:100vw; max-width:100vw; overflow:hidden; }
       .hero > div,.match-hero > div { width:100%; max-width:min(100%, 360px); min-width:0; }
-      .hero-panel,.decision-card,.panel,.match-card,.notice,.filter-bar,.analysis-entry { width:100%; max-width:min(100%, 362px); min-width:0; }
+      .hero-panel,.decision-card,.panel,.match-card,.notice,.filter-bar,.analysis-entry,.experience-section { width:100%; max-width:min(100%, 362px); min-width:0; }
       h1 { max-width:min(100%, 342px); font-size:clamp(34px,12vw,48px); letter-spacing:-.06em; overflow-wrap:anywhere; word-break:break-word; }
       .eyebrow { font-size:10px; letter-spacing:.12em; }
       .lead { margin-top:10px; }
-      .lead,.fine,.notice,.analysis-entry span,.advice-card p,.recommendation p,.decision-card p { max-width:min(100%, 330px); padding-right:6px; overflow-wrap:anywhere; word-break:break-word; }
+      .lead,.fine,.notice,.analysis-entry span,.advice-card p,.recommendation p,.decision-card p,.experience-card p,.experience-card strong { max-width:min(100%, 330px); padding-right:6px; overflow-wrap:anywhere; word-break:break-word; }
       .status-strip { grid-template-columns:1fr; }
       .metric { padding:14px; border-radius:18px; }
       .metric strong { font-size:24px; }
       .timeline-board,.group-board,.detail-layout,.analysis-grid { padding-left:12px; padding-right:12px; gap:14px; }
+      .knockout-section { margin-left:12px; margin-right:12px; padding:15px; border-radius:24px; }
+      .knockout-match { grid-template-columns:1fr; }
+      .versus { justify-self:center; }
+      .knockout-team { min-height:auto; }
       .notice,.back-link,.analysis-entry,.advice-panel,.filter-bar { margin-left:12px; margin-right:12px; }
       .group-section,.date-section,.panel { padding:15px; border-radius:24px; }
       .date-section:after { font-size:54px; right:10px; bottom:8px; opacity:.55; letter-spacing:-.06em; }
@@ -363,6 +401,420 @@
   <span>按小组筛选</span>
   <div><button class="filter-chip is-active" type="button" data-group-filter="all">全部</button><button class="filter-chip" type="button" data-group-filter="Group A">A组</button><button class="filter-chip" type="button" data-group-filter="Group B">B组</button><button class="filter-chip" type="button" data-group-filter="Group C">C组</button><button class="filter-chip" type="button" data-group-filter="Group D">D组</button><button class="filter-chip" type="button" data-group-filter="Group E">E组</button><button class="filter-chip" type="button" data-group-filter="Group F">F组</button><button class="filter-chip" type="button" data-group-filter="Group G">G组</button><button class="filter-chip" type="button" data-group-filter="Group H">H组</button><button class="filter-chip" type="button" data-group-filter="Group I">I组</button><button class="filter-chip" type="button" data-group-filter="Group J">J组</button><button class="filter-chip" type="button" data-group-filter="Group K">K组</button><button class="filter-chip" type="button" data-group-filter="Group L">L组</button></div>
 </nav>
+  <section class="knockout-section" aria-label="32强淘汰赛对阵">
+  <div class="knockout-head">
+    <div>
+      <p class="eyebrow">Knockout Bracket</p>
+      <h2>32强淘汰赛对阵</h2>
+      <span>已完赛小组的席位会直接显示球队；未确认席位统一标注为待定。</span>
+    </div>
+    <b>1/16 已确认</b>
+  </div>
+  <div class="knockout-grid">
+    <article class="knockout-card is-confirmed">
+  <div class="card-top">
+    <span>第73场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-06-29</span><b>03:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team confirmed">
+      <small>2A</small>
+      <strong>南非</strong>
+      <span>A组第2</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team confirmed">
+      <small>2B</small>
+      <strong>加拿大</strong>
+      <span>B组第2</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>SoFi Stadium, Los Angeles</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第76场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-06-30</span><b>01:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team confirmed">
+      <small>1C</small>
+      <strong>巴西</strong>
+      <span>C组第1</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>2F</small>
+      <strong>待定（F组第2）</strong>
+      <span>F组第2未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>NRG Stadium, Houston</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第74场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-06-30</span><b>04:30</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>1E</small>
+      <strong>待定（E组第1）</strong>
+      <span>E组第1未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>3ABCDF</small>
+      <strong>待定（A/B/C/D/F组第三之一）</strong>
+      <span>最好第三组合 ABCDF 未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>Gillette Stadium, Boston</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第75场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-06-30</span><b>09:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>1F</small>
+      <strong>待定（F组第1）</strong>
+      <span>F组第1未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team confirmed">
+      <small>2C</small>
+      <strong>摩洛哥</strong>
+      <span>C组第2</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>Estadio BBVA, Monterrey</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第78场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-01</span><b>01:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>2E</small>
+      <strong>待定（E组第2）</strong>
+      <span>E组第2未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>2I</small>
+      <strong>待定（I组第2）</strong>
+      <span>I组第2未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>AT&amp;T Stadium, Dallas</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第77场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-01</span><b>05:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>1I</small>
+      <strong>待定（I组第1）</strong>
+      <span>I组第1未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>3CDFGH</small>
+      <strong>待定（C/D/F/G/H组第三之一）</strong>
+      <span>最好第三组合 CDFGH 未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>MetLife Stadium, New York/New Jersey</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第79场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-01</span><b>09:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team confirmed">
+      <small>1A</small>
+      <strong>墨西哥</strong>
+      <span>A组第1</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>3CEFHI</small>
+      <strong>待定（C/E/F/H/I组第三之一）</strong>
+      <span>最好第三组合 CEFHI 未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>Estadio Azteca, Mexico City</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第80场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-02</span><b>00:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>1L</small>
+      <strong>待定（L组第1）</strong>
+      <span>L组第1未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>3EHIJK</small>
+      <strong>待定（E/H/I/J/K组第三之一）</strong>
+      <span>最好第三组合 EHIJK 未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>Mercedes-Benz Stadium, Atlanta</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第82场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-02</span><b>04:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>1G</small>
+      <strong>待定（G组第1）</strong>
+      <span>G组第1未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>3AEHIJ</small>
+      <strong>待定（A/E/H/I/J组第三之一）</strong>
+      <span>最好第三组合 AEHIJ 未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>Lumen Field, Seattle</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第81场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-02</span><b>08:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>1D</small>
+      <strong>待定（D组第1）</strong>
+      <span>D组第1未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>3BEFIJ</small>
+      <strong>待定（B/E/F/I/J组第三之一）</strong>
+      <span>最好第三组合 BEFIJ 未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>Levi&#x27;s Stadium, San Francisco Bay Area</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第84场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-03</span><b>03:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>1H</small>
+      <strong>待定（H组第1）</strong>
+      <span>H组第1未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>2J</small>
+      <strong>待定（J组第2）</strong>
+      <span>J组第2未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>SoFi Stadium, Los Angeles</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第83场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-03</span><b>07:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>2K</small>
+      <strong>待定（K组第2）</strong>
+      <span>K组第2未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>2L</small>
+      <strong>待定（L组第2）</strong>
+      <span>L组第2未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>BMO Field, Toronto</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第85场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-03</span><b>11:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team confirmed">
+      <small>1B</small>
+      <strong>瑞士</strong>
+      <span>B组第1</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>3EFGIJ</small>
+      <strong>待定（E/F/G/I/J组第三之一）</strong>
+      <span>最好第三组合 EFGIJ 未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>BC Place, Vancouver</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第88场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-04</span><b>02:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>2D</small>
+      <strong>待定（D组第2）</strong>
+      <span>D组第2未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>2G</small>
+      <strong>待定（G组第2）</strong>
+      <span>G组第2未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>AT&amp;T Stadium, Dallas</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第86场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-04</span><b>06:00</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>1J</small>
+      <strong>待定（J组第1）</strong>
+      <span>J组第1未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>2H</small>
+      <strong>待定（H组第2）</strong>
+      <span>H组第2未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>Hard Rock Stadium, Miami</span></div>
+</article>
+<article class="knockout-card">
+  <div class="card-top">
+    <span>第87场</span>
+    <em>32强</em>
+  </div>
+  <div class="date-row"><span>2026-07-04</span><b>09:30</b></div>
+  <div class="knockout-match">
+    <div class="knockout-team pending">
+      <small>1K</small>
+      <strong>待定（K组第1）</strong>
+      <span>K组第1未确认</span>
+    </div>
+    <span class="versus">vs</span>
+    <div class="knockout-team pending">
+      <small>3DEIJL</small>
+      <strong>待定（D/E/I/J/L组第三之一）</strong>
+      <span>最好第三组合 DEIJL 未确认</span>
+    </div>
+  </div>
+  <div class="fixture-meta"><span>GEHA Field at Arrowhead Stadium, Kansas City</span></div>
+</article>
+  </div>
+</section>
+  <section class="experience-section" aria-label="第三轮经验校验">
+  <div class="experience-head">
+    <div>
+      <p class="eyebrow">Round Three Discipline</p>
+      <h2>第三轮经验校验</h2>
+      <span>把轮换、头名/第二名路径、默契球和深盘纪律逐场落到当前预测。</span>
+    </div>
+    <b>6 场已校验</b>
+  </div>
+  <div class="experience-grid">
+    <article class="experience-card">
+  <div class="card-top">
+    <span>周四055</span>
+    <em>E组</em>
+  </div>
+  <h3>厄瓜多尔 vs 德国</h3>
+  <p>德国胜面清楚，但头名优势已经够厚，重点是保第一而不是无条件追深。</p>
+  <strong>经验校验：胜面和穿盘拆开；若首发轮换或盘口不升，-2以上降权。</strong>
+</article>
+<article class="experience-card">
+  <div class="card-top">
+    <span>周四056</span>
+    <em>E组</em>
+  </div>
+  <h3>库拉索 vs 科特迪瓦</h3>
+  <p>科特迪瓦现实目标是锁第二，赢球动机明确，但领先后未必持续压迫。</p>
+  <strong>经验校验：弱队必须赢不等于热门必须穿三球，深盘按首选比分回折。</strong>
+</article>
+<article class="experience-card">
+  <div class="card-top">
+    <span>周四057</span>
+    <em>F组</em>
+  </div>
+  <h3>突尼斯 vs 荷兰</h3>
+  <p>荷兰争F组第一的路径价值很高，第一打摩洛哥、第二可能碰巴西。</p>
+  <strong>经验校验：战意上调支持-1.5，但-2以上仍等首发和临场水位确认。</strong>
+</article>
+<article class="experience-card">
+  <div class="card-top">
+    <span>周四058</span>
+    <em>F组</em>
+  </div>
+  <h3>日本 vs 瑞典</h3>
+  <p>日本不败仍优先，但第二名路径可能碰巴西，不能简单按保平小球处理。</p>
+  <strong>经验校验：瑞典也有直接反超动力，防双方主动提速，比分扩到2:1/1:1/2:2。</strong>
+</article>
+<article class="experience-card">
+  <div class="card-top">
+    <span>周四059</span>
+    <em>D组</em>
+  </div>
+  <h3>巴拉圭 vs 澳大利亚</h3>
+  <p>澳大利亚更能接受平局，巴拉圭打平虽大概率出线但第三名路径更差。</p>
+  <strong>经验校验：默契球只降节奏，不等于全场锁死，防75分钟后巴拉圭提速。</strong>
+</article>
+<article class="experience-card">
+  <div class="card-top">
+    <span>周四060</span>
+    <em>D组</em>
+  </div>
+  <h3>土耳其 vs 美国</h3>
+  <p>美国头名基本稳，轮换和控节奏风险上升；土耳其只有赢球才有第三名机会。</p>
+  <strong>经验校验：美国胜面不等于美国穿盘，土耳其+1保护逻辑加强。</strong>
+</article>
+  </div>
+</section>
 
   <main class="timeline-board">
     <section class="date-section" data-date="2026-06-12">

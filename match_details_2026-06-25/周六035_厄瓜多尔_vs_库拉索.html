@@ -78,6 +78,32 @@
     .filter-chip:hover { transform:translateY(-2px); box-shadow:0 12px 28px rgba(0,143,104,.16); }
     .filter-chip.is-active { color:white; background:linear-gradient(90deg,var(--blue),var(--green)); border-color:transparent; box-shadow:0 12px 30px rgba(35,100,170,.24); }
     .timeline-board { display:grid; grid-template-columns:1fr; gap:26px; padding:0 46px 58px; perspective:1400px; }
+    .knockout-section { margin:0 46px 28px; border:1px solid rgba(12,89,107,.18); border-radius:34px; padding:24px; background:linear-gradient(145deg,rgba(251,255,248,.92),rgba(232,244,255,.72)); backdrop-filter:blur(16px); box-shadow:var(--shadow); animation:panelBlast .72s cubic-bezier(.16,1,.3,1) both; overflow:hidden; }
+    .knockout-head { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; margin-bottom:18px; }
+    .knockout-head h2 { margin:0 0 6px; font-size:36px; letter-spacing:-.05em; }
+    .knockout-head span { color:#536173; font-size:14px; line-height:1.65; }
+    .knockout-head b { border:1px solid rgba(35,100,170,.24); border-radius:999px; padding:8px 12px; color:var(--blue); background:rgba(35,100,170,.09); white-space:nowrap; }
+    .knockout-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:14px; }
+    .knockout-card { border:1px solid rgba(35,100,170,.16); border-radius:24px; padding:16px; background:linear-gradient(145deg,rgba(255,255,255,.68),rgba(229,245,241,.64)); min-height:228px; box-shadow:0 16px 38px rgba(6,35,56,.10); }
+    .knockout-card.is-confirmed { border-color:rgba(22,122,85,.28); background:linear-gradient(145deg,rgba(255,255,255,.70),rgba(226,247,237,.70)); }
+    .knockout-card .card-top em { border-radius:999px; padding:5px 9px; color:#fff; background:var(--night); font-style:normal; font-size:12px; font-weight:900; }
+    .knockout-match { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:10px; align-items:stretch; margin-top:12px; }
+    .knockout-team { border:1px solid rgba(25,32,42,.10); border-radius:18px; padding:12px; min-height:96px; background:rgba(255,255,255,.58); display:flex; flex-direction:column; justify-content:center; gap:5px; }
+    .knockout-team small { color:var(--blue); font-size:12px; font-weight:900; }
+    .knockout-team strong { font-size:20px; line-height:1.18; overflow-wrap:anywhere; }
+    .knockout-team span { color:var(--muted); font-size:12px; line-height:1.35; }
+    .knockout-team.pending strong { color:#6b7280; font-size:17px; }
+    .experience-section { margin:0 46px 28px; border:1px solid rgba(12,89,107,.16); border-radius:24px; padding:22px; background:rgba(255,255,255,.72); box-shadow:0 20px 55px rgba(6,35,56,.10); animation:panelBlast .72s cubic-bezier(.16,1,.3,1) both; }
+    .experience-head { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; margin-bottom:16px; }
+    .experience-head h2 { margin:0 0 6px; font-size:32px; letter-spacing:0; }
+    .experience-head span { color:#536173; font-size:14px; line-height:1.65; }
+    .experience-head b { border:1px solid rgba(205,66,46,.24); border-radius:999px; padding:8px 12px; color:#a13323; background:rgba(205,66,46,.08); white-space:nowrap; }
+    .experience-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:12px; }
+    .experience-card { border:1px solid rgba(25,32,42,.10); border-radius:12px; padding:15px; background:rgba(248,252,255,.76); min-height:188px; display:flex; flex-direction:column; gap:10px; }
+    .experience-card h3 { margin:0; font-size:18px; line-height:1.25; overflow-wrap:anywhere; }
+    .experience-card p { margin:0; color:#2a3441; font-size:14px; line-height:1.55; }
+    .experience-card strong { margin-top:auto; display:block; color:#a13323; font-size:13px; line-height:1.5; }
+    .versus { align-self:center; color:var(--amber); font-weight:1000; }
     .date-section { position:relative; border:1px solid rgba(0,167,181,.18); border-radius:34px; padding:22px; background:linear-gradient(145deg,rgba(251,255,248,.90),rgba(219,243,235,.70)); backdrop-filter:blur(16px); box-shadow:var(--shadow); animation:panelBlast .72s cubic-bezier(.16,1,.3,1) both; overflow:hidden; }
     .date-section.is-hidden, .group-section.is-hidden { display:none; }
     .date-section:before { content:""; position:absolute; inset:0 auto 0 0; width:7px; background:linear-gradient(180deg,var(--blue),var(--teal),var(--green),var(--lime)); opacity:.95; }
@@ -257,6 +283,14 @@
       .lead { font-size:14px; line-height:1.72; }
       .status-strip { grid-template-columns:1fr 1fr; padding-left:20px; padding-right:20px; }
       .timeline-board,.group-board { grid-template-columns:1fr; padding-left:20px; padding-right:20px; }
+      .knockout-section { margin-left:20px; margin-right:20px; padding:18px; border-radius:26px; }
+      .knockout-head { flex-direction:column; }
+      .knockout-head h2 { font-size:30px; }
+      .knockout-grid { grid-template-columns:1fr; }
+      .experience-section { margin-left:20px; margin-right:20px; padding:18px; border-radius:20px; }
+      .experience-head { flex-direction:column; }
+      .experience-head h2 { font-size:28px; }
+      .experience-grid { grid-template-columns:1fr; }
       .date-match-grid { grid-template-columns:1fr; }
       .notice,.back-link,.analysis-entry,.advice-panel,.filter-bar { margin-left:20px; margin-right:20px; }
       .filter-bar { align-items:flex-start; flex-direction:column; padding:12px; border-radius:22px; position:sticky; top:0; z-index:20; }
@@ -289,21 +323,25 @@
         radial-gradient(circle at 50% 110%, rgba(8,120,79,.22), transparent 42%),
         linear-gradient(180deg,#e0f4f1,var(--bg)); }
       body:before { opacity:.16; }
-      body,.hero,.match-hero,h1,.match-card,.panel,.group-section,.date-section,.advice-card,.analysis-entry,.filter-bar { animation:none; opacity:1; transform:none; filter:none; }
+      body,.hero,.match-hero,h1,.match-card,.panel,.group-section,.date-section,.advice-card,.analysis-entry,.filter-bar,.experience-section,.experience-card { animation:none; opacity:1; transform:none; filter:none; }
       .hero,.match-hero { padding:22px 14px 16px; }
       .hero:before,.match-hero:before { opacity:.65; transform:skewX(-8deg) scale(.92); }
-      .hero-panel,.decision-card,.panel,.match-card,.notice,.filter-bar,.analysis-entry { backdrop-filter:blur(10px); }
+      .hero-panel,.decision-card,.panel,.match-card,.notice,.filter-bar,.analysis-entry,.experience-section { backdrop-filter:blur(10px); }
       .hero,.match-hero { width:100vw; max-width:100vw; overflow:hidden; }
       .hero > div,.match-hero > div { width:100%; max-width:min(100%, 360px); min-width:0; }
-      .hero-panel,.decision-card,.panel,.match-card,.notice,.filter-bar,.analysis-entry { width:100%; max-width:min(100%, 362px); min-width:0; }
+      .hero-panel,.decision-card,.panel,.match-card,.notice,.filter-bar,.analysis-entry,.experience-section { width:100%; max-width:min(100%, 362px); min-width:0; }
       h1 { max-width:min(100%, 342px); font-size:clamp(34px,12vw,48px); letter-spacing:-.06em; overflow-wrap:anywhere; word-break:break-word; }
       .eyebrow { font-size:10px; letter-spacing:.12em; }
       .lead { margin-top:10px; }
-      .lead,.fine,.notice,.analysis-entry span,.advice-card p,.recommendation p,.decision-card p { max-width:min(100%, 330px); padding-right:6px; overflow-wrap:anywhere; word-break:break-word; }
+      .lead,.fine,.notice,.analysis-entry span,.advice-card p,.recommendation p,.decision-card p,.experience-card p,.experience-card strong { max-width:min(100%, 330px); padding-right:6px; overflow-wrap:anywhere; word-break:break-word; }
       .status-strip { grid-template-columns:1fr; }
       .metric { padding:14px; border-radius:18px; }
       .metric strong { font-size:24px; }
       .timeline-board,.group-board,.detail-layout,.analysis-grid { padding-left:12px; padding-right:12px; gap:14px; }
+      .knockout-section { margin-left:12px; margin-right:12px; padding:15px; border-radius:24px; }
+      .knockout-match { grid-template-columns:1fr; }
+      .versus { justify-self:center; }
+      .knockout-team { min-height:auto; }
       .notice,.back-link,.analysis-entry,.advice-panel,.filter-bar { margin-left:12px; margin-right:12px; }
       .group-section,.date-section,.panel { padding:15px; border-radius:24px; }
       .date-section:after { font-size:54px; right:10px; bottom:8px; opacity:.55; letter-spacing:-.06em; }
@@ -381,8 +419,8 @@
 </div><div class="advice-card is-miss">
   <b class="hit-badge miss">✕</b>
   <span>让球方向</span>
-  <strong>厄瓜多尔-2胜</strong>
-  <p>赛前热度分歧较多，娱乐预测按厄瓜多尔-2胜处理。</p>
+  <strong>厄瓜多尔-2平</strong>
+  <p>让球热度与比分/赛果主线打架，按2:0这条首选比分折回为厄瓜多尔-2平。</p>
 </div><div class="advice-card is-miss">
   <b class="hit-badge miss">✕</b>
   <span>比分猜想</span>

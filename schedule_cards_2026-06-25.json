@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-25",
-  "generated_at": "2026-06-25T11:26:55",
+  "generated_at": "2026-06-25T16:26:57",
   "snapshot": {
     "id": 129,
     "source": "500_jczq",
@@ -3141,6 +3141,314 @@
       "source_match_num": "周六072"
     }
   ],
+  "knockout_items": [
+    {
+      "fixture_no": 73,
+      "match_num": "第73场",
+      "round": "32强",
+      "kickoff": "2026-06-29 03:00",
+      "venue": "SoFi Stadium, Los Angeles",
+      "home_slot": "2A",
+      "away_slot": "2B",
+      "home_team": "南非",
+      "away_team": "加拿大",
+      "home_status": "confirmed",
+      "away_status": "confirmed",
+      "home_note": "A组第2",
+      "away_note": "B组第2",
+      "is_confirmed": true
+    },
+    {
+      "fixture_no": 76,
+      "match_num": "第76场",
+      "round": "32强",
+      "kickoff": "2026-06-30 01:00",
+      "venue": "NRG Stadium, Houston",
+      "home_slot": "1C",
+      "away_slot": "2F",
+      "home_team": "巴西",
+      "away_team": "待定（F组第2）",
+      "home_status": "confirmed",
+      "away_status": "pending",
+      "home_note": "C组第1",
+      "away_note": "F组第2未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 74,
+      "match_num": "第74场",
+      "round": "32强",
+      "kickoff": "2026-06-30 04:30",
+      "venue": "Gillette Stadium, Boston",
+      "home_slot": "1E",
+      "away_slot": "3ABCDF",
+      "home_team": "待定（E组第1）",
+      "away_team": "待定（A/B/C/D/F组第三之一）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "E组第1未确认",
+      "away_note": "最好第三组合 ABCDF 未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 75,
+      "match_num": "第75场",
+      "round": "32强",
+      "kickoff": "2026-06-30 09:00",
+      "venue": "Estadio BBVA, Monterrey",
+      "home_slot": "1F",
+      "away_slot": "2C",
+      "home_team": "待定（F组第1）",
+      "away_team": "摩洛哥",
+      "home_status": "pending",
+      "away_status": "confirmed",
+      "home_note": "F组第1未确认",
+      "away_note": "C组第2",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 78,
+      "match_num": "第78场",
+      "round": "32强",
+      "kickoff": "2026-07-01 01:00",
+      "venue": "AT&T Stadium, Dallas",
+      "home_slot": "2E",
+      "away_slot": "2I",
+      "home_team": "待定（E组第2）",
+      "away_team": "待定（I组第2）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "E组第2未确认",
+      "away_note": "I组第2未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 77,
+      "match_num": "第77场",
+      "round": "32强",
+      "kickoff": "2026-07-01 05:00",
+      "venue": "MetLife Stadium, New York/New Jersey",
+      "home_slot": "1I",
+      "away_slot": "3CDFGH",
+      "home_team": "待定（I组第1）",
+      "away_team": "待定（C/D/F/G/H组第三之一）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "I组第1未确认",
+      "away_note": "最好第三组合 CDFGH 未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 79,
+      "match_num": "第79场",
+      "round": "32强",
+      "kickoff": "2026-07-01 09:00",
+      "venue": "Estadio Azteca, Mexico City",
+      "home_slot": "1A",
+      "away_slot": "3CEFHI",
+      "home_team": "墨西哥",
+      "away_team": "待定（C/E/F/H/I组第三之一）",
+      "home_status": "confirmed",
+      "away_status": "pending",
+      "home_note": "A组第1",
+      "away_note": "最好第三组合 CEFHI 未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 80,
+      "match_num": "第80场",
+      "round": "32强",
+      "kickoff": "2026-07-02 00:00",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home_slot": "1L",
+      "away_slot": "3EHIJK",
+      "home_team": "待定（L组第1）",
+      "away_team": "待定（E/H/I/J/K组第三之一）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "L组第1未确认",
+      "away_note": "最好第三组合 EHIJK 未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 82,
+      "match_num": "第82场",
+      "round": "32强",
+      "kickoff": "2026-07-02 04:00",
+      "venue": "Lumen Field, Seattle",
+      "home_slot": "1G",
+      "away_slot": "3AEHIJ",
+      "home_team": "待定（G组第1）",
+      "away_team": "待定（A/E/H/I/J组第三之一）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "G组第1未确认",
+      "away_note": "最好第三组合 AEHIJ 未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 81,
+      "match_num": "第81场",
+      "round": "32强",
+      "kickoff": "2026-07-02 08:00",
+      "venue": "Levi's Stadium, San Francisco Bay Area",
+      "home_slot": "1D",
+      "away_slot": "3BEFIJ",
+      "home_team": "待定（D组第1）",
+      "away_team": "待定（B/E/F/I/J组第三之一）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "D组第1未确认",
+      "away_note": "最好第三组合 BEFIJ 未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 84,
+      "match_num": "第84场",
+      "round": "32强",
+      "kickoff": "2026-07-03 03:00",
+      "venue": "SoFi Stadium, Los Angeles",
+      "home_slot": "1H",
+      "away_slot": "2J",
+      "home_team": "待定（H组第1）",
+      "away_team": "待定（J组第2）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "H组第1未确认",
+      "away_note": "J组第2未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 83,
+      "match_num": "第83场",
+      "round": "32强",
+      "kickoff": "2026-07-03 07:00",
+      "venue": "BMO Field, Toronto",
+      "home_slot": "2K",
+      "away_slot": "2L",
+      "home_team": "待定（K组第2）",
+      "away_team": "待定（L组第2）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "K组第2未确认",
+      "away_note": "L组第2未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 85,
+      "match_num": "第85场",
+      "round": "32强",
+      "kickoff": "2026-07-03 11:00",
+      "venue": "BC Place, Vancouver",
+      "home_slot": "1B",
+      "away_slot": "3EFGIJ",
+      "home_team": "瑞士",
+      "away_team": "待定（E/F/G/I/J组第三之一）",
+      "home_status": "confirmed",
+      "away_status": "pending",
+      "home_note": "B组第1",
+      "away_note": "最好第三组合 EFGIJ 未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 88,
+      "match_num": "第88场",
+      "round": "32强",
+      "kickoff": "2026-07-04 02:00",
+      "venue": "AT&T Stadium, Dallas",
+      "home_slot": "2D",
+      "away_slot": "2G",
+      "home_team": "待定（D组第2）",
+      "away_team": "待定（G组第2）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "D组第2未确认",
+      "away_note": "G组第2未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 86,
+      "match_num": "第86场",
+      "round": "32强",
+      "kickoff": "2026-07-04 06:00",
+      "venue": "Hard Rock Stadium, Miami",
+      "home_slot": "1J",
+      "away_slot": "2H",
+      "home_team": "待定（J组第1）",
+      "away_team": "待定（H组第2）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "J组第1未确认",
+      "away_note": "H组第2未确认",
+      "is_confirmed": false
+    },
+    {
+      "fixture_no": 87,
+      "match_num": "第87场",
+      "round": "32强",
+      "kickoff": "2026-07-04 09:30",
+      "venue": "GEHA Field at Arrowhead Stadium, Kansas City",
+      "home_slot": "1K",
+      "away_slot": "3DEIJL",
+      "home_team": "待定（K组第1）",
+      "away_team": "待定（D/E/I/J/L组第三之一）",
+      "home_status": "pending",
+      "away_status": "pending",
+      "home_note": "K组第1未确认",
+      "away_note": "最好第三组合 DEIJL 未确认",
+      "is_confirmed": false
+    }
+  ],
+  "experience_items": [
+    {
+      "fixture_no": 55,
+      "match_num": "周四055",
+      "matchup": "厄瓜多尔 vs 德国",
+      "group": "E组",
+      "lean": "德国胜面清楚，但头名优势已经够厚，重点是保第一而不是无条件追深。",
+      "check": "经验校验：胜面和穿盘拆开；若首发轮换或盘口不升，-2以上降权。"
+    },
+    {
+      "fixture_no": 56,
+      "match_num": "周四056",
+      "matchup": "库拉索 vs 科特迪瓦",
+      "group": "E组",
+      "lean": "科特迪瓦现实目标是锁第二，赢球动机明确，但领先后未必持续压迫。",
+      "check": "经验校验：弱队必须赢不等于热门必须穿三球，深盘按首选比分回折。"
+    },
+    {
+      "fixture_no": 57,
+      "match_num": "周四057",
+      "matchup": "突尼斯 vs 荷兰",
+      "group": "F组",
+      "lean": "荷兰争F组第一的路径价值很高，第一打摩洛哥、第二可能碰巴西。",
+      "check": "经验校验：战意上调支持-1.5，但-2以上仍等首发和临场水位确认。"
+    },
+    {
+      "fixture_no": 58,
+      "match_num": "周四058",
+      "matchup": "日本 vs 瑞典",
+      "group": "F组",
+      "lean": "日本不败仍优先，但第二名路径可能碰巴西，不能简单按保平小球处理。",
+      "check": "经验校验：瑞典也有直接反超动力，防双方主动提速，比分扩到2:1/1:1/2:2。"
+    },
+    {
+      "fixture_no": 59,
+      "match_num": "周四059",
+      "matchup": "巴拉圭 vs 澳大利亚",
+      "group": "D组",
+      "lean": "澳大利亚更能接受平局，巴拉圭打平虽大概率出线但第三名路径更差。",
+      "check": "经验校验：默契球只降节奏，不等于全场锁死，防75分钟后巴拉圭提速。"
+    },
+    {
+      "fixture_no": 60,
+      "match_num": "周四060",
+      "matchup": "土耳其 vs 美国",
+      "group": "D组",
+      "lean": "美国头名基本稳，轮换和控节奏风险上升；土耳其只有赢球才有第三名机会。",
+      "check": "经验校验：美国胜面不等于美国穿盘，土耳其+1保护逻辑加强。"
+    }
+  ],
   "items": [
     {
       "match_id": 319,
@@ -3413,7 +3721,7 @@
         },
         "handicap": {
           "option": "加拿大-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为加拿大-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为加拿大-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -3516,7 +3824,7 @@
         },
         "handicap": {
           "option": "美国-1平",
-          "reason": "让球热度与赛果主线打架，按2:1这条首选比分折回为美国-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按2:1这条首选比分折回为美国-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -3722,7 +4030,7 @@
         },
         "handicap": {
           "option": "巴西-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为巴西-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为巴西-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -3928,7 +4236,7 @@
         },
         "handicap": {
           "option": "澳大利亚+1平",
-          "reason": "让球热度与赛果主线打架，按0:1这条首选比分折回为澳大利亚+1平。",
+          "reason": "让球热度与比分/赛果主线打架，按0:1这条首选比分折回为澳大利亚+1平。",
           "label": "让平",
           "line": 1.0
         },
@@ -4133,7 +4441,7 @@
         },
         "handicap": {
           "option": "荷兰-1平",
-          "reason": "让球热度与赛果主线打架，按2:1这条首选比分折回为荷兰-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按2:1这条首选比分折回为荷兰-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -4335,7 +4643,7 @@
         },
         "handicap": {
           "option": "瑞典-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为瑞典-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为瑞典-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -4743,7 +5051,7 @@
         },
         "handicap": {
           "option": "伊朗-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为伊朗-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为伊朗-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -5357,7 +5665,7 @@
         },
         "handicap": {
           "option": "英格兰-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为英格兰-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为英格兰-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -5459,7 +5767,7 @@
         },
         "handicap": {
           "option": "加纳-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为加纳-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为加纳-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -5662,7 +5970,7 @@
         },
         "handicap": {
           "option": "捷克-1胜",
-          "reason": "让球热度与赛果主线打架，按2:0这条首选比分折回为捷克-1胜。",
+          "reason": "让球热度与比分/赛果主线打架，按2:0这条首选比分折回为捷克-1胜。",
           "label": "让胜",
           "line": -1.0
         },
@@ -5967,7 +6275,7 @@
         },
         "handicap": {
           "option": "墨西哥-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为墨西哥-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为墨西哥-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -6069,7 +6377,7 @@
         },
         "handicap": {
           "option": "美国-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为美国-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为美国-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -6171,7 +6479,7 @@
         },
         "handicap": {
           "option": "苏格兰+1平",
-          "reason": "让球热度与赛果主线打架，按0:1这条首选比分折回为苏格兰+1平。",
+          "reason": "让球热度与比分/赛果主线打架，按0:1这条首选比分折回为苏格兰+1平。",
           "label": "让平",
           "line": 1.0
         },
@@ -6272,9 +6580,9 @@
           "reason": "主胜概率约47.7%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "巴西-2胜",
-          "reason": "盘口分歧较多，娱乐预测按巴西-2胜处理。",
-          "label": "让胜",
+          "option": "巴西-2平",
+          "reason": "让球热度与比分/赛果主线打架，按2:0这条首选比分折回为巴西-2平。",
+          "label": "让平",
           "line": -2.0
         },
         "score": {
@@ -6292,7 +6600,7 @@
             "平局"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
@@ -6301,7 +6609,7 @@
           "side": "小",
           "line": "2.5"
         },
-        "consistent": false
+        "consistent": true
       },
       "detail_filename": "周五031_巴西_vs_海地.html",
       "analysis_filename": "周五031_巴西_vs_海地_analysis.html",
@@ -6374,7 +6682,7 @@
         },
         "handicap": {
           "option": "土耳其-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为土耳其-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为土耳其-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -6476,7 +6784,7 @@
         },
         "handicap": {
           "option": "荷兰-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为荷兰-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为荷兰-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -6679,9 +6987,9 @@
           "reason": "主胜概率约43.4%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "厄瓜多尔-2胜",
-          "reason": "盘口分歧较多，娱乐预测按厄瓜多尔-2胜处理。",
-          "label": "让胜",
+          "option": "厄瓜多尔-2平",
+          "reason": "让球热度与比分/赛果主线打架，按2:0这条首选比分折回为厄瓜多尔-2平。",
+          "label": "让平",
           "line": -2.0
         },
         "score": {
@@ -6699,7 +7007,7 @@
             "平局"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
@@ -6708,7 +7016,7 @@
           "side": "小",
           "line": "2.5"
         },
-        "consistent": false
+        "consistent": true
       },
       "detail_filename": "周六035_厄瓜多尔_vs_库拉索.html",
       "analysis_filename": "周六035_厄瓜多尔_vs_库拉索_analysis.html",
@@ -6883,9 +7191,9 @@
           "reason": "主胜概率约44.3%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "西班牙-2胜",
-          "reason": "盘口分歧较多，娱乐预测按西班牙-2胜处理。",
-          "label": "让胜",
+          "option": "西班牙-2平",
+          "reason": "让球热度与比分/赛果主线打架，按2:0这条首选比分折回为西班牙-2平。",
+          "label": "让平",
           "line": -2.0
         },
         "score": {
@@ -6903,7 +7211,7 @@
             "平局"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
@@ -6912,7 +7220,7 @@
           "side": "小",
           "line": "2.5"
         },
-        "consistent": false
+        "consistent": true
       },
       "detail_filename": "周日037_西班牙_vs_沙特阿拉伯.html",
       "analysis_filename": "周日037_西班牙_vs_沙特阿拉伯_analysis.html",
@@ -7190,7 +7498,7 @@
         },
         "handicap": {
           "option": "新西兰+1平",
-          "reason": "让球热度与赛果主线打架，按0:1这条首选比分折回为新西兰+1平。",
+          "reason": "让球热度与比分/赛果主线打架，按0:1这条首选比分折回为新西兰+1平。",
           "label": "让平",
           "line": 1.0
         },
@@ -7496,7 +7804,7 @@
         },
         "handicap": {
           "option": "挪威-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为挪威-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为挪威-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -7699,9 +8007,9 @@
           "reason": "主胜概率约43.8%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "葡萄牙-2胜",
-          "reason": "盘口分歧较多，娱乐预测按葡萄牙-2胜处理。",
-          "label": "让胜",
+          "option": "葡萄牙-2平",
+          "reason": "让球热度与比分/赛果主线打架，按2:0这条首选比分折回为葡萄牙-2平。",
+          "label": "让平",
           "line": -2.0
         },
         "score": {
@@ -7719,7 +8027,7 @@
             "平局"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
@@ -7728,7 +8036,7 @@
           "side": "小",
           "line": "2.5"
         },
-        "consistent": false
+        "consistent": true
       },
       "detail_filename": "周二045_葡萄牙_vs_乌兹别克.html",
       "analysis_filename": "周二045_葡萄牙_vs_乌兹别克_analysis.html",
@@ -7801,9 +8109,9 @@
           "reason": "主胜仍是概率最高方向，但三项分布接近，只作为本场赛果主倾向。"
         },
         "handicap": {
-          "option": "英格兰-2胜",
-          "reason": "盘口分歧较多，娱乐预测按英格兰-2胜处理。",
-          "label": "让胜",
+          "option": "英格兰-2平",
+          "reason": "让球热度与比分/赛果主线打架，按2:0这条首选比分折回为英格兰-2平。",
+          "label": "让平",
           "line": -2.0
         },
         "score": {
@@ -7821,7 +8129,7 @@
             "平局"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
@@ -7830,7 +8138,7 @@
           "side": "小",
           "line": "2.5"
         },
-        "consistent": false
+        "consistent": true
       },
       "detail_filename": "周二046_英格兰_vs_加纳.html",
       "analysis_filename": "周二046_英格兰_vs_加纳_analysis.html",
@@ -8412,9 +8720,9 @@
           "reason": "主胜概率约43.8%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "摩洛哥-2胜",
-          "reason": "盘口分歧较多，娱乐预测按摩洛哥-2胜处理。",
-          "label": "让胜",
+          "option": "摩洛哥-2平",
+          "reason": "让球热度与比分/赛果主线打架，按2:0这条首选比分折回为摩洛哥-2平。",
+          "label": "让平",
           "line": -2.0
         },
         "score": {
@@ -8432,7 +8740,7 @@
             "平局"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
@@ -8441,7 +8749,7 @@
           "side": "小",
           "line": "2.5"
         },
-        "consistent": false
+        "consistent": true
       },
       "detail_filename": "周三052_摩洛哥_vs_海地.html",
       "analysis_filename": "周三052_摩洛哥_vs_海地_analysis.html",
@@ -8515,7 +8823,7 @@
         },
         "handicap": {
           "option": "南非+1平",
-          "reason": "让球热度与赛果主线打架，按0:1这条首选比分折回为南非+1平。",
+          "reason": "让球热度与比分/赛果主线打架，按0:1这条首选比分折回为南非+1平。",
           "label": "让平",
           "line": 1.0
         },
@@ -8616,7 +8924,7 @@
         },
         "handicap": {
           "option": "捷克+1平",
-          "reason": "让球热度与赛果主线打架，按0:1这条首选比分折回为捷克+1平。",
+          "reason": "让球热度与比分/赛果主线打架，按0:1这条首选比分折回为捷克+1平。",
           "label": "让平",
           "line": 1.0
         },
@@ -8803,39 +9111,42 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约45.8%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "科特迪瓦胜面清楚，但现实目标偏向锁第二，领先后的持续压迫要打折。"
         },
         "handicap": {
-          "option": "库拉索+2负",
-          "reason": "盘口分歧较多，娱乐预测按库拉索+2负处理。",
-          "label": "让负",
+          "option": "库拉索+2平",
+          "reason": "按0:2这条首选比分折回，科特迪瓦可赢但不追三球穿盘。",
+          "label": "让平",
           "line": 2.0
         },
         "score": {
-          "option": "0:2 / 0:1 / 1:1",
-          "reason": "首选看0:2；0:1 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "0:2 / 0:3 / 1:2",
+          "reason": "0:2是赢球不打穿的主线；0:3只作为首发强度足时的上限分支，1:2防领先后控节奏。",
           "options": [
             "0:2",
-            "0:1",
-            "1:1"
+            "0:3",
+            "1:2"
           ],
           "primary": "0:2",
           "result_options": [
             "客胜",
             "客胜",
-            "平局"
+            "客胜"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "2-3球",
+          "reason": "领先管理和弱队反击都存在，进球数按2-3球处理。",
+          "side": "区间",
+          "line": "2-3",
+          "min_goals": 2,
+          "max_goals": 3
         },
-        "consistent": false
+        "consistent": true,
+        "source": "round_three_path_experience"
       },
       "detail_filename": "周四056_库拉索_vs_科特迪瓦.html",
       "analysis_filename": "周四056_库拉索_vs_科特迪瓦_analysis.html",
@@ -8898,39 +9209,42 @@
       "advice_summary": {
         "result": {
           "option": "客胜",
-          "reason": "客胜概率约45.3%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "F组第一避开巴西的价值很高，荷兰战意比初看更强。"
         },
         "handicap": {
-          "option": "突尼斯+2负",
-          "reason": "盘口分歧较多，娱乐预测按突尼斯+2负处理。",
-          "label": "让负",
+          "option": "突尼斯+2平",
+          "reason": "荷兰-1.5有支撑，但-2以上仍要等首发和临场水位；按0:2折回让平。",
+          "label": "让平",
           "line": 2.0
         },
         "score": {
-          "option": "0:2 / 0:1 / 1:1",
-          "reason": "首选看0:2；0:1 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "0:2 / 0:3 / 1:2",
+          "reason": "0:2是争头名但不盲追深穿的主线；0:3看首发强度，1:2防突尼斯韧性进球。",
           "options": [
             "0:2",
-            "0:1",
-            "1:1"
+            "0:3",
+            "1:2"
           ],
           "primary": "0:2",
           "result_options": [
             "客胜",
             "客胜",
-            "平局"
+            "客胜"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "2-3球",
+          "reason": "战意上调后不再按纯小球处理，但仍不放大到大比分乱战。",
+          "side": "区间",
+          "line": "2-3",
+          "min_goals": 2,
+          "max_goals": 3
         },
-        "consistent": false
+        "consistent": true,
+        "source": "round_three_path_experience"
       },
       "detail_filename": "周四057_突尼斯_vs_荷兰.html",
       "analysis_filename": "周四057_突尼斯_vs_荷兰_analysis.html",
@@ -8993,26 +9307,26 @@
       "advice_summary": {
         "result": {
           "option": "主胜",
-          "reason": "主胜概率约53.7%，领先幅度清楚，赛果建议保留强弱主线。"
+          "reason": "日本不败优先，主胜只是当前分布里稍前的一支；第二名路径可能碰巴西，不能只保平。"
         },
         "handicap": {
           "option": "日本-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为日本-1平。",
+          "reason": "日本有争第一动力，但瑞典也必须抢分，主胜不直接放大成穿盘。",
           "label": "让平",
           "line": -1.0
         },
         "score": {
-          "option": "1:0 / 2:0 / 1:1",
-          "reason": "首选看1:0；2:0 / 1:1是同一节奏下的备选分支，避免把赛果方向放大成单一剧本。",
+          "option": "2:1 / 1:1 / 2:2",
+          "reason": "2:1对应日本主动争第一；1:1和2:2保留瑞典反超压力带来的拉扯。",
           "options": [
-            "1:0",
-            "2:0",
-            "1:1"
+            "2:1",
+            "1:1",
+            "2:2"
           ],
-          "primary": "1:0",
+          "primary": "2:1",
           "result_options": [
             "主胜",
-            "主胜",
+            "平局",
             "平局"
           ],
           "covers_result": true,
@@ -9020,12 +9334,15 @@
           "covers_total": true
         },
         "total": {
-          "option": "偏少球（2.5线）",
-          "reason": "没有稳定进球数主线时，按首轮保守模型先防低比分，只给一个娱乐方向。",
-          "side": "小",
-          "line": "2.5"
+          "option": "2-4球",
+          "reason": "双方都有主动进攻理由，小球信心下降，按2-4球区间处理。",
+          "side": "区间",
+          "line": "2-4",
+          "min_goals": 2,
+          "max_goals": 4
         },
-        "consistent": true
+        "consistent": true,
+        "source": "round_three_path_experience"
       },
       "detail_filename": "周四058_日本_vs_瑞典.html",
       "analysis_filename": "周四058_日本_vs_瑞典_analysis.html",
@@ -9187,7 +9504,7 @@
         },
         "handicap": {
           "option": "土耳其+1平",
-          "reason": "让球热度与赛果主线打架，按0:1这条首选比分折回为土耳其+1平。",
+          "reason": "让球热度与比分/赛果主线打架，按0:1这条首选比分折回为土耳其+1平。",
           "label": "让平",
           "line": 1.0
         },
@@ -9283,7 +9600,7 @@
         },
         "handicap": {
           "option": "挪威+1负",
-          "reason": "让球热度与赛果主线打架，按0:2这条首选比分折回为挪威+1负。",
+          "reason": "让球热度与比分/赛果主线打架，按0:2这条首选比分折回为挪威+1负。",
           "label": "让负",
           "line": 1.0
         },
@@ -9760,9 +10077,9 @@
           "reason": "客胜概率约48.0%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "新西兰+2负",
-          "reason": "盘口分歧较多，娱乐预测按新西兰+2负处理。",
-          "label": "让负",
+          "option": "新西兰+2平",
+          "reason": "让球热度与比分/赛果主线打架，按0:2这条首选比分折回为新西兰+2平。",
+          "label": "让平",
           "line": 2.0
         },
         "score": {
@@ -9780,7 +10097,7 @@
             "平局"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
@@ -9789,7 +10106,7 @@
           "side": "小",
           "line": "2.5"
         },
-        "consistent": false
+        "consistent": true
       },
       "detail_filename": "周五066_新西兰_vs_比利时.html",
       "analysis_filename": "周五066_新西兰_vs_比利时_analysis.html",
@@ -9857,7 +10174,7 @@
         },
         "handicap": {
           "option": "克罗地亚-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为克罗地亚-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为克罗地亚-1平。",
           "label": "让平",
           "line": -1.0
         },
@@ -9951,9 +10268,9 @@
           "reason": "客胜概率约47.5%，领先幅度清楚，赛果建议保留强弱主线。"
         },
         "handicap": {
-          "option": "巴拿马+2负",
-          "reason": "盘口分歧较多，娱乐预测按巴拿马+2负处理。",
-          "label": "让负",
+          "option": "巴拿马+2平",
+          "reason": "让球热度与比分/赛果主线打架，按0:2这条首选比分折回为巴拿马+2平。",
+          "label": "让平",
           "line": 2.0
         },
         "score": {
@@ -9971,7 +10288,7 @@
             "平局"
           ],
           "covers_result": true,
-          "covers_handicap": false,
+          "covers_handicap": true,
           "covers_total": true
         },
         "total": {
@@ -9980,7 +10297,7 @@
           "side": "小",
           "line": "2.5"
         },
-        "consistent": false
+        "consistent": true
       },
       "detail_filename": "周六068_巴拿马_vs_英格兰.html",
       "analysis_filename": "周六068_巴拿马_vs_英格兰_analysis.html",
@@ -10047,7 +10364,7 @@
         },
         "handicap": {
           "option": "哥伦比亚+1平",
-          "reason": "让球热度与赛果主线打架，按0:1这条首选比分折回为哥伦比亚+1平。",
+          "reason": "让球热度与比分/赛果主线打架，按0:1这条首选比分折回为哥伦比亚+1平。",
           "label": "让平",
           "line": 1.0
         },
@@ -10142,7 +10459,7 @@
         },
         "handicap": {
           "option": "刚果(金)-1平",
-          "reason": "让球热度与赛果主线打架，按1:0这条首选比分折回为刚果(金)-1平。",
+          "reason": "让球热度与比分/赛果主线打架，按1:0这条首选比分折回为刚果(金)-1平。",
           "label": "让平",
           "line": -1.0
         },
