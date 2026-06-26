@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-27",
-  "generated_at": "2026-06-27T05:06:53",
+  "generated_at": "2026-06-27T05:08:27",
   "snapshot": {
     "id": 137,
     "source": "500_jczq",
@@ -834,7 +834,7 @@
     "avoid": 0,
     "hard_buy": 0,
     "can_execute_bet": false,
-    "next_kickoff": "2026-06-27 03:00",
+    "next_kickoff": "2026-06-27 08:00",
     "analysis_matches": 72,
     "opened_matches": 72,
     "schedule_matches": 72,
@@ -2939,8 +2939,14 @@
         "伊拉克",
         "挪威"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 5,
+        "away_score": 0,
+        "score": "5:0",
+        "result": "主胜",
+        "total_goals": 5
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-27/周五062_塞内加尔_vs_伊拉克.html",
       "analysis_href": "match_analysis_2026-06-27/周五062_塞内加尔_vs_伊拉克_analysis.html",
@@ -3305,12 +3311,12 @@
       "home_slot": "2E",
       "away_slot": "2I",
       "home_team": "科特迪瓦",
-      "away_team": "待定（I组第2）",
+      "away_team": "挪威",
       "home_status": "confirmed",
-      "away_status": "pending",
+      "away_status": "confirmed",
       "home_note": "E组第2",
-      "away_note": "I组第2未确认",
-      "is_confirmed": false
+      "away_note": "I组第2",
+      "is_confirmed": true
     },
     {
       "fixture_no": 77,
@@ -3320,11 +3326,11 @@
       "venue": "MetLife Stadium, New York/New Jersey",
       "home_slot": "1I",
       "away_slot": "3CDFGH",
-      "home_team": "待定（I组第1）",
+      "home_team": "法国",
       "away_team": "待定（C/D/F/G/H组第三之一）",
-      "home_status": "pending",
+      "home_status": "confirmed",
       "away_status": "pending",
-      "home_note": "I组第1未确认",
+      "home_note": "I组第1",
       "away_note": "最好第三组合 CDFGH 未确认",
       "is_confirmed": false
     },
@@ -9822,8 +9828,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 0,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 5,
+        "away_score": 0,
+        "score": "5:0",
+        "result": "主胜",
+        "total_goals": 5
+      },
       "source_event_date": "2026-06-26",
       "source_snapshot_id": 135,
       "source_snapshot_fetched_at": "2026-06-26T12:05:02",
