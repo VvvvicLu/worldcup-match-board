@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-26",
-  "generated_at": "2026-06-26T09:08:43",
+  "generated_at": "2026-06-26T09:28:43",
   "snapshot": {
     "id": 133,
     "source": "500_jczq",
@@ -810,7 +810,7 @@
     "avoid": 0,
     "hard_buy": 0,
     "can_execute_bet": false,
-    "next_kickoff": "2026-06-26 07:00",
+    "next_kickoff": "2026-06-26 10:00",
     "analysis_matches": 72,
     "opened_matches": 72,
     "schedule_matches": 72,
@@ -2779,8 +2779,14 @@
         "突尼斯",
         "瑞典"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "score": "1:1",
+        "result": "平局",
+        "total_goals": 2
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-26/周四058_日本_vs_瑞典.html",
       "analysis_href": "match_analysis_2026-06-26/周四058_日本_vs_瑞典_analysis.html",
@@ -3209,12 +3215,12 @@
       "home_slot": "1C",
       "away_slot": "2F",
       "home_team": "巴西",
-      "away_team": "待定（F组第2）",
+      "away_team": "日本",
       "home_status": "confirmed",
-      "away_status": "pending",
+      "away_status": "confirmed",
       "home_note": "C组第1",
-      "away_note": "F组第2未确认",
-      "is_confirmed": false
+      "away_note": "F组第2",
+      "is_confirmed": true
     },
     {
       "fixture_no": 74,
@@ -3240,13 +3246,13 @@
       "venue": "Estadio BBVA, Monterrey",
       "home_slot": "1F",
       "away_slot": "2C",
-      "home_team": "待定（F组第1）",
+      "home_team": "荷兰",
       "away_team": "摩洛哥",
-      "home_status": "pending",
+      "home_status": "confirmed",
       "away_status": "confirmed",
-      "home_note": "F组第1未确认",
+      "home_note": "F组第1",
       "away_note": "C组第2",
-      "is_confirmed": false
+      "is_confirmed": true
     },
     {
       "fixture_no": 78,
@@ -9361,8 +9367,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 12,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 1,
+        "away_score": 1,
+        "score": "1:1",
+        "result": "平局",
+        "total_goals": 2
+      },
       "source_event_date": "2026-06-25",
       "source_snapshot_id": 129,
       "source_snapshot_fetched_at": "2026-06-25T11:25:01",
