@@ -1,6 +1,6 @@
 {
   "event_date": "2026-06-27",
-  "generated_at": "2026-06-27T13:06:56",
+  "generated_at": "2026-06-27T13:08:27",
   "snapshot": {
     "id": 141,
     "source": "500_jczq",
@@ -858,7 +858,7 @@
     "avoid": 0,
     "hard_buy": 0,
     "can_execute_bet": false,
-    "next_kickoff": "2026-06-27 11:00",
+    "next_kickoff": "2026-06-28 05:00",
     "analysis_matches": 72,
     "opened_matches": 72,
     "schedule_matches": 72,
@@ -3099,8 +3099,14 @@
         "伊朗",
         "新西兰"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 1,
+        "away_score": 5,
+        "score": "1:5",
+        "result": "客胜",
+        "total_goals": 6
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-27/周五066_新西兰_vs_比利时.html",
       "analysis_href": "match_analysis_2026-06-27/周五066_新西兰_vs_比利时_analysis.html",
@@ -3416,11 +3422,11 @@
       "venue": "Lumen Field, Seattle",
       "home_slot": "1G",
       "away_slot": "3AEHIJ",
-      "home_team": "待定（G组第1）",
+      "home_team": "比利时",
       "away_team": "待定（A/E/H/I/J组第三之一）",
-      "home_status": "pending",
+      "home_status": "confirmed",
       "away_status": "pending",
-      "home_note": "G组第1未确认",
+      "home_note": "G组第1",
       "away_note": "最好第三组合 AEHIJ 未确认",
       "is_confirmed": false
     },
@@ -3497,12 +3503,12 @@
       "home_slot": "2D",
       "away_slot": "2G",
       "home_team": "澳大利亚",
-      "away_team": "待定（G组第2）",
+      "away_team": "埃及",
       "home_status": "confirmed",
-      "away_status": "pending",
+      "away_status": "confirmed",
       "home_note": "D组第2",
-      "away_note": "G组第2未确认",
-      "is_confirmed": false
+      "away_note": "G组第2",
+      "is_confirmed": true
     },
     {
       "fixture_no": 86,
@@ -10275,8 +10281,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 0,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 1,
+        "away_score": 5,
+        "score": "1:5",
+        "result": "客胜",
+        "total_goals": 6
+      },
       "source_event_date": "2026-06-26",
       "source_snapshot_id": 135,
       "source_snapshot_fetched_at": "2026-06-26T12:05:02",
