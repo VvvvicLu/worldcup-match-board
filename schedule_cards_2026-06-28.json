@@ -1,13 +1,13 @@
 {
   "event_date": "2026-06-28",
-  "generated_at": "2026-06-28T09:59:22",
+  "generated_at": "2026-06-28T12:07:02",
   "snapshot": {
-    "id": 145,
+    "id": 147,
     "source": "500_jczq",
     "event_date": "2026-06-28",
-    "fetched_at": "2026-06-28T09:35:02",
+    "fetched_at": "2026-06-28T12:05:01",
     "url": "https://trade.500.com/jczq/?playid=312&g=2&date=2026-06-28",
-    "raw_count": 3
+    "raw_count": 6
   },
   "source_snapshots": [
     {
@@ -873,6 +873,18 @@
       "event_date": "2026-06-28",
       "fetched_at": "2026-06-28T09:35:02",
       "raw_count": 3
+    },
+    {
+      "id": 146,
+      "event_date": "2026-06-28",
+      "fetched_at": "2026-06-28T12:05:01",
+      "raw_count": 6
+    },
+    {
+      "id": 147,
+      "event_date": "2026-06-28",
+      "fetched_at": "2026-06-28T12:05:01",
+      "raw_count": 6
     }
   ],
   "summary": {
@@ -888,9 +900,9 @@
     "schedule_matches": 72,
     "clickable_matches": 72,
     "static_matches": 0,
-    "snapshot_count": 144,
+    "snapshot_count": 146,
     "snapshot_dates": 19,
-    "primary_snapshot_id": 145
+    "primary_snapshot_id": 147
   },
   "gate": {},
   "source_lag": {},
@@ -3293,8 +3305,14 @@
         "阿尔及利亚",
         "约旦"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 3,
+        "away_score": 3,
+        "score": "3:3",
+        "result": "平局",
+        "total_goals": 6
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-28/周六071_阿尔及利亚_vs_奥地利.html",
       "analysis_href": "match_analysis_2026-06-28/周六071_阿尔及利亚_vs_奥地利_analysis.html",
@@ -10835,8 +10853,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 12,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 3,
+        "away_score": 3,
+        "score": "3:3",
+        "result": "平局",
+        "total_goals": 6
+      },
       "source_event_date": "2026-06-27",
       "source_snapshot_id": 141,
       "source_snapshot_fetched_at": "2026-06-27T13:05:01",
