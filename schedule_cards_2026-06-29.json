@@ -2,12 +2,12 @@
   "event_date": "2026-06-29",
   "generated_at": "2026-06-29T12:48:23",
   "snapshot": {
-    "id": 141,
+    "id": 147,
     "source": "500_jczq",
-    "event_date": "2026-06-27",
-    "fetched_at": "2026-06-27T13:05:01",
-    "url": "https://trade.500.com/jczq/?playid=312&g=2&date=2026-06-27",
-    "raw_count": 15
+    "event_date": "2026-06-28",
+    "fetched_at": "2026-06-28T12:05:01",
+    "url": "https://trade.500.com/jczq/?playid=312&g=2&date=2026-06-28",
+    "raw_count": 6
   },
   "source_snapshots": [
     {
@@ -849,6 +849,42 @@
       "event_date": "2026-06-27",
       "fetched_at": "2026-06-27T13:05:01",
       "raw_count": 15
+    },
+    {
+      "id": 142,
+      "event_date": "2026-06-28",
+      "fetched_at": "2026-06-28T07:05:01",
+      "raw_count": 3
+    },
+    {
+      "id": 143,
+      "event_date": "2026-06-28",
+      "fetched_at": "2026-06-28T07:05:01",
+      "raw_count": 3
+    },
+    {
+      "id": 144,
+      "event_date": "2026-06-28",
+      "fetched_at": "2026-06-28T09:35:02",
+      "raw_count": 3
+    },
+    {
+      "id": 145,
+      "event_date": "2026-06-28",
+      "fetched_at": "2026-06-28T09:35:02",
+      "raw_count": 3
+    },
+    {
+      "id": 146,
+      "event_date": "2026-06-28",
+      "fetched_at": "2026-06-28T12:05:01",
+      "raw_count": 6
+    },
+    {
+      "id": 147,
+      "event_date": "2026-06-28",
+      "fetched_at": "2026-06-28T12:05:01",
+      "raw_count": 6
     }
   ],
   "summary": {
@@ -864,9 +900,9 @@
     "schedule_matches": 72,
     "clickable_matches": 72,
     "static_matches": 0,
-    "snapshot_count": 140,
-    "snapshot_dates": 18,
-    "primary_snapshot_id": 141
+    "snapshot_count": 146,
+    "snapshot_dates": 19,
+    "primary_snapshot_id": 147
   },
   "gate": {},
   "source_lag": {},
@@ -3133,8 +3169,14 @@
         "巴拿马",
         "加纳"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 2,
+        "away_score": 1,
+        "score": "2:1",
+        "result": "主胜",
+        "total_goals": 3
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-29/周六067_克罗地亚_vs_加纳.html",
       "analysis_href": "match_analysis_2026-06-29/周六067_克罗地亚_vs_加纳_analysis.html",
@@ -3161,8 +3203,14 @@
         "巴拿马",
         "加纳"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 0,
+        "away_score": 2,
+        "score": "0:2",
+        "result": "客胜",
+        "total_goals": 2
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-29/周六068_巴拿马_vs_英格兰.html",
       "analysis_href": "match_analysis_2026-06-29/周六068_巴拿马_vs_英格兰_analysis.html",
@@ -3189,8 +3237,14 @@
         "乌兹别克",
         "哥伦比亚"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 0,
+        "away_score": 0,
+        "score": "0:0",
+        "result": "平局",
+        "total_goals": 0
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-29/周六069_哥伦比亚_vs_葡萄牙.html",
       "analysis_href": "match_analysis_2026-06-29/周六069_哥伦比亚_vs_葡萄牙_analysis.html",
@@ -3217,8 +3271,14 @@
         "乌兹别克",
         "哥伦比亚"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 3,
+        "away_score": 1,
+        "score": "3:1",
+        "result": "主胜",
+        "total_goals": 4
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-29/周六070_刚果(金)_vs_乌兹别克.html",
       "analysis_href": "match_analysis_2026-06-29/周六070_刚果(金)_vs_乌兹别克_analysis.html",
@@ -3245,8 +3305,14 @@
         "阿尔及利亚",
         "约旦"
       ],
-      "result": {},
-      "is_finished": false,
+      "result": {
+        "home_score": 3,
+        "away_score": 3,
+        "score": "3:3",
+        "result": "平局",
+        "total_goals": 6
+      },
+      "is_finished": true,
       "is_schedule_only": false,
       "detail_href": "match_details_2026-06-29/周六071_阿尔及利亚_vs_奥地利.html",
       "analysis_href": "match_analysis_2026-06-29/周六071_阿尔及利亚_vs_奥地利_analysis.html",
@@ -3487,13 +3553,13 @@
       "venue": "BMO Field, Toronto",
       "home_slot": "2K",
       "away_slot": "2L",
-      "home_team": "待定（K组第2）",
-      "away_team": "待定（L组第2）",
-      "home_status": "pending",
-      "away_status": "pending",
-      "home_note": "K组第2未确认",
-      "away_note": "L组第2未确认",
-      "is_confirmed": false
+      "home_team": "葡萄牙",
+      "away_team": "克罗地亚",
+      "home_status": "confirmed",
+      "away_status": "confirmed",
+      "home_note": "K组第2",
+      "away_note": "L组第2",
+      "is_confirmed": true
     },
     {
       "fixture_no": 85,
@@ -10351,8 +10417,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 12,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 2,
+        "away_score": 1,
+        "score": "2:1",
+        "result": "主胜",
+        "total_goals": 3
+      },
       "source_event_date": "2026-06-27",
       "source_snapshot_id": 141,
       "source_snapshot_fetched_at": "2026-06-27T13:05:01",
@@ -10446,8 +10518,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 0,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 0,
+        "away_score": 2,
+        "score": "0:2",
+        "result": "客胜",
+        "total_goals": 2
+      },
       "source_event_date": "2026-06-27",
       "source_snapshot_id": 141,
       "source_snapshot_fetched_at": "2026-06-27T13:05:01",
@@ -10541,8 +10619,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 12,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 0,
+        "away_score": 0,
+        "score": "0:0",
+        "result": "平局",
+        "total_goals": 0
+      },
       "source_event_date": "2026-06-27",
       "source_snapshot_id": 141,
       "source_snapshot_fetched_at": "2026-06-27T13:05:01",
@@ -10636,8 +10720,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 12,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 3,
+        "away_score": 1,
+        "score": "3:1",
+        "result": "主胜",
+        "total_goals": 4
+      },
       "source_event_date": "2026-06-27",
       "source_snapshot_id": 141,
       "source_snapshot_fetched_at": "2026-06-27T13:05:01",
@@ -10731,8 +10821,14 @@
       "freshness": {},
       "quality_status": "回避",
       "quality_score": 12,
-      "is_finished": false,
-      "result": {},
+      "is_finished": true,
+      "result": {
+        "home_score": 3,
+        "away_score": 3,
+        "score": "3:3",
+        "result": "平局",
+        "total_goals": 6
+      },
       "source_event_date": "2026-06-27",
       "source_snapshot_id": 141,
       "source_snapshot_fetched_at": "2026-06-27T13:05:01",
